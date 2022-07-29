@@ -1,0 +1,7 @@
+root: true
+extends:
+  - remcohaszing
+rules:
+  node/no-unsupported-features/es-syntax: off
+  node/no-unsupported-features/node-builtins: off
+  node/shebang: off

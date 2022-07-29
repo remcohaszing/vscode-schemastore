@@ -1,0 +1,1498 @@
+{
+  "name": "schemastore",
+  "displayName": "JSON Schema Store Catalog",
+  "version": "1.0.0",
+  "publisher": "remcohaszing",
+  "description": "Use the JSON Schema Store catalog for JSON schema validation.",
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "license": "MIT",
+  "icon": "icon.png",
+  "type": "module",
+  "keywords": [
+    "json",
+    "jsonschema",
+    "schemastore",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remcohaszing/vscode-schemastore.git"
+  },
+  "bugs": "https://github.com/remcohaszing/vscode-schemastore/issues",
+  "qna": "https://github.com/remcohaszing/vscode-schemastore/issues",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/remcohaszing"
+  },
+  "devDependencies": {
+    "@schemastore/schema-catalog": "^0.0.5",
+    "@types/node": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-remcohaszing": "^5.0.0",
+    "ovsx": "^0.5.0",
+    "prettier": "^2.0.0",
+    "typescript": "^4.0.0",
+    "vsce": "^2.0.0"
+  },
+  "contributes": {
+    "jsonValidation": [
+      {
+        "url": "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema",
+        "fileMatch": "*.cncc.json"
+      },
+      {
+        "url": "https://blockprotocol.org/schemas/block-metadata.json",
+        "fileMatch": "block-metadata.json"
+      },
+      {
+        "url": "https://citation-file-format.github.io/1.2.0/schema.json",
+        "fileMatch": "CITATION.cff"
+      },
+      {
+        "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
+        "fileMatch": "*.dhub.json"
+      },
+      {
+        "url": "https://docs.renovatebot.com/renovate-schema.json",
+        "fileMatch": [
+          ".github/renovate.json",
+          ".github/renovate.json5",
+          ".renovaterc",
+          ".renovaterc.json",
+          "renovate.json",
+          "renovate.json5"
+        ]
+      },
+      {
+        "url": "https://hazelcast.com/schema/config/hazelcast-config-5.1.json",
+        "fileMatch": [
+          "hazelcast*.json",
+          "hz-*.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/agripparc-1.4.json",
+        "fileMatch": [
+          ".agripparc.json",
+          "agripparc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/aiproj.json",
+        "fileMatch": ".aiproj.json"
+      },
+      {
+        "url": "https://json.schemastore.org/anywork-ac-1.1.json",
+        "fileMatch": [
+          ".awc",
+          ".awc.json",
+          ".awc.jsonc"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/apibuilder.json",
+        "fileMatch": "**/api.json"
+      },
+      {
+        "url": "https://json.schemastore.org/apple-app-site-association.json",
+        "fileMatch": "apple-app-site-association"
+      },
+      {
+        "url": "https://json.schemastore.org/appsettings.json",
+        "fileMatch": [
+          "appsettings.*.json",
+          "appsettings.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/appsscript.json",
+        "fileMatch": "appsscript.json"
+      },
+      {
+        "url": "https://json.schemastore.org/asconfig-schema.json",
+        "fileMatch": "asconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/asmdef.json",
+        "fileMatch": "*.asmdef"
+      },
+      {
+        "url": "https://json.schemastore.org/ava.json",
+        "fileMatch": "ava.config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/avro-avsc.json",
+        "fileMatch": "*.avsc"
+      },
+      {
+        "url": "https://json.schemastore.org/azure-deviceupdate-import-manifest-4.0.json",
+        "fileMatch": "*.importmanifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/azure-deviceupdate-update-manifest-4.json",
+        "fileMatch": "*.updatemanifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/azure-iot-edge-deployment-template-4.0.json",
+        "fileMatch": [
+          "deployment.debug.template.json",
+          "deployment.template.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/babelrc.json",
+        "fileMatch": [
+          ".babelrc",
+          "babel.config.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/backportrc.json",
+        "fileMatch": ".backportrc.json"
+      },
+      {
+        "url": "https://json.schemastore.org/bigquery-table.json",
+        "fileMatch": "*.bigquery.json"
+      },
+      {
+        "url": "https://json.schemastore.org/bitrise.json",
+        "fileMatch": "bitrise.json"
+      },
+      {
+        "url": "https://json.schemastore.org/BizTalkServerApplicationSchema.json",
+        "fileMatch": "BizTalkServerInventory.json"
+      },
+      {
+        "url": "https://json.schemastore.org/bootstraprc.json",
+        "fileMatch": ".bootstraprc"
+      },
+      {
+        "url": "https://json.schemastore.org/bower.json",
+        "fileMatch": [
+          ".bower.json",
+          "bower.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/bowerrc.json",
+        "fileMatch": ".bowerrc"
+      },
+      {
+        "url": "https://json.schemastore.org/bozr.json",
+        "fileMatch": [
+          ".suite.json",
+          ".xsuite.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/browser.i18n.json",
+        "fileMatch": "messages.json"
+      },
+      {
+        "url": "https://json.schemastore.org/bundleconfig.json",
+        "fileMatch": "bundleconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/cdk.json",
+        "fileMatch": "cdk.json"
+      },
+      {
+        "url": "https://json.schemastore.org/chart-lock.json",
+        "fileMatch": "Chart.lock"
+      },
+      {
+        "url": "https://json.schemastore.org/chutzpah.json",
+        "fileMatch": "chutzpah.json"
+      },
+      {
+        "url": "https://json.schemastore.org/clang-format.json",
+        "fileMatch": ".clang-format"
+      },
+      {
+        "url": "https://json.schemastore.org/clasp.json",
+        "fileMatch": ".clasp.json"
+      },
+      {
+        "url": "https://json.schemastore.org/cloudbuild.json",
+        "fileMatch": [
+          "*.cloudbuild.json",
+          "cloudbuild.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/codeclimate.json",
+        "fileMatch": ".codeclimate.json"
+      },
+      {
+        "url": "https://json.schemastore.org/coffeelint.json",
+        "fileMatch": "coffeelint.json"
+      },
+      {
+        "url": "https://json.schemastore.org/commands.json",
+        "fileMatch": "commands.json"
+      },
+      {
+        "url": "https://json.schemastore.org/commitlintrc.json",
+        "fileMatch": [
+          ".commitlintrc",
+          ".commitlintrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/compile-commands.json",
+        "fileMatch": "compile_commands.json"
+      },
+      {
+        "url": "https://json.schemastore.org/compilerconfig.json",
+        "fileMatch": "compilerconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/component.json",
+        "fileMatch": "component.json"
+      },
+      {
+        "url": "https://json.schemastore.org/config.json",
+        "fileMatch": "config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/cosmos-config.json",
+        "fileMatch": "cosmos.config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/creatomic.json",
+        "fileMatch": ".creatomic"
+      },
+      {
+        "url": "https://json.schemastore.org/cryproj.52.schema.json",
+        "fileMatch": "*.cryproj"
+      },
+      {
+        "url": "https://json.schemastore.org/cryproj.53.schema.json",
+        "fileMatch": "*.cryproj"
+      },
+      {
+        "url": "https://json.schemastore.org/cryproj.54.schema.json",
+        "fileMatch": "*.cryproj"
+      },
+      {
+        "url": "https://json.schemastore.org/cryproj.55.schema.json",
+        "fileMatch": "*.cryproj"
+      },
+      {
+        "url": "https://json.schemastore.org/cryproj.dev.schema.json",
+        "fileMatch": "*.cryproj"
+      },
+      {
+        "url": "https://json.schemastore.org/cryproj.json",
+        "fileMatch": "*.cryproj"
+      },
+      {
+        "url": "https://json.schemastore.org/csr.json",
+        "fileMatch": [
+          "*.csr.json",
+          "csr.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/csscomb.json",
+        "fileMatch": ".csscomb.json"
+      },
+      {
+        "url": "https://json.schemastore.org/csslintrc.json",
+        "fileMatch": ".csslintrc"
+      },
+      {
+        "url": "https://json.schemastore.org/datalogic-scan2deploy-android.json",
+        "fileMatch": ".dla.json"
+      },
+      {
+        "url": "https://json.schemastore.org/datalogic-scan2deploy-ce.json",
+        "fileMatch": ".dlc.json"
+      },
+      {
+        "url": "https://json.schemastore.org/debugsettings.json",
+        "fileMatch": "debugsettings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/deployed.json",
+        "fileMatch": [
+          ".deployed.json",
+          ".deployedrc"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/devinit.schema-6.0.json",
+        "fileMatch": [
+          ".devinit.json",
+          "devinit.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/docfx.json",
+        "fileMatch": "docfx.json"
+      },
+      {
+        "url": "https://json.schemastore.org/dockerd.json",
+        "fileMatch": [
+          "docker.json",
+          "dockerd.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/dotnet-releases-index.json",
+        "fileMatch": "dotnet-release-index.json"
+      },
+      {
+        "url": "https://json.schemastore.org/dotnetcli.host.json",
+        "fileMatch": "dotnetcli.host.json"
+      },
+      {
+        "url": "https://json.schemastore.org/electron-builder.json",
+        "fileMatch": "electron-builder.json"
+      },
+      {
+        "url": "https://json.schemastore.org/embrace-config-schema-1.0.0.json",
+        "fileMatch": "embrace-config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/epr-manifest.json",
+        "fileMatch": "epr-manifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/eslintrc.json",
+        "fileMatch": [
+          ".eslintrc",
+          ".eslintrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/esmrc.json",
+        "fileMatch": [
+          ".esmrc",
+          ".esmrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/expo-41.0.0.json",
+        "fileMatch": "app.json"
+      },
+      {
+        "url": "https://json.schemastore.org/fabric.mod.json",
+        "fileMatch": "fabric.mod.json"
+      },
+      {
+        "url": "https://json.schemastore.org/feed.json",
+        "fileMatch": "feed.json"
+      },
+      {
+        "url": "https://json.schemastore.org/foundryvtt-manifest.json",
+        "fileMatch": [
+          "module.json",
+          "system.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/foundryvtt-template.json",
+        "fileMatch": "template.json"
+      },
+      {
+        "url": "https://json.schemastore.org/foxx-manifest.json",
+        "fileMatch": "manifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/function.json",
+        "fileMatch": "function.json"
+      },
+      {
+        "url": "https://json.schemastore.org/github-workflow-template-properties.json",
+        "fileMatch": ".github/workflow-templates/**.properties.json"
+      },
+      {
+        "url": "https://json.schemastore.org/gitversion.json",
+        "fileMatch": "gitversion.json"
+      },
+      {
+        "url": "https://json.schemastore.org/global.json",
+        "fileMatch": "global.json"
+      },
+      {
+        "url": "https://json.schemastore.org/golangci-lint.json",
+        "fileMatch": ".golangci.json"
+      },
+      {
+        "url": "https://json.schemastore.org/gpc.json",
+        "fileMatch": "**/.well-known/gpc.json"
+      },
+      {
+        "url": "https://json.schemastore.org/grunt-clean-task.json",
+        "fileMatch": "clean.json"
+      },
+      {
+        "url": "https://json.schemastore.org/grunt-copy-task.json",
+        "fileMatch": "copy.json"
+      },
+      {
+        "url": "https://json.schemastore.org/grunt-cssmin-task.json",
+        "fileMatch": "cssmin.json"
+      },
+      {
+        "url": "https://json.schemastore.org/grunt-jshint-task.json",
+        "fileMatch": "jshint.json"
+      },
+      {
+        "url": "https://json.schemastore.org/grunt-task.json",
+        "fileMatch": [
+          "*-tasks.json",
+          "grunt/*.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/grunt-watch-task.json",
+        "fileMatch": "watch.json"
+      },
+      {
+        "url": "https://json.schemastore.org/haxelib.json",
+        "fileMatch": "haxelib.json"
+      },
+      {
+        "url": "https://json.schemastore.org/hemtt-0.6.2.json",
+        "fileMatch": "hemtt.json"
+      },
+      {
+        "url": "https://json.schemastore.org/host-meta.json",
+        "fileMatch": "host-meta.json"
+      },
+      {
+        "url": "https://json.schemastore.org/host.json",
+        "fileMatch": "host.json"
+      },
+      {
+        "url": "https://json.schemastore.org/htmlhint.json",
+        "fileMatch": ".htmlhintrc"
+      },
+      {
+        "url": "https://json.schemastore.org/httpmockrc.json",
+        "fileMatch": [
+          ".httpmock.json",
+          ".httpmockrc"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/huskyrc.json",
+        "fileMatch": [
+          ".huskyrc",
+          ".huskyrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/ide.host.json",
+        "fileMatch": "ide.host.json"
+      },
+      {
+        "url": "https://json.schemastore.org/imageoptimizer.json",
+        "fileMatch": "imageoptimizer.json"
+      },
+      {
+        "url": "https://json.schemastore.org/imgbotconfig.json",
+        "fileMatch": ".imgbotconfig"
+      },
+      {
+        "url": "https://json.schemastore.org/importmap.json",
+        "fileMatch": [
+          "import-map.json",
+          "import_map.json",
+          "importmap.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/io-package.json",
+        "fileMatch": "io-package.json"
+      },
+      {
+        "url": "https://json.schemastore.org/jasmine.json",
+        "fileMatch": "jasmine.json"
+      },
+      {
+        "url": "https://json.schemastore.org/jsbeautifyrc-nested.json",
+        "fileMatch": ".jsbeautifyrc"
+      },
+      {
+        "url": "https://json.schemastore.org/jsbeautifyrc.json",
+        "fileMatch": ".jsbeautifyrc"
+      },
+      {
+        "url": "https://json.schemastore.org/jsconfig.json",
+        "fileMatch": "jsconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/jscpd.json",
+        "fileMatch": ".jscpd.json"
+      },
+      {
+        "url": "https://json.schemastore.org/jscsrc.json",
+        "fileMatch": [
+          ".jscsrc",
+          "jscsrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/jsdoc-1.0.0.json",
+        "fileMatch": [
+          "conf.js*",
+          "jsdoc.js*"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/jshintrc.json",
+        "fileMatch": ".jshintrc"
+      },
+      {
+        "url": "https://json.schemastore.org/jsinspectrc.json",
+        "fileMatch": ".jsinspectrc"
+      },
+      {
+        "url": "https://json.schemastore.org/json-patch.json",
+        "fileMatch": "*.patch"
+      },
+      {
+        "url": "https://json.schemastore.org/jsonld.json",
+        "fileMatch": "*.jsonld"
+      },
+      {
+        "url": "https://json.schemastore.org/launchsettings.json",
+        "fileMatch": "launchsettings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/lerna.json",
+        "fileMatch": "lerna.json"
+      },
+      {
+        "url": "https://json.schemastore.org/libman.json",
+        "fileMatch": "libman.json"
+      },
+      {
+        "url": "https://json.schemastore.org/license-report-config.json",
+        "fileMatch": "license-report-config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/linkinator-config.json",
+        "fileMatch": "linkinator.config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/lintstagedrc.schema.json",
+        "fileMatch": [
+          ".lintstagedrc",
+          ".lintstagedrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/liquibase-3.2.json",
+        "fileMatch": "**/db/changelog/**/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/local.settings.json",
+        "fileMatch": "local.settings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/lsdlschema.json",
+        "fileMatch": "*.lsdl.json"
+      },
+      {
+        "url": "https://json.schemastore.org/mimetypes.json",
+        "fileMatch": "mimetypes.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-advancement.json",
+        "fileMatch": "**/data/*/advancements/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-biome.json",
+        "fileMatch": "**/data/*/worldgen/biome/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-configured-carver.json",
+        "fileMatch": "**/data/*/worldgen/configured_carver/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-dimension-type.json",
+        "fileMatch": "**/data/*/dimension_type/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-dimension.json",
+        "fileMatch": "**/data/*/dimension/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-item-modifier.json",
+        "fileMatch": "**/data/*/item_modifiers/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-loot-table.json",
+        "fileMatch": "**/data/*/loot_tables/**/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-pack-mcmeta.json",
+        "fileMatch": "**/pack.mcmeta"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-predicate.json",
+        "fileMatch": "**/data/*/predicates/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-recipe.json",
+        "fileMatch": "**/data/*/recipes/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-template-pool.json",
+        "fileMatch": "**/data/*/worldgen/template_pool/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/mocharc.json",
+        "fileMatch": [
+          ".mocharc.json",
+          ".mocharc.jsonc"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/modernizrrc.json",
+        "fileMatch": ".modernizrrc"
+      },
+      {
+        "url": "https://json.schemastore.org/mongodb-atlas-search-index-definition.json",
+        "fileMatch": "*-index.json"
+      },
+      {
+        "url": "https://json.schemastore.org/monika-config-schema.json",
+        "fileMatch": "monika.json"
+      },
+      {
+        "url": "https://json.schemastore.org/mtaext.json",
+        "fileMatch": "*.mtaext"
+      },
+      {
+        "url": "https://json.schemastore.org/mycode.json",
+        "fileMatch": "mycode.json"
+      },
+      {
+        "url": "https://json.schemastore.org/nest-cli.json",
+        "fileMatch": [
+          ".nest-cli.json",
+          ".nestcli.json",
+          "nest-cli.json",
+          "nest.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/nightwatch.json",
+        "fileMatch": "nightwatch.json"
+      },
+      {
+        "url": "https://json.schemastore.org/nodehawkrc.json",
+        "fileMatch": ".nodehawkrc"
+      },
+      {
+        "url": "https://json.schemastore.org/nodemon.json",
+        "fileMatch": "nodemon.json"
+      },
+      {
+        "url": "https://json.schemastore.org/now.json",
+        "fileMatch": "now.json"
+      },
+      {
+        "url": "https://json.schemastore.org/npmpackagejsonlintrc.json",
+        "fileMatch": [
+          ".npmpackagejsonlintrc",
+          ".npmpackagejsonlintrc.json",
+          "npmpackagejsonlintrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/nswag.json",
+        "fileMatch": "nswag.json"
+      },
+      {
+        "url": "https://json.schemastore.org/nycrc.json",
+        "fileMatch": [
+          ".nycrc",
+          ".nycrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/ocelot.json",
+        "fileMatch": "ocelot.json"
+      },
+      {
+        "url": "https://json.schemastore.org/omnisharp.json",
+        "fileMatch": "omnisharp.json"
+      },
+      {
+        "url": "https://json.schemastore.org/package.json",
+        "fileMatch": "package.json"
+      },
+      {
+        "url": "https://json.schemastore.org/package.manifest.json",
+        "fileMatch": "package.manifest"
+      },
+      {
+        "url": "https://json.schemastore.org/packer.json",
+        "fileMatch": "packer.json"
+      },
+      {
+        "url": "https://json.schemastore.org/pattern.json",
+        "fileMatch": "pattern.json"
+      },
+      {
+        "url": "https://json.schemastore.org/petstore-v1.0.json",
+        "fileMatch": "petstore-v1.0.json"
+      },
+      {
+        "url": "https://json.schemastore.org/pgap_yaml_input_reader.json",
+        "fileMatch": "submol*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/plagiarize-me.json",
+        "fileMatch": "plagiarize-me.json"
+      },
+      {
+        "url": "https://json.schemastore.org/plagiarize.json",
+        "fileMatch": "plagiarize.json"
+      },
+      {
+        "url": "https://json.schemastore.org/pm2-ecosystem.json",
+        "fileMatch": [
+          "ecosystem.config.json",
+          "ecosystem.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/postcssrc.json",
+        "fileMatch": [
+          ".postcssrc",
+          ".postcssrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/prettierrc.json",
+        "fileMatch": [
+          ".prettierrc",
+          ".prettierrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/project.json",
+        "fileMatch": "project.json"
+      },
+      {
+        "url": "https://json.schemastore.org/prometheus.rules.json",
+        "fileMatch": "*.rules"
+      },
+      {
+        "url": "https://json.schemastore.org/proxies.json",
+        "fileMatch": "proxies.json"
+      },
+      {
+        "url": "https://json.schemastore.org/pterodactyl.json",
+        "fileMatch": "egg-*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/putout.json",
+        "fileMatch": ".putout.json"
+      },
+      {
+        "url": "https://json.schemastore.org/pyrseas-0.8.json",
+        "fileMatch": "pyrseas-0.8.json"
+      },
+      {
+        "url": "https://json.schemastore.org/rehyperc.json",
+        "fileMatch": [
+          ".rehyperc",
+          ".rehyperc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/remarkrc.json",
+        "fileMatch": [
+          ".remarkrc",
+          ".remarkrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/resjson.json",
+        "fileMatch": "*.resjson"
+      },
+      {
+        "url": "https://json.schemastore.org/semantic-release.json",
+        "fileMatch": [
+          ".releaserc",
+          ".releaserc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/servicehub.config.schema.json",
+        "fileMatch": "servicehub.config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/servicehub.service.schema.json",
+        "fileMatch": "*.servicehub.service.json"
+      },
+      {
+        "url": "https://json.schemastore.org/settings.job.json",
+        "fileMatch": "settings.job"
+      },
+      {
+        "url": "https://json.schemastore.org/size-limit.json",
+        "fileMatch": ".size-limit.json"
+      },
+      {
+        "url": "https://json.schemastore.org/solidaritySchema.json",
+        "fileMatch": [
+          ".solidarity",
+          ".solidarity.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/sourcemap-v3.json",
+        "fileMatch": "*.map"
+      },
+      {
+        "url": "https://json.schemastore.org/specif-1.1.json",
+        "fileMatch": [
+          "*.specif",
+          "*.specif.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/sponge-mixins.json",
+        "fileMatch": "*.mixins.json"
+      },
+      {
+        "url": "https://json.schemastore.org/sprite.json",
+        "fileMatch": "*.sprite"
+      },
+      {
+        "url": "https://json.schemastore.org/staticwebapp.config.json",
+        "fileMatch": "staticwebapp.config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/stylelintrc.json",
+        "fileMatch": [
+          ".stylelintrc",
+          ".stylelintrc.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/swa-cli.config.json",
+        "fileMatch": "swa-cli.config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/swagger-2.0.json",
+        "fileMatch": "swagger.json"
+      },
+      {
+        "url": "https://json.schemastore.org/swcrc.json",
+        "fileMatch": ".swcrc"
+      },
+      {
+        "url": "https://json.schemastore.org/template.json",
+        "fileMatch": ".template.config/template.json"
+      },
+      {
+        "url": "https://json.schemastore.org/templatesources.json",
+        "fileMatch": "templatesources.json"
+      },
+      {
+        "url": "https://json.schemastore.org/testenvironments.json",
+        "fileMatch": "testEnvironments.json"
+      },
+      {
+        "url": "https://json.schemastore.org/ts-force-config.json",
+        "fileMatch": "ts-force-config.json"
+      },
+      {
+        "url": "https://json.schemastore.org/tsconfig.json",
+        "fileMatch": "tsconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/tsd.json",
+        "fileMatch": "tsd.json"
+      },
+      {
+        "url": "https://json.schemastore.org/tsdrc.json",
+        "fileMatch": ".tsdrc"
+      },
+      {
+        "url": "https://json.schemastore.org/tslint.json",
+        "fileMatch": "tslint.json"
+      },
+      {
+        "url": "https://json.schemastore.org/tsoa.json",
+        "fileMatch": "**/tsoa.json"
+      },
+      {
+        "url": "https://json.schemastore.org/typewiz.json",
+        "fileMatch": "typewiz.json"
+      },
+      {
+        "url": "https://json.schemastore.org/typings.json",
+        "fileMatch": "typings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/typingsrc.json",
+        "fileMatch": ".typingsrc"
+      },
+      {
+        "url": "https://json.schemastore.org/ubuntu-server-autoinstall.json",
+        "fileMatch": "user-data"
+      },
+      {
+        "url": "https://json.schemastore.org/up.json",
+        "fileMatch": "up.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vega-lite.json",
+        "fileMatch": [
+          "*.vl",
+          "*.vl.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/vega.json",
+        "fileMatch": [
+          "*.vg",
+          "*.vg.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/vim-addon-info.json",
+        "fileMatch": "*vim*/addon-info.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vs-2017.3.host.json",
+        "fileMatch": "vs-2017.3.host.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vs-nesting.json",
+        "fileMatch": [
+          "*.filenesting.json",
+          ".filenesting.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/vsconfig.json",
+        "fileMatch": "*.vsconfig"
+      },
+      {
+        "url": "https://json.schemastore.org/vsext.json",
+        "fileMatch": "*.vsext"
+      },
+      {
+        "url": "https://json.schemastore.org/vsix-manifestinjection.json",
+        "fileMatch": "contentmanifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vsix-publish.json",
+        "fileMatch": "vs-publish.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vsls.json",
+        "fileMatch": ".vsls.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vss-extension.json",
+        "fileMatch": "vss-extension.json"
+      },
+      {
+        "url": "https://json.schemastore.org/web-manifest-combined.json",
+        "fileMatch": [
+          "*.webmanifest",
+          "manifest.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/web-types.json",
+        "fileMatch": [
+          "*.web-types.json",
+          "web-types.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/webextension.json",
+        "fileMatch": "manifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/webjob-publish-settings.json",
+        "fileMatch": "webjobpublishsettings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/webjobs-list.json",
+        "fileMatch": "webjobs-list.json"
+      },
+      {
+        "url": "https://json.schemastore.org/workflows.json",
+        "fileMatch": [
+          "*.workflows.json",
+          "workflows.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/xs-app.json",
+        "fileMatch": "xs-app.json"
+      },
+      {
+        "url": "https://json.schemastore.org/xunit.runner.schema.json",
+        "fileMatch": [
+          "*.xunit.runner.json",
+          "xunit.runner.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/yamllint.json",
+        "fileMatch": "**/.yamllint"
+      },
+      {
+        "url": "https://jsonapi.org/schema",
+        "fileMatch": "*.schema.json"
+      },
+      {
+        "url": "https://meta.open-rpc.org/",
+        "fileMatch": [
+          "open-rpc.json",
+          "openrpc.json"
+        ]
+      },
+      {
+        "url": "https://on.cypress.io/cypress.schema.json",
+        "fileMatch": "cypress.json"
+      },
+      {
+        "url": "https://openapi.vercel.sh/vercel.json",
+        "fileMatch": "vercel.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/adonisjs/application/master/adonisrc.schema.json",
+        "fileMatch": ".adonisrc.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ahmadnassri/har-schema/master/lib/har.json",
+        "fileMatch": "*.har"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/airplanedev/lib/main/pkg/deploy/taskdir/definitions/schema_0_3.json",
+        "fileMatch": "*.task.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/angular/cli/lib/config/workspace-schema.json",
+        "fileMatch": "angular.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/angular/angular-cli/v10.1.6/packages/angular/cli/lib/config/schema.json",
+        "fileMatch": [
+          ".angular-cli.json",
+          "angular-cli.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-lint.json",
+        "fileMatch": ".ansible-lint"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ansible/ansible-navigator/main/src/ansible_navigator/data/ansible-navigator.json",
+        "fileMatch": [
+          ".ansible-navigator.json",
+          "ansible-navigator.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/apideck-libraries/portman/main/src/utils/portman-config-schema.json",
+        "fileMatch": [
+          "portman-config.json",
+          "portman.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/architect/parser/v2.3.0/arc-schema.json",
+        "fileMatch": "arc.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/database.beef.json",
+        "fileMatch": "database.beef.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/entity.beef.json",
+        "fileMatch": [
+          "datamodel.beef.json",
+          "entity.beef.json",
+          "refdata.beef.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Avanade/NTangle/main/schemas/ntangle.json",
+        "fileMatch": [
+          "ntangle.jsn",
+          "ntangle.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
+        "fileMatch": [
+          "*.cf.json",
+          "cloudformation.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json",
+        "fileMatch": [
+          "*.sam.json",
+          "sam.json",
+          "serverless.template"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/AxoCode/json-schema/master/minecraft/sounds.json",
+        "fileMatch": "**/assets/*/sounds.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/master/skyuxconfig-schema.json",
+        "fileMatch": [
+          "skyuxconfig.*.json",
+          "skyuxconfig.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/buildkite/pipeline-schema/main/schema.json",
+        "fileMatch": [
+          ".buildkite/pipeline.*.json",
+          ".buildkite/pipeline.json",
+          "buildkite.*.json",
+          "buildkite.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Cloud-Pipelines/component_spec_schema/stable/component_spec.json_schema.json",
+        "fileMatch": "kfp_component.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json",
+        "fileMatch": [
+          "*.gatewaycore.json",
+          "*.gwcore.json",
+          "gatewaycore.json",
+          "gwcore.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog_repo.schema.json",
+        "fileMatch": "info.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
+        "fileMatch": "info.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json",
+        "fileMatch": "composer.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json",
+        "fileMatch": "service.datadog.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json",
+        "fileMatch": [
+          ".markdownlint.json",
+          ".markdownlint.jsonc",
+          ".markdownlintrc"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dcermak/vscode-rke-cluster-config/main/schemas/cluster.json",
+        "fileMatch": "cluster.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
+        "fileMatch": [
+          "deno.json",
+          "deno.jsonc"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json",
+        "fileMatch": ".dolittle/tenant-map.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/v5.1.0/Schemas/ResourceTypes.Configuration/resources.json",
+        "fileMatch": ".dolittle/resources.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json",
+        "fileMatch": ".dolittle/topology.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Artifacts.Configuration/artifacts.json",
+        "fileMatch": ".dolittle/artifacts.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Applications.Configuration/bounded-context.json",
+        "fileMatch": "bounded-context.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json",
+        "fileMatch": ".dolittle/event-horizons.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json",
+        "fileMatch": ".dolittle/server.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json",
+        "fileMatch": ".dolittle/tenants.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
+        "fileMatch": "version.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+        "fileMatch": "stylecop.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EHfive/v2ray-jsonschema/main/v4-config.schema.json",
+        "fileMatch": "**/v2ray/*.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/estuary/flow/master/flow.schema.json",
+        "fileMatch": [
+          "*.flow.json",
+          "flow.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-deps.schema.json",
+        "fileMatch": "fossa-deps.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json",
+        "fileMatch": [
+          ".gherking.json",
+          ".gherkingrc",
+          "gherking.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json",
+        "fileMatch": [
+          "jsonConfig.json",
+          "jsonCustom.json",
+          "jsonTab.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
+        "fileMatch": "*.hayson.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jfrog/build-info-go/main/buildinfo-schema.json",
+        "fileMatch": [
+          "*.buildinfo",
+          "*build-info*.json",
+          "*buildinfo*.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jfrog/jfrog-cli/v2/schema/filespec-schema.json",
+        "fileMatch": [
+          "**/filespecs/*.json",
+          "*.filespec",
+          "*filespec*.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+        "fileMatch": [
+          "**/*.resume.json",
+          "**/resume.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kevgo/tikibase/main/doc/tikibase.schema.json",
+        "fileMatch": "tikibase.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Kitware/CMake/master/Help/manual/presets/schema.json",
+        "fileMatch": [
+          "CMakePresets.json",
+          "CMakeUserPresets.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema",
+        "fileMatch": "*.ckan"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/linuxgurugamer/KSPAddonVersionChecker/master/KSP-AVC.schema.json",
+        "fileMatch": "*.version"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/localazy/cli-schema/master/localazy.json",
+        "fileMatch": "localazy.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+        "fileMatch": "bucket/**.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/mozilla/contribute.json/master/schema.json",
+        "fileMatch": "contribute.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json",
+        "fileMatch": [
+          ".neoload.json",
+          ".nl.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
+        "fileMatch": "openapi.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/oresoftware/npm-link-up/master/assets/nlu.schema.json",
+        "fileMatch": [
+          ".nlu.json",
+          "nlu.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ory/hydra/master/.schema/version.schema.json",
+        "fileMatch": "hydra.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ory/keto/master/.schema/version.schema.json",
+        "fileMatch": "keto.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ory/kratos/master/.schema/version.schema.json",
+        "fileMatch": "kratos.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ory/oathkeeper/master/.schema/version.schema.json",
+        "fileMatch": "oathkeeper.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/qualisys/qualisys-schemas/master/paf-module.schema.json",
+        "fileMatch": [
+          "Settings.paf",
+          "settings.paf"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json",
+        "fileMatch": "*.bu"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+        "fileMatch": "bsconfig.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json",
+        "fileMatch": [
+          "src/main/webapp/manifest.json",
+          "src/manifest.json",
+          "webapp/manifest.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sapphiredev/cli/main/templates/schemas/.sapphirerc.scheme.json",
+        "fileMatch": ".sapphirerc.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Septh/tmlanguage/master/tmLanguage.schema.json",
+        "fileMatch": "*.tmLanguage.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
+        "fileMatch": [
+          ".cSpell.json",
+          ".cspell.json",
+          "cSpell.json",
+          "cspell.config.json",
+          "cspell.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/stryker-mutator/stryker/master/packages/api/schema/stryker-core.json",
+        "fileMatch": [
+          "stryker-*.conf.json",
+          "stryker.conf.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json",
+        "fileMatch": ".hintrc"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Yash-Singh1/vscode-snippets-json-schema/main/schema.json",
+        "fileMatch": "*.code-snippets"
+      },
+      {
+        "url": "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json",
+        "fileMatch": "*.ndst.json"
+      },
+      {
+        "url": "https://schemas.wp.org/trunk/block.json",
+        "fileMatch": "block.json"
+      },
+      {
+        "url": "https://schemas.wp.org/trunk/theme.json",
+        "fileMatch": "theme.json"
+      },
+      {
+        "url": "https://typedoc.org/schema.json",
+        "fileMatch": "typedoc.json"
+      },
+      {
+        "url": "https://uniswap.org/tokenlist.schema.json",
+        "fileMatch": "*.tokenlist.json"
+      },
+      {
+        "url": "https://unpkg.com/@graphql-mesh/types/config-schema.json",
+        "fileMatch": ".meshrc.json"
+      },
+      {
+        "url": "https://unpkg.com/graphql-config/config-schema.json",
+        "fileMatch": [
+          ".graphqlrc",
+          ".graphqlrc.json",
+          "graphql.config.json"
+        ]
+      },
+      {
+        "url": "https://webcomponents.dev/assets2/schemas/studio.config.json",
+        "fileMatch": "studio.config.json"
+      },
+      {
+        "url": "https://www.asyncapi.com/schema-store/all.schema-store.json",
+        "fileMatch": [
+          "*asyncapi.json",
+          "asyncapi.json"
+        ]
+      },
+      {
+        "url": "https://www.facets.cloud/assets/fsdl/application.schema.json",
+        "fileMatch": "**/application/instances/*.json"
+      },
+      {
+        "url": "https://www.graphql-code-generator.com/config.schema.json",
+        "fileMatch": [
+          ".codegen.json",
+          "codegen.json"
+        ]
+      },
+      {
+        "url": "https://www.krakend.io/schema/v3.json",
+        "fileMatch": "krakend.json"
+      }
+    ]
+  }
+}
