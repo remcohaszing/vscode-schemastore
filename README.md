@@ -16,7 +16,7 @@ In Visual Studio Code open the command palette using <kbd>Ctrl</kbd> + <kbd>P</k
 following command, and press <kbd>Enter</kbd>.
 
 ```
-ext install unifiedjs.vscode-remark
+ext install remcohaszing.schemastore
 ```
 
 ## Contributing
