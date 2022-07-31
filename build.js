@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 import { readFile, writeFile } from 'fs/promises'
+import { isDeepStrictEqual } from 'util'
+
+import semver from 'semver'
 
 /**
  * @typedef {object} JSONValidation
@@ -49,5 +52,11 @@ jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
 const path = new URL('package.json', import.meta.url)
 const pkg = JSON.parse(await readFile(path, 'utf8'))
 
-pkg.contributes.jsonValidation = jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
-await writeFile(path, `${JSON.stringify(pkg, undefined, 2)}\n`)
+if (isDeepStrictEqual(pkg.contributes.jsonValidation, jsonValidation)) {
+  console.log('No changes were found in the JSON Schema Store catalog')
+} else {
+  pkg.version = semver.inc(pkg.version, 'patch')
+  pkg.contributes.jsonValidation = jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
+  await writeFile(path, `${JSON.stringify(pkg, undefined, 2)}\n`)
+  console.log('Updated package.json')
+}

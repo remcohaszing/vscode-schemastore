@@ -2,6 +2,9 @@ root: true
 extends:
   - remcohaszing
 rules:
+  no-console: off
+  import/no-extraneous-dependencies: off
+  node/no-unpublished-import: off
   node/no-unsupported-features/es-syntax: off
   node/no-unsupported-features/node-builtins: off
   node/shebang: off
