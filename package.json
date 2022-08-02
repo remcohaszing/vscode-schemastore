@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1428,6 +1428,10 @@
           "stryker-*.conf.json",
           "stryker.conf.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/thoughtworks/talisman/main/third-party/schema-store-talismanrc.json",
+        "fileMatch": ".talismanrc"
       },
       {
         "url": "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json",
