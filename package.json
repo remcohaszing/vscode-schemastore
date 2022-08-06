@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -249,6 +249,13 @@
       {
         "url": "https://json.schemastore.org/compilerconfig.json",
         "fileMatch": "compilerconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/component-detection-manifest.json",
+        "fileMatch": [
+          "cdmanifest.json",
+          "cgmanifest.json"
+        ]
       },
       {
         "url": "https://json.schemastore.org/component.json",
@@ -1069,6 +1076,10 @@
           "open-rpc.json",
           "openrpc.json"
         ]
+      },
+      {
+        "url": "https://motif.land/api/motif.schema.json",
+        "fileMatch": "motif.json"
       },
       {
         "url": "https://on.cypress.io/cypress.schema.json",
