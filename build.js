@@ -22,7 +22,7 @@ if (!response.ok) {
 
 /** @type {import('@schemastore/schema-catalog').JSONSchemaForSchemaStoreOrgCatalogFiles} */
 const catalog = await response.json()
-const excludePattern = /.\.(cjs|js|mjs|toml|yaml|yml)$/
+const excludePattern = /.\.(cff|cjs|js|mjs|toml|yaml|yml)$/
 
 /** @type {JSONValidation[]} */
 const jsonValidation = []
