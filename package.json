@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -47,10 +47,6 @@
       {
         "url": "https://blockprotocol.org/schemas/block-metadata.json",
         "fileMatch": "block-metadata.json"
-      },
-      {
-        "url": "https://citation-file-format.github.io/1.2.0/schema.json",
-        "fileMatch": "CITATION.cff"
       },
       {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
