@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -69,6 +69,10 @@
           "hazelcast*.json",
           "hz-*.json"
         ]
+      },
+      {
+        "url": "https://json-schema.org/draft-07/schema",
+        "fileMatch": "*.schema.json"
       },
       {
         "url": "https://json.schemastore.org/agripparc-1.4.json",
@@ -1063,10 +1067,6 @@
         "fileMatch": "**/.yamllint"
       },
       {
-        "url": "https://jsonapi.org/schema",
-        "fileMatch": "*.schema.json"
-      },
-      {
         "url": "https://meta.open-rpc.org/",
         "fileMatch": [
           "open-rpc.json",
@@ -1293,6 +1293,22 @@
           ".gherking.json",
           ".gherkingrc",
           "gherking.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/howlowck/common-catalog-schema/main/schema-versions.json",
+        "fileMatch": [
+          "*.cat.json",
+          "*.catalog.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iamyoki/better-scripts/main/lib/schema.json",
+        "fileMatch": [
+          ".better-scriptsrc",
+          ".better-scriptsrc.json",
+          "better-scripts.json",
+          "scripts.json"
         ]
       },
       {
