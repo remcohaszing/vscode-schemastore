@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1460,7 +1460,7 @@
         ]
       },
       {
-        "url": "https://raw.githubusercontent.com/thoughtworks/talisman/main/third-party/schema-store-talismanrc.json",
+        "url": "https://raw.githubusercontent.com/thoughtworks/talisman/main/examples/schema-store-talismanrc.json",
         "fileMatch": ".talismanrc"
       },
       {
