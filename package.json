@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1447,6 +1447,10 @@
         "fileMatch": "*.tmLanguage.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.json",
+        "fileMatch": "*.sw.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
         "fileMatch": [
           ".cSpell.json",
@@ -1486,6 +1490,10 @@
       {
         "url": "https://schemas.wp.org/trunk/theme.json",
         "fileMatch": "theme.json"
+      },
+      {
+        "url": "https://turborepo.org/schema.json",
+        "fileMatch": "turbo.json"
       },
       {
         "url": "https://typedoc.org/schema.json",
