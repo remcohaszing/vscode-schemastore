@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -133,7 +133,7 @@
         "fileMatch": "*.importmanifest.json"
       },
       {
-        "url": "https://json.schemastore.org/azure-deviceupdate-update-manifest-4.json",
+        "url": "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json",
         "fileMatch": "*.updatemanifest.json"
       },
       {
