@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -874,6 +874,10 @@
           ".solidarity",
           ".solidarity.json"
         ]
+      },
+      {
+        "url": "https://json.schemastore.org/solution-filter.json",
+        "fileMatch": "*.slnf"
       },
       {
         "url": "https://json.schemastore.org/sourcemap-v3.json",
