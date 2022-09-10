@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -62,6 +62,10 @@
           "renovate.json",
           "renovate.json5"
         ]
+      },
+      {
+        "url": "https://docs.strmprivacy.io/jsonschema/BatchJob.json",
+        "fileMatch": "*batch-job-config.json*"
       },
       {
         "url": "https://gitlab.com/sbenv/veroxis/docker-seq/-/raw/HEAD/docker-seq.schema.json",
@@ -996,6 +1000,20 @@
         "fileMatch": [
           "*.vg",
           "*.vg.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/venvironment-basic-schema.json",
+        "fileMatch": [
+          "*.venvironment-basic.json",
+          "venvironment-basic.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/venvironment-schema.json",
+        "fileMatch": [
+          "*.venvironment.json",
+          "venvironment.json"
         ]
       },
       {
