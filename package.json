@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -55,8 +55,8 @@
       {
         "url": "https://docs.renovatebot.com/renovate-schema.json",
         "fileMatch": [
-          ".github/renovate.json",
-          ".github/renovate.json5",
+          "**/.github/renovate.json",
+          "**/.github/renovate.json5",
           ".renovaterc",
           ".renovaterc.json",
           "renovate.json",
@@ -431,7 +431,7 @@
       },
       {
         "url": "https://json.schemastore.org/github-workflow-template-properties.json",
-        "fileMatch": ".github/workflow-templates/**.properties.json"
+        "fileMatch": "**/.github/workflow-templates/**.properties.json"
       },
       {
         "url": "https://json.schemastore.org/gitversion.json",
@@ -468,8 +468,8 @@
       {
         "url": "https://json.schemastore.org/grunt-task.json",
         "fileMatch": [
-          "*-tasks.json",
-          "grunt/*.json"
+          "**/grunt/*.json",
+          "*-tasks.json"
         ]
       },
       {
@@ -927,7 +927,7 @@
       },
       {
         "url": "https://json.schemastore.org/template.json",
-        "fileMatch": ".template.config/template.json"
+        "fileMatch": "**/.template.config/template.json"
       },
       {
         "url": "https://json.schemastore.org/templatesources.json",
@@ -1018,7 +1018,7 @@
       },
       {
         "url": "https://json.schemastore.org/vim-addon-info.json",
-        "fileMatch": "*vim*/addon-info.json"
+        "fileMatch": "**/*vim*/addon-info.json"
       },
       {
         "url": "https://json.schemastore.org/vs-2017.3.host.json",
@@ -1215,8 +1215,8 @@
       {
         "url": "https://raw.githubusercontent.com/buildkite/pipeline-schema/main/schema.json",
         "fileMatch": [
-          ".buildkite/pipeline.*.json",
-          ".buildkite/pipeline.json",
+          "**/.buildkite/pipeline.*.json",
+          "**/.buildkite/pipeline.json",
           "buildkite.*.json",
           "buildkite.json"
         ]
@@ -1271,19 +1271,19 @@
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json",
-        "fileMatch": ".dolittle/tenant-map.json"
+        "fileMatch": "**/.dolittle/tenant-map.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/v5.1.0/Schemas/ResourceTypes.Configuration/resources.json",
-        "fileMatch": ".dolittle/resources.json"
+        "fileMatch": "**/.dolittle/resources.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json",
-        "fileMatch": ".dolittle/topology.json"
+        "fileMatch": "**/.dolittle/topology.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Artifacts.Configuration/artifacts.json",
-        "fileMatch": ".dolittle/artifacts.json"
+        "fileMatch": "**/.dolittle/artifacts.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Applications.Configuration/bounded-context.json",
@@ -1291,15 +1291,15 @@
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json",
-        "fileMatch": ".dolittle/event-horizons.json"
+        "fileMatch": "**/.dolittle/event-horizons.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json",
-        "fileMatch": ".dolittle/server.json"
+        "fileMatch": "**/.dolittle/server.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json",
-        "fileMatch": ".dolittle/tenants.json"
+        "fileMatch": "**/.dolittle/tenants.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
@@ -1466,9 +1466,9 @@
       {
         "url": "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json",
         "fileMatch": [
-          "src/main/webapp/manifest.json",
-          "src/manifest.json",
-          "webapp/manifest.json"
+          "**/src/main/webapp/manifest.json",
+          "**/src/manifest.json",
+          "**/webapp/manifest.json"
         ]
       },
       {
