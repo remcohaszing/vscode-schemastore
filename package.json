@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1220,6 +1220,10 @@
           "buildkite.*.json",
           "buildkite.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/chris48s/v8r/main/config-schema.json",
+        "fileMatch": ".v8rrc.json"
       },
       {
         "url": "https://raw.githubusercontent.com/Cloud-Pipelines/component_spec_schema/stable/component_spec.json_schema.json",
