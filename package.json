@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -578,7 +578,10 @@
       },
       {
         "url": "https://json.schemastore.org/json-patch.json",
-        "fileMatch": "*.patch"
+        "fileMatch": [
+          "*.patch",
+          "*.patch.json"
+        ]
       },
       {
         "url": "https://json.schemastore.org/jsonld.json",
