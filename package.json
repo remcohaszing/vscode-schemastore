@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -79,7 +79,7 @@
         "fileMatch": "ezd.json"
       },
       {
-        "url": "https://hazelcast.com/schema/config/hazelcast-config-5.1.json",
+        "url": "https://hazelcast.com/schema/config/hazelcast-config-5.2.json",
         "fileMatch": [
           "hazelcast*.json",
           "hz-*.json"
