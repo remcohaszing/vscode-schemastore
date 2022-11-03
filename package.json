@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -164,6 +164,7 @@
         "url": "https://json.schemastore.org/babelrc.json",
         "fileMatch": [
           ".babelrc",
+          ".babelrc.json",
           "babel.config.json"
         ]
       },
@@ -948,7 +949,7 @@
       },
       {
         "url": "https://json.schemastore.org/tsconfig.json",
-        "fileMatch": "tsconfig.json"
+        "fileMatch": "tsconfig*.json"
       },
       {
         "url": "https://json.schemastore.org/tsd.json",
