@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -873,6 +873,13 @@
       {
         "url": "https://json.schemastore.org/settings.job.json",
         "fileMatch": "settings.job"
+      },
+      {
+        "url": "https://json.schemastore.org/sil-kit-participant-configuration.json",
+        "fileMatch": [
+          "*.silkit.json",
+          "silkit.json"
+        ]
       },
       {
         "url": "https://json.schemastore.org/size-limit.json",
