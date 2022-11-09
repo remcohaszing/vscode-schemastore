@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1444,6 +1444,10 @@
         "fileMatch": "**/bucket/**.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json",
+        "fileMatch": "*.mirrord.+(toml|json|y?(a)ml)"
+      },
+      {
         "url": "https://raw.githubusercontent.com/mozilla/contribute.json/master/schema.json",
         "fileMatch": "contribute.json"
       },
@@ -1547,6 +1551,10 @@
           "cspell.config.json",
           "cspell.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/stripe/stripe-apps/main/schema/stripe-app-local.schema.json",
+        "fileMatch": "stripe-app.*.json"
       },
       {
         "url": "https://raw.githubusercontent.com/stripe/stripe-apps/main/schema/stripe-app.schema.json",
