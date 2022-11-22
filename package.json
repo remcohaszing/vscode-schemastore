@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -589,6 +589,10 @@
       {
         "url": "https://json.schemastore.org/launchsettings.json",
         "fileMatch": "launchsettings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/lego.json",
+        "fileMatch": "lego.json"
       },
       {
         "url": "https://json.schemastore.org/lerna.json",
@@ -1618,6 +1622,10 @@
       {
         "url": "https://webcomponents.dev/assets2/schemas/studio.config.json",
         "fileMatch": "studio.config.json"
+      },
+      {
+        "url": "https://wixplosives.github.io/codux-config-schema/codux.config.schema.json",
+        "fileMatch": "codux.config.json"
       },
       {
         "url": "https://www.asyncapi.com/schema-store/all.schema-store.json",
