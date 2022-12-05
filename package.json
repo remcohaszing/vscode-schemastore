@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -870,6 +870,10 @@
       {
         "url": "https://json.schemastore.org/resjson.json",
         "fileMatch": "*.resjson"
+      },
+      {
+        "url": "https://json.schemastore.org/rust-project.json",
+        "fileMatch": "rust-project.json"
       },
       {
         "url": "https://json.schemastore.org/semantic-release.json",
