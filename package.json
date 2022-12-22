@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1211,6 +1211,10 @@
       {
         "url": "https://raw.githubusercontent.com/architect/parser/v2.3.0/arc-schema.json",
         "fileMatch": "arc.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/asyncapi/website/master/scripts/tools/tools-schema.json",
+        "fileMatch": ".asyncapi-tool"
       },
       {
         "url": "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/database.beef-5.json",
