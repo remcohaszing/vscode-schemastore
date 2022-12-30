@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-import { execSync } from 'child_process'
-import { readFile, writeFile } from 'fs/promises'
-import process from 'process'
-import { isDeepStrictEqual } from 'util'
+import { execSync } from 'node:child_process'
+import { readFile, writeFile } from 'node:fs/promises'
+import { isDeepStrictEqual } from 'node:util'
 
 import semver from 'semver'
 

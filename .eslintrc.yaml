@@ -1,11 +1,9 @@
 root: true
-extends:
-  - remcohaszing
+extends: remcohaszing
+settings:
+  node:
+    version: '>=18'
 rules:
   no-console: off
   import/no-extraneous-dependencies: off
-  node/no-unpublished-import: off
-  node/no-unsupported-features/es-syntax: off
-  node/no-unsupported-features/node-builtins: off
-  node/prefer-global/process: off
-  node/shebang: off
+  n/shebang: off
