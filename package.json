@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1151,6 +1151,10 @@
       {
         "url": "https://motif.land/api/motif.schema.json",
         "fileMatch": "motif.json"
+      },
+      {
+        "url": "https://noxorg.dev/schemas/NoxConfiguration.json",
+        "fileMatch": "service.nox.json"
       },
       {
         "url": "https://on.cypress.io/cypress.schema.json",
