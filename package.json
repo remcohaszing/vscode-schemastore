@@ -8,6 +8,7 @@
   "license": "MIT",
   "icon": "icon.png",
   "type": "module",
+  "private": true,
   "keywords": [
     "json",
     "jsonschema",
