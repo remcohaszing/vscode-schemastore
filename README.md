@@ -1,5 +1,11 @@
 # Schema Store Catalog for Visual Studio Code
 
+[![github actions](https://github.com/remcohaszing/vscode-schemastore/actions/workflows/ci.yaml/badge.svg)](https://github.com/remcohaszing/vscode-schemastore/actions/workflows/ci.yaml)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/remcohaszing.schemastore)](https://marketplace.visualstudio.com/items?itemName=remcohaszing.schemastore)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/remcohaszing.schemastore)](https://marketplace.visualstudio.com/items?itemName=remcohaszing.schemastore)
+[![Open VSX Version](https://img.shields.io/open-vsx/v/remcohaszing/schemastore)](https://open-vsx.org/extension/remcohaszing/schemastore)
+[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/remcohaszing/schemastore)](https://open-vsx.org/extension/remcohaszing/schemastore)
+
 This extension provides all JSON schemas from the [JSON Schema Store](https://www.schemastore.org)
 catalog.
 
@@ -29,10 +35,10 @@ By installing this extension you trust the contents provided by JSON Schema Stor
 
 ## See also
 
-- [Even Better TOML](https://github.com/tamasfe/taplo/tree/HEAD/editors/vscode) provides JSON schema
-  support for TOML files.
-- [YAML](https://github.com/redhat-developer/vscode-yaml) provides JSON schema support for YAML
-  files.
+- [Even Better TOML](https://github.com/tamasfe/taplo/tree/HEAD/editors/vscode) provides support for
+  JSON schema and the JSON schema store catalog for TOML files.
+- [YAML](https://github.com/redhat-developer/vscode-yaml) provides support for JSON schema and the
+  JSON schema store catalog for YAML files.
 
 ## License
 
