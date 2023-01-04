@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.45",
+  "version": "1.0.46",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1650,7 +1650,7 @@
         "fileMatch": "*.tokenlist.json"
       },
       {
-        "url": "https://unpkg.com/@graphql-mesh/types/config-schema.json",
+        "url": "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json",
         "fileMatch": ".meshrc.json"
       },
       {
