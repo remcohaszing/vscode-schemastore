@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "url": "https://json.schemastore.org/aiproj.json",
+        "url": "https://json.schemastore.org/aiproj-1.1.json",
         "fileMatch": ".aiproj.json"
       },
       {
@@ -1254,18 +1254,18 @@
         ]
       },
       {
-        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
-        "fileMatch": [
-          "*.cf.json",
-          "cloudformation.json"
-        ]
-      },
-      {
-        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json",
+        "url": "https://raw.githubusercontent.com/aws/serverless-application-model/main/samtranslator/schema/schema.json",
         "fileMatch": [
           "*.sam.json",
           "sam.json",
           "serverless.template"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
+        "fileMatch": [
+          "*.cf.json",
+          "cloudformation.json"
         ]
       },
       {
