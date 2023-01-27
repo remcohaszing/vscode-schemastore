@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.49",
+  "version": "1.0.50",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1518,6 +1518,13 @@
       {
         "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
         "fileMatch": "openapi.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/open-feature/schemas/main/json/flagd-definitions.json",
+        "fileMatch": [
+          "*.flagd.json",
+          "flagd.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/oresoftware/npm-link-up/master/assets/nlu.schema.json",
