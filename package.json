@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1563,6 +1563,10 @@
       {
         "url": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
         "fileMatch": "bsconfig.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rocksdanister/lively/core-separation/schemas/livelyPropertiesSchema.json",
+        "fileMatch": "LivelyProperties.json"
       },
       {
         "url": "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json",
