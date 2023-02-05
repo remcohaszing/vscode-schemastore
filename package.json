@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -118,6 +118,10 @@
       {
         "url": "https://json.schemastore.org/aiproj-1.1.json",
         "fileMatch": ".aiproj.json"
+      },
+      {
+        "url": "https://json.schemastore.org/all-contributors.json",
+        "fileMatch": ".all-contributorsrc"
       },
       {
         "url": "https://json.schemastore.org/anywork-ac-1.1.json",
