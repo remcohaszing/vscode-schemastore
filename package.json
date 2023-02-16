@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1400,7 +1400,7 @@
         "fileMatch": "fossa-deps.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.1.json",
+        "url": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
         "fileMatch": "*.freifunk-api.json"
       },
       {
