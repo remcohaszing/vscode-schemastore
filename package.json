@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.57",
+  "version": "1.0.58",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1358,6 +1358,13 @@
         "fileMatch": [
           "deno.json",
           "deno.jsonc"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+        "fileMatch": [
+          ".devcontainer.json",
+          "devcontainer.json"
         ]
       },
       {
