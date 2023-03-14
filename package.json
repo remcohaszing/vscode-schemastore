@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -694,6 +694,10 @@
       {
         "url": "https://json.schemastore.org/minecraft-pack-mcmeta.json",
         "fileMatch": "**/pack.mcmeta"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-particle.json",
+        "fileMatch": "**/assets/*/particles/*.json"
       },
       {
         "url": "https://json.schemastore.org/minecraft-predicate.json",
