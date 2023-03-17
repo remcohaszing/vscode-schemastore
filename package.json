@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.60",
+  "version": "1.0.61",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -718,6 +718,10 @@
       {
         "url": "https://json.schemastore.org/minecraft-template-pool.json",
         "fileMatch": "**/data/*/worldgen/template_pool/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-texture-mcmeta.json",
+        "fileMatch": "**/assets/*/textures/**/*.png.mcmeta"
       },
       {
         "url": "https://json.schemastore.org/mocharc.json",
