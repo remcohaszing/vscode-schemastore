@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.61",
+  "version": "1.0.62",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1484,6 +1484,13 @@
       {
         "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/io-package.json",
         "fileMatch": "io-package.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/iobroker.json",
+        "fileMatch": [
+          "iobroker-dist.json",
+          "iobroker.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
