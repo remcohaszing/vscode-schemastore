@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.64",
+  "version": "1.0.65",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -42,6 +42,10 @@
   "contributes": {
     "jsonValidation": [
       {
+        "url": "https://api.airplane.dev/v0/schemas/task.json",
+        "fileMatch": "*.task.json"
+      },
+      {
         "url": "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema",
         "fileMatch": "*.cncc.json"
       },
@@ -52,6 +56,10 @@
       {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
         "fileMatch": "*.dhub.json"
+      },
+      {
+        "url": "https://deta.space/assets/spacefile.schema.json",
+        "fileMatch": "Spacefile"
       },
       {
         "url": "https://docs.renovatebot.com/renovate-schema.json",
@@ -523,6 +531,10 @@
           ".httpmock.json",
           ".httpmockrc"
         ]
+      },
+      {
+        "url": "https://json.schemastore.org/hugo.json",
+        "fileMatch": "hugo.json"
       },
       {
         "url": "https://json.schemastore.org/huskyrc.json",
@@ -1216,10 +1228,6 @@
       {
         "url": "https://raw.githubusercontent.com/ahmadnassri/har-schema/master/lib/har.json",
         "fileMatch": "*.har"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/airplanedev/lib/main/pkg/deploy/taskdir/definitions/schema_0_3.json",
-        "fileMatch": "*.task.json"
       },
       {
         "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/angular/cli/lib/config/workspace-schema.json",
