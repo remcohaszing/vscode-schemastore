@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.65",
+  "version": "1.0.66",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -416,6 +416,10 @@
       {
         "url": "https://json.schemastore.org/epr-manifest.json",
         "fileMatch": "epr-manifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/es6importsorterrc.json",
+        "fileMatch": ".es6importsorterrc.json"
       },
       {
         "url": "https://json.schemastore.org/eslintrc.json",
@@ -1010,7 +1014,10 @@
       },
       {
         "url": "https://json.schemastore.org/task.json",
-        "fileMatch": "task.json"
+        "fileMatch": [
+          "task.json",
+          "tasks.json"
+        ]
       },
       {
         "url": "https://json.schemastore.org/template.json",
