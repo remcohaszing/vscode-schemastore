@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.67",
+  "version": "1.0.68",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -448,15 +448,20 @@
         "fileMatch": "feed.json"
       },
       {
-        "url": "https://json.schemastore.org/foundryvtt-manifest.json",
-        "fileMatch": [
-          "module.json",
-          "system.json"
-        ]
+        "url": "https://json.schemastore.org/foundryvtt-module-manifest.json",
+        "fileMatch": "**/modules/*/module.json"
+      },
+      {
+        "url": "https://json.schemastore.org/foundryvtt-system-manifest.json",
+        "fileMatch": "**/systems/*/system.json"
       },
       {
         "url": "https://json.schemastore.org/foundryvtt-template.json",
-        "fileMatch": "template.json"
+        "fileMatch": "**/systems/*/template.json"
+      },
+      {
+        "url": "https://json.schemastore.org/foundryvtt-world-manifest.json",
+        "fileMatch": "**/worlds/*/world.json"
       },
       {
         "url": "https://json.schemastore.org/foxx-manifest.json",
