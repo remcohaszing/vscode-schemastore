@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.69",
+  "version": "1.0.70",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -575,6 +575,10 @@
       {
         "url": "https://json.schemastore.org/jasmine.json",
         "fileMatch": "jasmine.json"
+      },
+      {
+        "url": "https://json.schemastore.org/jreleaser-1.6.0.json",
+        "fileMatch": "jreleaser.json"
       },
       {
         "url": "https://json.schemastore.org/jsbeautifyrc-nested.json",
