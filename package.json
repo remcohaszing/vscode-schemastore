@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.70",
+  "version": "1.0.71",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1608,6 +1608,10 @@
       {
         "url": "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json",
         "fileMatch": "*.mirrord.+(toml|json|y?(a)ml)"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+        "fileMatch": "pyrightconfig.json"
       },
       {
         "url": "https://raw.githubusercontent.com/mozilla/contribute.json/master/schema.json",
