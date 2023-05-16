@@ -36,7 +36,7 @@ for (const { fileMatch, url } of catalog.schemas) {
   }
 
   const filteredMatches = fileMatch.filter(
-    (match) => !match.startsWith('!') && !excludePattern.test(match),
+    (match) => !match.startsWith('!') && !excludePattern.test(match)
   )
 
   if (!filteredMatches.length) {
@@ -45,7 +45,7 @@ for (const { fileMatch, url } of catalog.schemas) {
 
   jsonValidation.push({
     url,
-    fileMatch: filteredMatches.length === 1 ? filteredMatches[0] : filteredMatches.sort(),
+    fileMatch: filteredMatches.length === 1 ? filteredMatches[0] : filteredMatches.sort()
   })
 }
 jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
