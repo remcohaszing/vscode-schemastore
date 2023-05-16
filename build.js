@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { execSync } from 'node:child_process'
-import { readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { isDeepStrictEqual } from 'node:util'
 
 import semver from 'semver'
@@ -26,7 +26,11 @@ const excludePattern = /.\.(cff|cjs|js|mjs|toml|yaml|yml)$/
 /** @type {JSONValidation[]} */
 const jsonValidation = []
 
-for (const { fileMatch, url } of catalog.schemas) {
+const schemasDir = new URL('schemas/', import.meta.url)
+await rm(schemasDir, { force: true, recursive: true })
+await mkdir(schemasDir)
+
+for (const { fileMatch, name, url, versions } of catalog.schemas) {
   if (!url) {
     continue
   }
@@ -35,18 +39,36 @@ for (const { fileMatch, url } of catalog.schemas) {
     continue
   }
 
-  const filteredMatches = fileMatch.filter(
-    (match) => !match.startsWith('!') && !excludePattern.test(match)
-  )
+  const filteredMatches = fileMatch.filter((m) => !m.startsWith('!') && !excludePattern.test(m))
 
   if (!filteredMatches.length) {
     continue
   }
 
-  jsonValidation.push({
-    url,
-    fileMatch: filteredMatches.length === 1 ? filteredMatches[0] : filteredMatches.sort()
-  })
+  const match = filteredMatches.length === 1 ? filteredMatches[0] : filteredMatches.sort()
+
+  if (!versions || Object.values(versions).length < 2) {
+    jsonValidation.push({ url, fileMatch: match })
+    continue
+  }
+
+  const normalizedName = name
+    .normalize()
+    .toLowerCase()
+    .replace(/\W+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '')
+  const fileName = `${normalizedName}.schema.json`
+  await writeFile(
+    new URL(fileName, schemasDir),
+    `${JSON.stringify(
+      { anyOf: Object.values(versions).map(($ref) => ({ $ref })) },
+      undefined,
+      2,
+    )}\n`,
+  )
+
+  jsonValidation.push({ url: `./schemas/${fileName}`, fileMatch: match })
 }
 jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
 
