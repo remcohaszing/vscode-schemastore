@@ -8,10 +8,10 @@ import semver from 'semver'
 /**
  * @typedef {object} JSONValidation
  * @property {string | string[]} fileMatch
- * The file pattern (or an array of patterns) to match, for example "package.json" or "*.launch".
- * Exclusion patterns start with '!'
+ *   The file pattern (or an array of patterns) to match, for example "package.json" or "*.launch".
+ *   Exclusion patterns start with '!'
  * @property {string} url
- * A schema URL ('http:', 'https:') or relative path to the extension folder ('./').
+ *   A schema URL ('http:', 'https:') or relative path to the extension folder ('./').
  */
 
 const response = await fetch('https://www.schemastore.org/api/json/catalog.json')

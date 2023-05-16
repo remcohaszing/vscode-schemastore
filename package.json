@@ -28,16 +28,16 @@
     "url": "https://github.com/sponsors/remcohaszing"
   },
   "devDependencies": {
-    "@schemastore/schema-catalog": "^0.0.5",
+    "@schemastore/schema-catalog": "^0.0.6",
     "@types/node": "^18.0.0",
     "@types/semver": "^7.0.0",
     "@vscode/vsce": "^2.0.0",
     "eslint": "^8.0.0",
-    "eslint-config-remcohaszing": "^8.0.0",
+    "eslint-config-remcohaszing": "^9.0.0",
     "ovsx": "^0.8.0",
     "prettier": "^2.0.0",
     "semver": "^7.0.0",
-    "typescript": "^4.0.0"
+    "typescript": "^5.0.0"
   },
   "contributes": {
     "jsonValidation": [
