@@ -36,6 +36,8 @@
     "eslint-config-remcohaszing": "^9.0.0",
     "ovsx": "^0.8.0",
     "prettier": "^2.0.0",
+    "remark-cli": "^11.0.0",
+    "remark-preset-remcohaszing": "^1.0.0",
     "semver": "^7.0.0",
     "typescript": "^5.0.0"
   },

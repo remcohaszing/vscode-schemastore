@@ -9,6 +9,15 @@
 This extension provides all JSON schemas from the [JSON Schema Store](https://www.schemastore.org)
 catalog.
 
+## Table of Contents
+
+- [What is this?](#what-is-this)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Security](#security)
+- [See also](#see-also)
+- [License](#license)
+
 ## What is this?
 
 [JSON Schema Store](https://www.schemastore.org) keeps a catalog of JSON schemas of well known JSON
