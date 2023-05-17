@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.71",
+  "version": "1.0.72",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -44,12 +44,119 @@
   "contributes": {
     "jsonValidation": [
       {
-        "url": "https://api.airplane.dev/v0/schemas/task.json",
-        "fileMatch": "*.task.json"
+        "url": "./schemas/agripparc-json.schema.json",
+        "fileMatch": [
+          ".agripparc.json",
+          "agripparc.json"
+        ]
       },
       {
-        "url": "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema",
+        "url": "./schemas/aiproj-json.schema.json",
+        "fileMatch": ".aiproj.json"
+      },
+      {
+        "url": "./schemas/azure-device-update-for-iot-hub-import-manifest.schema.json",
+        "fileMatch": "*.importmanifest.json"
+      },
+      {
+        "url": "./schemas/azure-device-update-for-iot-hub-update-manifest.schema.json",
+        "fileMatch": "*.updatemanifest.json"
+      },
+      {
+        "url": "./schemas/azure-iot-edge-deployment-template.schema.json",
+        "fileMatch": [
+          "deployment.debug.template.json",
+          "deployment.template.json"
+        ]
+      },
+      {
+        "url": "./schemas/cnc-codes-json-schema.schema.json",
         "fileMatch": "*.cncc.json"
+      },
+      {
+        "url": "./schemas/devinit.schema.json",
+        "fileMatch": [
+          ".devinit.json",
+          "devinit.json"
+        ]
+      },
+      {
+        "url": "./schemas/expo-sdk.schema.json",
+        "fileMatch": "app.json"
+      },
+      {
+        "url": "./schemas/freifunk-de-community-api.schema.json",
+        "fileMatch": "*.freifunk-api.json"
+      },
+      {
+        "url": "./schemas/gatewaycore-api-gateway.schema.json",
+        "fileMatch": [
+          "*.gatewaycore.json",
+          "*.gwcore.json",
+          "gatewaycore.json",
+          "gwcore.json"
+        ]
+      },
+      {
+        "url": "./schemas/json-feed.schema.json",
+        "fileMatch": "feed.json"
+      },
+      {
+        "url": "./schemas/liquibase.schema.json",
+        "fileMatch": "**/db/changelog/**/*.json"
+      },
+      {
+        "url": "./schemas/openapi-json.schema.json",
+        "fileMatch": "openapi.json"
+      },
+      {
+        "url": "./schemas/package-manifest.schema.json",
+        "fileMatch": "package.manifest"
+      },
+      {
+        "url": "./schemas/petstore-v1-0.schema.json",
+        "fileMatch": "petstore-v1.0.json"
+      },
+      {
+        "url": "./schemas/project-json.schema.json",
+        "fileMatch": "project.json"
+      },
+      {
+        "url": "./schemas/serverless-workflow-schema.schema.json",
+        "fileMatch": "*.sw.json"
+      },
+      {
+        "url": "./schemas/specif.schema.json",
+        "fileMatch": [
+          "*.specif",
+          "*.specif.json"
+        ]
+      },
+      {
+        "url": "./schemas/theme-json.schema.json",
+        "fileMatch": "theme.json"
+      },
+      {
+        "url": "./schemas/utam-page-object.schema.json",
+        "fileMatch": [
+          "*.utam.json",
+          ".utam.json"
+        ]
+      },
+      {
+        "url": "./schemas/v2ray.schema.json",
+        "fileMatch": "**/v2ray/*.json"
+      },
+      {
+        "url": "./schemas/xunit-runner-json.schema.json",
+        "fileMatch": [
+          "*.xunit.runner.json",
+          "xunit.runner.json"
+        ]
+      },
+      {
+        "url": "https://api.airplane.dev/v0/schemas/task.json",
+        "fileMatch": "*.task.json"
       },
       {
         "url": "https://blockprotocol.org/schemas/block-metadata.json",
@@ -123,17 +230,6 @@
         "fileMatch": "*.schema.json"
       },
       {
-        "url": "https://json.schemastore.org/agripparc-1.4.json",
-        "fileMatch": [
-          ".agripparc.json",
-          "agripparc.json"
-        ]
-      },
-      {
-        "url": "https://json.schemastore.org/aiproj-1.1.json",
-        "fileMatch": ".aiproj.json"
-      },
-      {
         "url": "https://json.schemastore.org/all-contributors.json",
         "fileMatch": ".all-contributorsrc"
       },
@@ -179,21 +275,6 @@
       {
         "url": "https://json.schemastore.org/avro-avsc.json",
         "fileMatch": "*.avsc"
-      },
-      {
-        "url": "https://json.schemastore.org/azure-deviceupdate-import-manifest-5.0.json",
-        "fileMatch": "*.importmanifest.json"
-      },
-      {
-        "url": "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json",
-        "fileMatch": "*.updatemanifest.json"
-      },
-      {
-        "url": "https://json.schemastore.org/azure-iot-edge-deployment-template-4.0.json",
-        "fileMatch": [
-          "deployment.debug.template.json",
-          "deployment.template.json"
-        ]
       },
       {
         "url": "https://json.schemastore.org/babelrc.json",
@@ -382,13 +463,6 @@
         ]
       },
       {
-        "url": "https://json.schemastore.org/devinit.schema-6.0.json",
-        "fileMatch": [
-          ".devinit.json",
-          "devinit.json"
-        ]
-      },
-      {
         "url": "https://json.schemastore.org/docfx.json",
         "fileMatch": "docfx.json"
       },
@@ -438,16 +512,8 @@
         ]
       },
       {
-        "url": "https://json.schemastore.org/expo-46.0.0.json",
-        "fileMatch": "app.json"
-      },
-      {
         "url": "https://json.schemastore.org/fabric.mod.json",
         "fileMatch": "fabric.mod.json"
-      },
-      {
-        "url": "https://json.schemastore.org/feed.json",
-        "fileMatch": "feed.json"
       },
       {
         "url": "https://json.schemastore.org/foundryvtt-module-manifest.json",
@@ -663,10 +729,6 @@
         ]
       },
       {
-        "url": "https://json.schemastore.org/liquibase-3.2.json",
-        "fileMatch": "**/db/changelog/**/*.json"
-      },
-      {
         "url": "https://json.schemastore.org/local.settings.json",
         "fileMatch": "local.settings.json"
       },
@@ -834,20 +896,12 @@
         "fileMatch": "package.json"
       },
       {
-        "url": "https://json.schemastore.org/package.manifest.json",
-        "fileMatch": "package.manifest"
-      },
-      {
         "url": "https://json.schemastore.org/packer.json",
         "fileMatch": "packer.json"
       },
       {
         "url": "https://json.schemastore.org/pattern.json",
         "fileMatch": "pattern.json"
-      },
-      {
-        "url": "https://json.schemastore.org/petstore-v1.0.json",
-        "fileMatch": "petstore-v1.0.json"
       },
       {
         "url": "https://json.schemastore.org/pgap_yaml_input_reader.json",
@@ -885,10 +939,6 @@
           ".prettierrc",
           ".prettierrc.json"
         ]
-      },
-      {
-        "url": "https://json.schemastore.org/project.json",
-        "fileMatch": "project.json"
       },
       {
         "url": "https://json.schemastore.org/prometheus.rules.json",
@@ -988,13 +1038,6 @@
       {
         "url": "https://json.schemastore.org/sourcemap-v3.json",
         "fileMatch": "*.map"
-      },
-      {
-        "url": "https://json.schemastore.org/specif-1.1.json",
-        "fileMatch": [
-          "*.specif",
-          "*.specif.json"
-        ]
       },
       {
         "url": "https://json.schemastore.org/sponge-mixins.json",
@@ -1101,13 +1144,6 @@
       {
         "url": "https://json.schemastore.org/uproject.json",
         "fileMatch": ".uproject"
-      },
-      {
-        "url": "https://json.schemastore.org/utam-page-object.json",
-        "fileMatch": [
-          "*.utam.json",
-          ".utam.json"
-        ]
       },
       {
         "url": "https://json.schemastore.org/vega-lite.json",
@@ -1220,13 +1256,6 @@
       {
         "url": "https://json.schemastore.org/xs-app.json",
         "fileMatch": "xs-app.json"
-      },
-      {
-        "url": "https://json.schemastore.org/xunit.runner.schema.json",
-        "fileMatch": [
-          "*.xunit.runner.json",
-          "xunit.runner.json"
-        ]
       },
       {
         "url": "https://json.schemastore.org/yamllint.json",
@@ -1375,15 +1404,6 @@
         "fileMatch": "kfp_component.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json",
-        "fileMatch": [
-          "*.gatewaycore.json",
-          "*.gwcore.json",
-          "gatewaycore.json",
-          "gwcore.json"
-        ]
-      },
-      {
         "url": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog_repo.schema.json",
         "fileMatch": "info.json"
       },
@@ -1466,10 +1486,6 @@
         "fileMatch": "stylecop.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/EHfive/v2ray-jsonschema/main/v4-config.schema.json",
-        "fileMatch": "**/v2ray/*.json"
-      },
-      {
         "url": "https://raw.githubusercontent.com/estuary/flow/master/flow.schema.json",
         "fileMatch": [
           "*.flow.json",
@@ -1479,10 +1495,6 @@
       {
         "url": "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-deps.schema.json",
         "fileMatch": "fossa-deps.json"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
-        "fileMatch": "*.freifunk-api.json"
       },
       {
         "url": "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json",
@@ -1627,10 +1639,6 @@
         ]
       },
       {
-        "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
-        "fileMatch": "openapi.json"
-      },
-      {
         "url": "https://raw.githubusercontent.com/open-feature/schemas/main/json/flagd-definitions.json",
         "fileMatch": [
           "*.flagd.json",
@@ -1711,10 +1719,6 @@
         ]
       },
       {
-        "url": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.json",
-        "fileMatch": "*.sw.json"
-      },
-      {
         "url": "https://raw.githubusercontent.com/spectral-discord/TSON/main/schema/tson.json",
         "fileMatch": [
           "*.tson",
@@ -1769,10 +1773,6 @@
       {
         "url": "https://schemas.wp.org/trunk/block.json",
         "fileMatch": "block.json"
-      },
-      {
-        "url": "https://schemas.wp.org/trunk/theme.json",
-        "fileMatch": "theme.json"
       },
       {
         "url": "https://turborepo.org/schema.json",
