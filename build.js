@@ -64,8 +64,8 @@ for (const { fileMatch, name, url, versions } of catalog.schemas) {
     `${JSON.stringify(
       { anyOf: Object.values(versions).map(($ref) => ({ $ref })) },
       undefined,
-      2,
-    )}\n`,
+      2
+    )}\n`
   )
 
   jsonValidation.push({ url: `./schemas/${fileName}`, fileMatch: match })
