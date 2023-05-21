@@ -83,7 +83,7 @@ if (isDeepStrictEqual(pkg.contributes.jsonValidation, jsonValidation)) {
   await writeFile(path, `${JSON.stringify(pkg, undefined, 2)}\n`)
   console.log('Updated package.json')
   if (process.argv.includes('--commit')) {
-    execSync('git commit add .')
+    execSync('git add .')
     execSync(`git commit --message v${pkg.version}`)
     execSync(`git tag --no-sign v${pkg.version}`)
     execSync('git push origin HEAD --tags')
