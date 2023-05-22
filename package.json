@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.73",
+  "version": "1.0.74",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -199,7 +199,7 @@
         "fileMatch": "ezd.json"
       },
       {
-        "url": "https://hazelcast.com/schema/config/hazelcast-config-5.2.json",
+        "url": "https://hazelcast.com/schema/config/hazelcast-config-5.3.json",
         "fileMatch": [
           "hazelcast*.json",
           "hz-*.json"
@@ -1674,6 +1674,10 @@
           "Settings.paf",
           "settings.paf"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/QuiltMC/quilt-json-schemas/main/quilt.mod.json/schemas/main.json",
+        "fileMatch": "quilt.mod.json"
       },
       {
         "url": "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json",

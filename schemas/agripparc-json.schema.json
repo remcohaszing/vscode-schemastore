@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/agripparc-1.2.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/agripparc-1.3.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/agripparc-1.4.json"
+    }
+  ]
+}

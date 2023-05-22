@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/utam-page-object-1.5.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/utam-page-object.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/azure-iot-edge-deployment-template-1.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/azure-iot-edge-deployment-template-2.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/azure-iot-edge-deployment-template-3.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/azure-iot-edge-deployment-template-4.0.json"
+    }
+  ]
+}

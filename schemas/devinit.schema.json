@@ -1,0 +1,22 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/devinit.schema-1.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/devinit.schema-2.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/devinit.schema-3.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/devinit.schema-4.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/devinit.schema-5.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/devinit.schema-6.0.json"
+    }
+  ]
+}

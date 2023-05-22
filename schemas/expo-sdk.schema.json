@@ -1,0 +1,25 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/expo-37.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-38.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-39.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-40.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-41.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-42.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-46.0.0.json"
+    }
+  ]
+}

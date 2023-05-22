@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/azure-deviceupdate-update-manifest-4.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json"
+    }
+  ]
+}

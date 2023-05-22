@@ -1,0 +1,28 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-beta3.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-beta4.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-beta5.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-beta6.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-beta8.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-rc1.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-rc1.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/project-1.0.0-rc2.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json"
+    }
+  ]
+}
