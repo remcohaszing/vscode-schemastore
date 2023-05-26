@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.74",
+  "version": "1.0.75",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -116,6 +116,10 @@
       {
         "url": "./schemas/petstore-v1-0.schema.json",
         "fileMatch": "petstore-v1.0.json"
+      },
+      {
+        "url": "./schemas/postman-collection.schema.json",
+        "fileMatch": "*.postman_collection.json"
       },
       {
         "url": "./schemas/project-json.schema.json",

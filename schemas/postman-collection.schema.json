@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://schema.postman.com/collection/json/v1.0.0/draft-07/collection.json"
+    },
+    {
+      "$ref": "https://schema.postman.com/collection/json/v2.0.0/draft-07/collection.json"
+    },
+    {
+      "$ref": "https://schema.postman.com/collection/json/v2.1.0/draft-07/collection.json"
+    }
+  ]
+}
