@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.75",
+  "version": "1.0.76",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -943,10 +943,6 @@
           ".prettierrc",
           ".prettierrc.json"
         ]
-      },
-      {
-        "url": "https://json.schemastore.org/prometheus.rules.json",
-        "fileMatch": "*.rules"
       },
       {
         "url": "https://json.schemastore.org/proxies.json",
