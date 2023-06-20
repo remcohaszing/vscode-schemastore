@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.76",
+  "version": "1.0.77",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1491,6 +1491,10 @@
           "*.flow.json",
           "flow.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firebase-config.json",
+        "fileMatch": "firebase.json"
       },
       {
         "url": "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-deps.schema.json",
