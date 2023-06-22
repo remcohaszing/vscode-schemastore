@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.77",
+  "version": "1.0.78",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -341,6 +341,10 @@
       {
         "url": "https://json.schemastore.org/chart-lock.json",
         "fileMatch": "Chart.lock"
+      },
+      {
+        "url": "https://json.schemastore.org/chrome-extension-locales-messages.json",
+        "fileMatch": "**/_locales/*/messages.json"
       },
       {
         "url": "https://json.schemastore.org/chutzpah.json",
