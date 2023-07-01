@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.78",
+  "version": "1.0.79",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -98,6 +98,10 @@
         ]
       },
       {
+        "url": "./schemas/jreleaser.schema.json",
+        "fileMatch": "jreleaser.json"
+      },
+      {
         "url": "./schemas/json-feed.schema.json",
         "fileMatch": "feed.json"
       },
@@ -185,6 +189,15 @@
           ".renovaterc.json",
           "renovate.json",
           "renovate.json5"
+        ]
+      },
+      {
+        "url": "https://dprint.dev/schemas/v0.json",
+        "fileMatch": [
+          ".dprint.json",
+          ".dprint.jsonc",
+          "dprint.json",
+          "dprint.jsonc"
         ]
       },
       {
@@ -653,10 +666,6 @@
         "fileMatch": "jasmine.json"
       },
       {
-        "url": "https://json.schemastore.org/jreleaser-1.6.0.json",
-        "fileMatch": "jreleaser.json"
-      },
-      {
         "url": "https://json.schemastore.org/jsbeautifyrc-nested.json",
         "fileMatch": ".jsbeautifyrc"
       },
@@ -819,6 +828,10 @@
       {
         "url": "https://json.schemastore.org/minecraft-texture-mcmeta.json",
         "fileMatch": "**/assets/*/textures/**/*.png.mcmeta"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-trim-material.json",
+        "fileMatch": "**/data/*/trim_material/*.json"
       },
       {
         "url": "https://json.schemastore.org/mocharc.json",
@@ -1022,6 +1035,13 @@
         "fileMatch": [
           "*.silkit.json",
           "silkit.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/sil-kit-registry-configuration.json",
+        "fileMatch": [
+          "*.silkit-registry.json",
+          "silkit-registry.json"
         ]
       },
       {
