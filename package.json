@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.80",
+  "version": "1.0.81",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -832,6 +832,10 @@
       {
         "url": "https://json.schemastore.org/minecraft-trim-material.json",
         "fileMatch": "**/data/*/trim_material/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-trim-pattern.json",
+        "fileMatch": "**/data/*/trim_pattern/*.json"
       },
       {
         "url": "https://json.schemastore.org/mocharc.json",
