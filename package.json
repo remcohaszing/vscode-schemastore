@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.81",
+  "version": "1.0.82",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -484,6 +484,10 @@
         ]
       },
       {
+        "url": "https://json.schemastore.org/djlint.json",
+        "fileMatch": ".djlintrc"
+      },
+      {
         "url": "https://json.schemastore.org/docfx.json",
         "fileMatch": "docfx.json"
       },
@@ -717,6 +721,10 @@
       {
         "url": "https://json.schemastore.org/launchsettings.json",
         "fileMatch": "launchsettings.json"
+      },
+      {
+        "url": "https://json.schemastore.org/lefthook.json",
+        "fileMatch": "lefthook.json"
       },
       {
         "url": "https://json.schemastore.org/lego.json",
