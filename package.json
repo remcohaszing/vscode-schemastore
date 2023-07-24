@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.82",
+  "version": "1.0.83",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -724,7 +724,7 @@
       },
       {
         "url": "https://json.schemastore.org/lefthook.json",
-        "fileMatch": "lefthook.json"
+        "fileMatch": "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}"
       },
       {
         "url": "https://json.schemastore.org/lego.json",
