@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.85",
+  "version": "1.0.86",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -342,6 +342,10 @@
           ".suite.json",
           ".xsuite.json"
         ]
+      },
+      {
+        "url": "https://json.schemastore.org/bpkg.json",
+        "fileMatch": "bpkg.json"
       },
       {
         "url": "https://json.schemastore.org/browser.i18n.json",
@@ -1134,6 +1138,10 @@
         "fileMatch": ".tldr.json"
       },
       {
+        "url": "https://json.schemastore.org/tmlanguage.json",
+        "fileMatch": "*.tmLanguage.json"
+      },
+      {
         "url": "https://json.schemastore.org/ts-force-config.json",
         "fileMatch": "ts-force-config.json"
       },
@@ -1754,10 +1762,6 @@
       {
         "url": "https://raw.githubusercontent.com/sapphiredev/cli/main/templates/schemas/.sapphirerc.scheme.json",
         "fileMatch": ".sapphirerc.json"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Septh/tmlanguage/master/tmlanguage.json",
-        "fileMatch": "*.tmLanguage.json"
       },
       {
         "url": "https://raw.githubusercontent.com/sergxerj/jdownloader2-crawler-rule-json-schema/main/jd2cr.schema.json",
