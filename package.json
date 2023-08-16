@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.87",
+  "version": "1.0.88",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -382,6 +382,10 @@
       {
         "url": "https://json.schemastore.org/clasp.json",
         "fileMatch": ".clasp.json"
+      },
+      {
+        "url": "https://json.schemastore.org/clib.json",
+        "fileMatch": "clib.json"
       },
       {
         "url": "https://json.schemastore.org/cloudbuild.json",
