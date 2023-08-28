@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: 18 }
+        with: { node-version: 20 }
       - run: npm install
       - run: node build.js
 
@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: latest }
+        with: { node-version: 20 }
       - run: npm install
       - run: npx eslint .
 
@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: latest }
+        with: { node-version: 20 }
       - run: npm install
       - run: npx vsce package
       - uses: actions/upload-artifact@v3
@@ -42,7 +42,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: latest }
+        with: { node-version: 20 }
       - run: npm install
       - run: npx prettier --check .
 
@@ -51,6 +51,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: latest }
+        with: { node-version: 20 }
       - run: npm install
       - run: npx tsc

@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: 18 }
+        with: { node-version: 20 }
       - run: npm install
       - run: npx ovsx publish
         env:
@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: { node-version: 18 }
+        with: { node-version: 20 }
       - run: npm install
       - run: npx vsce publish
         env:
