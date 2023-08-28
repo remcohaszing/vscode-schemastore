@@ -41,6 +41,10 @@
     "semver": "^7.0.0",
     "typescript": "^5.0.0"
   },
+  "galleryBanner": {
+    "color": "#555555",
+    "theme": "dark"
+  },
   "contributes": {
     "jsonValidation": [
       {
