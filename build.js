@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { execSync } from 'node:child_process'
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
+import { basename } from 'node:path'
 import { isDeepStrictEqual } from 'node:util'
 
 import semver from 'semver'
@@ -30,46 +31,92 @@ const schemasDir = new URL('schemas/', import.meta.url)
 await rm(schemasDir, { force: true, recursive: true })
 await mkdir(schemasDir)
 
-for (const { fileMatch, name, url, versions } of catalog.schemas) {
-  if (!url) {
-    continue
-  }
+/** @type {Map<string, Set<string>>} */
+const schemasByMatch = new Map()
 
+// Collect a map where each match is mapped to a corresponding URL.
+// Some matches may match multiple schemas.
+for (const { fileMatch, url, versions } of catalog.schemas) {
   if (!fileMatch) {
     continue
   }
 
-  const filteredMatches = fileMatch.filter((m) => !m.startsWith('!') && !excludePattern.test(m))
+  for (let match of fileMatch) {
+    if (excludePattern.test(match)) {
+      continue
+    }
 
-  if (!filteredMatches.length) {
-    continue
+    // For VS Code schema matching, `**/rest/of/glob` is equivalent to `rest/of/glob`.
+    match = match.replace(/^\*\*?\//, '')
+    const set = schemasByMatch.get(match) || new Set()
+    schemasByMatch.set(match, set)
+    if (url) {
+      set.add(url)
+    }
+    if (versions) {
+      for (const versionUrl of Object.values(versions)) {
+        set.add(versionUrl)
+      }
+    }
   }
-
-  const match = filteredMatches.length === 1 ? filteredMatches[0] : filteredMatches.sort()
-
-  if (!versions || Object.values(versions).length < 2) {
-    jsonValidation.push({ url, fileMatch: match })
-    continue
-  }
-
-  const normalizedName = name
-    .normalize()
-    .toLowerCase()
-    .replace(/\W+/g, '-')
-    .replace(/^-+/, '')
-    .replace(/-+$/, '')
-  const fileName = `${normalizedName}.schema.json`
-  await writeFile(
-    new URL(fileName, schemasDir),
-    `${JSON.stringify(
-      { anyOf: Object.values(versions).map(($ref) => ({ $ref })) },
-      undefined,
-      2
-    )}\n`
-  )
-
-  jsonValidation.push({ url: `./schemas/${fileName}`, fileMatch: match })
 }
+
+/** @type {Map<Set<string>, Set<string>>} */
+const schemasByUrls = new Map()
+
+// Group all URLs together that share the same match.
+collectSchemas: for (const [match, urls] of schemasByMatch) {
+  for (const [possibleDuplicate, allMatches] of schemasByUrls) {
+    if (isDeepStrictEqual(urls, possibleDuplicate)) {
+      allMatches.add(match)
+      continue collectSchemas
+    }
+  }
+  schemasByUrls.set(urls, new Set([match]))
+}
+
+// Generate the actual JSON schema validation array used by the extension.
+for (const [urls, matches] of schemasByUrls) {
+  let [url] = urls
+  // If there is only one matching URL, point there directly.
+  // Otherwise, generate a schema that references all matching schemas using `anyOf` and `$ref`.
+  if (urls.size > 1) {
+    const [match] = matches
+    const name = match
+      .replaceAll(/\b(json|schema)\b/g, '')
+      .replaceAll('*', '')
+      .replaceAll(/\W+/g, '-')
+      .replaceAll(/(^-|-$)/g, '')
+    url = `./schemas/${name}.schema.json`
+    await writeFile(
+      url,
+      `${JSON.stringify({ anyOf: [...urls].sort().map((ref) => ({ $ref: ref })) }, undefined, 2)}\n`
+    )
+  }
+
+  /** @type {string[]} */
+  const fileMatch = []
+
+  for (const match of matches) {
+    const base = basename(match)
+    // If the match is the same as the base name, it’s always ok.
+    if (base === match) {
+      fileMatch.push(match)
+    }
+
+    // VS Code will detect it already if the base name is matched.
+    // There’s no need to include a specific glob additionally.
+    if (!matches.has(base)) {
+      fileMatch.push(match)
+    }
+  }
+
+  jsonValidation.push({
+    url,
+    fileMatch: fileMatch.length === 1 ? fileMatch[0] : fileMatch.sort()
+  })
+}
+
 jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
 
 const path = new URL('package.json', import.meta.url)
