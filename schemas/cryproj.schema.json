@@ -1,0 +1,22 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/cryproj.52.schema.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/cryproj.53.schema.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/cryproj.54.schema.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/cryproj.55.schema.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/cryproj.dev.schema.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/cryproj.json"
+    }
+  ]
+}

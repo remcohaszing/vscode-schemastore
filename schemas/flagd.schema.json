@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/open-feature/schemas/json/json-schema-v0.1.1/json/flagd-definitions.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/open-feature/schemas/main/json/flagd-definitions.json"
+    }
+  ]
+}

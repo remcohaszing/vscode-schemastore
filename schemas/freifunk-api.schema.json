@@ -7,9 +7,6 @@
       "$ref": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.2.0.json"
     },
     {
-      "$ref": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.9.json"
-    },
-    {
       "$ref": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.10.json"
     },
     {
@@ -29,6 +26,9 @@
     },
     {
       "$ref": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.16.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.4.9.json"
     },
     {
       "$ref": "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.0.json"

@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog_repo.schema.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-06/schema"
+    },
+    {
+      "$ref": "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema"
+    }
+  ]
+}

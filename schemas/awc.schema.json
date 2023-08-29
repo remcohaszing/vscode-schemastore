@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/anywork-ac-1.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/anywork-ac-1.1.json"
+    }
+  ]
+}

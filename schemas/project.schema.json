@@ -19,10 +19,10 @@
       "$ref": "https://json.schemastore.org/project-1.0.0-rc1.json"
     },
     {
-      "$ref": "https://json.schemastore.org/project-1.0.0-rc1.json"
+      "$ref": "https://json.schemastore.org/project-1.0.0-rc2.json"
     },
     {
-      "$ref": "https://json.schemastore.org/project-1.0.0-rc2.json"
+      "$ref": "https://json.schemastore.org/project.json"
     }
   ]
 }

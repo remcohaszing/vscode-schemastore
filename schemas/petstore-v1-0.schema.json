@@ -1,10 +1,10 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/petstore-v1.0.json"
+      "$ref": "https://json.schemastore.org/mboats-config-0.2.json"
     },
     {
-      "$ref": "https://json.schemastore.org/mboats-config-0.2.json"
+      "$ref": "https://json.schemastore.org/petstore-v1.0.json"
     }
   ]
 }

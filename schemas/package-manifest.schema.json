@@ -1,10 +1,13 @@
 {
   "anyOf": [
     {
+      "$ref": "https://json.schemastore.org/package.manifest-7.0.0.json"
+    },
+    {
       "$ref": "https://json.schemastore.org/package.manifest-8.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/package.manifest-7.0.0.json"
+      "$ref": "https://json.schemastore.org/package.manifest.json"
     }
   ]
 }

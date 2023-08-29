@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/liquibase-3.2.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/liquibase.json"
+    }
+  ]
+}

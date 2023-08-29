@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/foxx-manifest.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/web-manifest-combined.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/webextension.json"
+    }
+  ]
+}

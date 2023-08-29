@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/hexagonkt/codecv/0.9.9/cv.schema.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/hexagonkt/codecv/master/cv.schema.json"
+    }
+  ]
+}
