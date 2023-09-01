@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.90",
+  "version": "1.0.91",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1790,6 +1790,10 @@
       {
         "url": "https://raw.githubusercontent.com/tierrun/tier/main/pricing/schema.json",
         "fileMatch": "pricing.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/webcomponents/custom-elements-manifest/main/schema.json",
+        "fileMatch": "custom-elements.json"
       },
       {
         "url": "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json",
