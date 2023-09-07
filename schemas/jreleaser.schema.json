@@ -5,6 +5,9 @@
     },
     {
       "$ref": "https://json.schemastore.org/jreleaser-1.7.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/jreleaser-1.8.0.json"
     }
   ]
 }
