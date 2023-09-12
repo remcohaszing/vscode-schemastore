@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.92",
+  "version": "1.0.93",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1868,6 +1868,13 @@
       {
         "url": "https://www.krakend.io/schema/v3.json",
         "fileMatch": "krakend.json"
+      },
+      {
+        "url": "https://www.qgoda.net/schemas/qgoda.json",
+        "fileMatch": [
+          "_localqgoda.json",
+          "_qgoda.json"
+        ]
       }
     ]
   }
