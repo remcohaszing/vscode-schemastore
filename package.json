@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.94",
+  "version": "1.0.95",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1870,7 +1870,7 @@
         ]
       },
       {
-        "url": "https://www.krakend.io/schema/v3.json",
+        "url": "https://www.krakend.io/schema/krakend.json",
         "fileMatch": "krakend.json"
       },
       {
