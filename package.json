@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.96",
+  "version": "1.0.97",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1448,6 +1448,14 @@
           "*.gwcore.json",
           "gatewaycore.json",
           "gwcore.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/compomics/ms2rescore/main/ms2rescore/package_data/config_schema.json",
+        "fileMatch": [
+          ".*-ms2rescore-config.json",
+          ".*-ms2rescore.json",
+          "ms2rescore.json"
         ]
       },
       {
