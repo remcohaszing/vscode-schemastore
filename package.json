@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.101",
+  "version": "1.0.102",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -224,7 +224,7 @@
       },
       {
         "url": "https://chat-agents.lobehub.com/schema/lobeAgentSchema_v1.json",
-        "fileMatch": "*.json"
+        "fileMatch": "lobe-agent.json"
       },
       {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
