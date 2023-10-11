@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.102",
+  "version": "1.0.103",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -251,6 +251,10 @@
           "dprint.json",
           "dprint.jsonc"
         ]
+      },
+      {
+        "url": "https://enduricastorage.blob.core.windows.net/public/endurica-cl-schema.json",
+        "fileMatch": "*.ki.json"
       },
       {
         "url": "https://github.com/abstracta/jmeter-java-dsl/releases/latest/download/jmdsl-config-schema.json",
