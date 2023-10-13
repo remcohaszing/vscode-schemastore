@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.103",
+  "version": "1.0.104",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -595,6 +595,10 @@
       {
         "url": "https://json.schemastore.org/function.json",
         "fileMatch": "function.json"
+      },
+      {
+        "url": "https://json.schemastore.org/gaspar-1.0.json",
+        "fileMatch": "gaspar.config.json"
       },
       {
         "url": "https://json.schemastore.org/github-workflow-template-properties.json",
