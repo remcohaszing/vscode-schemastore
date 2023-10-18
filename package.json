@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.104",
+  "version": "1.0.105",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -223,6 +223,10 @@
         "fileMatch": "block-metadata.json"
       },
       {
+        "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
+        "fileMatch": "tsup.config.json"
+      },
+      {
         "url": "https://chat-agents.lobehub.com/schema/lobeAgentSchema_v1.json",
         "fileMatch": "lobe-agent.json"
       },
@@ -255,6 +259,10 @@
       {
         "url": "https://enduricastorage.blob.core.windows.net/public/endurica-cl-schema.json",
         "fileMatch": "*.ki.json"
+      },
+      {
+        "url": "https://getcomposer.org/schema.json",
+        "fileMatch": "composer.json"
       },
       {
         "url": "https://github.com/abstracta/jmeter-java-dsl/releases/latest/download/jmdsl-config-schema.json",
@@ -1465,10 +1473,6 @@
           ".*-ms2rescore.json",
           "ms2rescore.json"
         ]
-      },
-      {
-        "url": "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json",
-        "fileMatch": "composer.json"
       },
       {
         "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json",
