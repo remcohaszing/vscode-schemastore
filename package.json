@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.105",
+  "version": "1.0.106",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1103,6 +1103,13 @@
       {
         "url": "https://json.schemastore.org/sqlc-2.0.json",
         "fileMatch": "sqlc.json"
+      },
+      {
+        "url": "https://json.schemastore.org/stackblitzrc.json",
+        "fileMatch": [
+          ".stackblitz/config.json",
+          ".stackblitzrc"
+        ]
       },
       {
         "url": "https://json.schemastore.org/staticwebapp.config.json",
