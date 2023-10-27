@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.108",
+  "version": "1.0.109",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1121,6 +1121,10 @@
           ".stylelintrc",
           ".stylelintrc.json"
         ]
+      },
+      {
+        "url": "https://json.schemastore.org/sublime-syntax.json",
+        "fileMatch": "*.sublime-syntax"
       },
       {
         "url": "https://json.schemastore.org/swa-cli.config.json",
