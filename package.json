@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.109",
+  "version": "1.0.110",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -955,6 +955,10 @@
       {
         "url": "https://json.schemastore.org/omnisharp.json",
         "fileMatch": "omnisharp.json"
+      },
+      {
+        "url": "https://json.schemastore.org/openutau-ustx.json",
+        "fileMatch": "*.ustx"
       },
       {
         "url": "https://json.schemastore.org/package.json",
