@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.114",
+  "version": "1.0.115",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1843,6 +1843,10 @@
           "*.jd2mcr.json",
           "*.linkcrawlerrules.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Shravan-1908/stellapy/master/schema.json",
+        "fileMatch": "stella.json"
       },
       {
         "url": "https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json",
