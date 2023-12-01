@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.115",
+  "version": "1.0.116",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -825,6 +825,10 @@
       {
         "url": "https://json.schemastore.org/minecraft-configured-carver.json",
         "fileMatch": "data/*/worldgen/configured_carver/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/minecraft-custom-main-menu-mod.json",
+        "fileMatch": "mainmenu.json"
       },
       {
         "url": "https://json.schemastore.org/minecraft-damage-type.json",
