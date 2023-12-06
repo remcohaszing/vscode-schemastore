@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.116",
+  "version": "1.0.117",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1667,6 +1667,10 @@
       {
         "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
         "fileMatch": "*.hayson.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/jetpack-io/devbox/main/.schema/devbox-plugin.schema.json",
+        "fileMatch": "devbox-plugin.json"
       },
       {
         "url": "https://raw.githubusercontent.com/jetpack-io/devbox/main/.schema/devbox.schema.json",
