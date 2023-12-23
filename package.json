@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.117",
+  "version": "1.0.118",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -324,6 +324,15 @@
         "fileMatch": "*.schema.json"
       },
       {
+        "url": "https://json.schemastore.org/aiconfig-1.0.json",
+        "fileMatch": [
+          "*.aiconfig.json",
+          "*.aiconfig.jsonc",
+          "aiconfig.json",
+          "aiconfig.jsonc"
+        ]
+      },
+      {
         "url": "https://json.schemastore.org/aliases.json",
         "fileMatch": ".aliases"
       },
@@ -628,6 +637,10 @@
       {
         "url": "https://json.schemastore.org/golangci-lint.json",
         "fileMatch": ".golangci.json"
+      },
+      {
+        "url": "https://json.schemastore.org/gorder-r06.json",
+        "fileMatch": "gorder.json"
       },
       {
         "url": "https://json.schemastore.org/gpc.json",
