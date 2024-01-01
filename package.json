@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.118",
+  "version": "1.0.119",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1937,6 +1937,13 @@
       {
         "url": "https://raw.githubusercontent.com/zyedidia/micro/master/data/micro.json",
         "fileMatch": ".config/micro/settings.json"
+      },
+      {
+        "url": "https://rivet.gg/rivet.schema.json",
+        "fileMatch": [
+          "rivet.*.json",
+          "rivet.json"
+        ]
       },
       {
         "url": "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json",
