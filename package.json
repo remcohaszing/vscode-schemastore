@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.119",
+  "version": "1.0.120",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -221,6 +221,13 @@
       {
         "url": "https://blockprotocol.org/schemas/block-metadata.json",
         "fileMatch": "block-metadata.json"
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/liblab@latest/liblab.config.schema.json",
+        "fileMatch": [
+          "*.liblab.config.json",
+          "liblab.config.json"
+        ]
       },
       {
         "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",

@@ -1,6 +1,9 @@
 {
   "anyOf": [
     {
+      "$ref": "https://json.schemastore.org/jreleaser-1.10.0.json"
+    },
+    {
       "$ref": "https://json.schemastore.org/jreleaser-1.6.0.json"
     },
     {
