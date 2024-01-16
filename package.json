@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.121",
+  "version": "1.0.122",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -574,6 +574,10 @@
       {
         "url": "https://json.schemastore.org/dotnet-releases-index.json",
         "fileMatch": "dotnet-release-index.json"
+      },
+      {
+        "url": "https://json.schemastore.org/dotnet-tools.json",
+        "fileMatch": "dotnet-tools.json"
       },
       {
         "url": "https://json.schemastore.org/dotnetcli.host.json",
