@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.122",
+  "version": "1.0.123",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1798,6 +1798,10 @@
           ".neoload.json",
           ".nl.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nix-community/nixd/main/nixd/docs/nixd-schema.json",
+        "fileMatch": ".nixd.json"
       },
       {
         "url": "https://raw.githubusercontent.com/oresoftware/npm-link-up/master/assets/nlu.schema.json",
