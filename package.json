@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.124",
+  "version": "1.0.125",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1932,6 +1932,10 @@
           "stryker-*.conf.json",
           "stryker.conf.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sverweij/dependency-cruiser/main/src/schema/configuration.schema.json",
+        "fileMatch": "dependency-cruiser.config.json"
       },
       {
         "url": "https://raw.githubusercontent.com/thomaspoignant/go-feature-flag/main/.schema/flag-schema.json",
