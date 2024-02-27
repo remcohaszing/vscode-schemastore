@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.127",
+  "version": "1.0.128",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -213,6 +213,17 @@
           "*.xunit.runner.json",
           "xunit.runner.json"
         ]
+      },
+      {
+        "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_machine.json",
+        "fileMatch": [
+          "data/*/machine/*.json",
+          "data/*/machines/*.json"
+        ]
+      },
+      {
+        "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
+        "fileMatch": "data/*/recipes/**/*.json"
       },
       {
         "url": "https://api.airplane.dev/v0/schemas/task.json",
