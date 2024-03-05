@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.129",
+  "version": "1.0.130",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -298,7 +298,7 @@
         "fileMatch": "wrangler.json"
       },
       {
-        "url": "https://github.com/goss-org/goss/raw/master/docs/goss-json-schema.yaml",
+        "url": "https://github.com/goss-org/goss/raw/master/docs/schema.yaml",
         "fileMatch": "goss.json"
       },
       {
