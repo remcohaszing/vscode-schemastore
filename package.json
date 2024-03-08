@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.130",
+  "version": "1.0.131",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1392,6 +1392,13 @@
       {
         "url": "https://json.schemastore.org/yamllint.json",
         "fileMatch": ".yamllint"
+      },
+      {
+        "url": "https://jsr.io/schema/config-file.v1.json",
+        "fileMatch": [
+          "jsr.json",
+          "jsr.jsonc"
+        ]
       },
       {
         "url": "https://meta.open-rpc.org/",
