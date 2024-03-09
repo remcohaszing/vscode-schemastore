@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.131",
+  "version": "1.0.132",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -674,10 +674,6 @@
       {
         "url": "https://json.schemastore.org/golangci-lint.json",
         "fileMatch": ".golangci.json"
-      },
-      {
-        "url": "https://json.schemastore.org/gorder-r06.json",
-        "fileMatch": "gorder.json"
       },
       {
         "url": "https://json.schemastore.org/gpc.json",
@@ -1816,6 +1812,14 @@
       {
         "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
         "fileMatch": "vcpkg.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/monoweave/monoweave/main/packages/types/schema.json",
+        "fileMatch": [
+          "monoweave.config.json",
+          "monoweave.config.json5",
+          "monoweave.config.jsonc"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/mozilla/contribute.json/master/schema.json",
