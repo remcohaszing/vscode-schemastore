@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.134",
+  "version": "1.0.135",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -849,8 +849,8 @@
         "fileMatch": "*.lsdl.json"
       },
       {
-        "url": "https://json.schemastore.org/markdown-lint-check.json",
-        "fileMatch": ".markdown-lint-check.json"
+        "url": "https://json.schemastore.org/markdown-link-check.json",
+        "fileMatch": ".markdown-link-check.json"
       },
       {
         "url": "https://json.schemastore.org/micro.json",

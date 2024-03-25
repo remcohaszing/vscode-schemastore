@@ -7,6 +7,9 @@
       "$ref": "https://json.schemastore.org/utam-page-object-2.0.3.json"
     },
     {
+      "$ref": "https://json.schemastore.org/utam-page-object-2.2.0.json"
+    },
+    {
       "$ref": "https://json.schemastore.org/utam-page-object.json"
     }
   ]
