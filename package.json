@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.137",
+  "version": "1.0.138",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1768,6 +1768,10 @@
           "*.resume.json",
           "resume.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/kaitai-io/ksy_schema/master/ksy_schema.json",
+        "fileMatch": "*.ksy"
       },
       {
         "url": "https://raw.githubusercontent.com/karakum-team/karakum/master/schema/karakum-schema.json",
