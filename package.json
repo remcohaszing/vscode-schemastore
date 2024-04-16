@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.139",
+  "version": "1.0.140",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -292,10 +292,6 @@
       {
         "url": "https://github.com/abstracta/jmeter-java-dsl/releases/latest/download/jmdsl-config-schema.json",
         "fileMatch": "*.jmdsl.json"
-      },
-      {
-        "url": "https://github.com/cloudflare/workers-sdk/files/12887590/wrangler.schema.json",
-        "fileMatch": "wrangler.json"
       },
       {
         "url": "https://github.com/goss-org/goss/raw/master/docs/schema.yaml",
@@ -2095,6 +2091,10 @@
           "_localqgoda.json",
           "_qgoda.json"
         ]
+      },
+      {
+        "url": "https://www.unpkg.com/wrangler/config-schema.json",
+        "fileMatch": "wrangler.json"
       },
       {
         "url": "https://www.updatecli.io/schema/latest/policy/manifest/config.json",
