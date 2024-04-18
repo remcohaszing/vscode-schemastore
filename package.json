@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.141",
+  "version": "1.0.142",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -850,7 +850,7 @@
       },
       {
         "url": "https://json.schemastore.org/micro.json",
-        "fileMatch": "*.settings.json"
+        "fileMatch": "settings.json"
       },
       {
         "url": "https://json.schemastore.org/mimetypes.json",
@@ -1581,6 +1581,10 @@
           ".*-ms2rescore.json",
           "ms2rescore.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/cycleplatform/api-spec/main/stackspec/stackspec.json",
+        "fileMatch": "cycle.json"
       },
       {
         "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json",
