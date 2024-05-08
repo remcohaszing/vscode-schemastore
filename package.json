@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.146",
+  "version": "1.0.147",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1089,6 +1089,33 @@
       {
         "url": "https://json.schemastore.org/qfconfig.json",
         "fileMatch": "qfconfig.json"
+      },
+      {
+        "url": "https://json.schemastore.org/rc3-auth-0.0.3.json",
+        "fileMatch": "rc-auth.json"
+      },
+      {
+        "url": "https://json.schemastore.org/rc3-collection-0.0.3.json",
+        "fileMatch": "rc-collection.json"
+      },
+      {
+        "url": "https://json.schemastore.org/rc3-environment-0.0.3.json",
+        "fileMatch": [
+          "environments/*.json",
+          "rc-global.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/rc3-folder-0.0.3.json",
+        "fileMatch": "rc-folder.json"
+      },
+      {
+        "url": "https://json.schemastore.org/rc3-request-0.0.3.json",
+        "fileMatch": "*.request"
+      },
+      {
+        "url": "https://json.schemastore.org/rc3-settings-0.0.3.json",
+        "fileMatch": "rc-settings.json"
       },
       {
         "url": "https://json.schemastore.org/rehyperc.json",
