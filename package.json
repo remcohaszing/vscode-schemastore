@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.148",
+  "version": "1.0.149",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -489,6 +489,10 @@
       {
         "url": "https://json.schemastore.org/clang-format.json",
         "fileMatch": ".clang-format"
+      },
+      {
+        "url": "https://json.schemastore.org/clang-tidy.json",
+        "fileMatch": ".clang-tidy"
       },
       {
         "url": "https://json.schemastore.org/clangd.json",
