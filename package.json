@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.149",
+  "version": "1.0.150",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1637,6 +1637,14 @@
           ".*-ms2rescore.json",
           "ms2rescore.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.cfgu.json",
+        "fileMatch": "*.cfgu.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.configu.json",
+        "fileMatch": ".configu"
       },
       {
         "url": "https://raw.githubusercontent.com/CVEProject/cve-schema/master/schema/docs/CVE_Record_Format_bundled.json",
