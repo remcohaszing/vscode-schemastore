@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.150",
+  "version": "1.0.151",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -271,6 +271,10 @@
           "renovate.json",
           "renovate.json5"
         ]
+      },
+      {
+        "url": "https://download.qt.io/official_releases/qtcreator/latest/installer_source/jsonschemas/project.json",
+        "fileMatch": ".qtcreator/project.json"
       },
       {
         "url": "https://dprint.dev/schemas/v0.json",
