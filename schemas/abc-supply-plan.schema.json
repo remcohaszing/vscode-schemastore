@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/abc-supply-plan-1.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/abc-supply-plan-2.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
+    }
+  ]
+}

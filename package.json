@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.151",
+  "version": "1.0.152",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -47,6 +47,10 @@
   },
   "contributes": {
     "jsonValidation": [
+      {
+        "url": "./schemas/abc-supply-plan.schema.json",
+        "fileMatch": "abc-supply-plan-*.json"
+      },
       {
         "url": "./schemas/agripparc.schema.json",
         "fileMatch": [
@@ -1734,6 +1738,10 @@
           "*.flow.json",
           "flow.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/expo/eas-cli/main/packages/eas-json/schema/eas.schema.json",
+        "fileMatch": "eas.json"
       },
       {
         "url": "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firebase-config.json",
