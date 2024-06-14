@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.152",
+  "version": "1.0.153",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1731,6 +1731,10 @@
       {
         "url": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
         "fileMatch": "stylecop.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/eliashaeussler/cache-warmup/main/res/cache-warmup-config.schema.json",
+        "fileMatch": "cache-warmup.json"
       },
       {
         "url": "https://raw.githubusercontent.com/estuary/flow/master/flow.schema.json",
