@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.153",
+  "version": "1.0.154",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -335,6 +335,10 @@
           "hazelcast*.json",
           "hz-*.json"
         ]
+      },
+      {
+        "url": "https://html-validate.org/schemas/config.json",
+        "fileMatch": ".htmlvalidate.json"
       },
       {
         "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json",
@@ -2136,6 +2140,10 @@
       {
         "url": "https://uniswap.org/tokenlist.schema.json",
         "fileMatch": "*.tokenlist.json"
+      },
+      {
+        "url": "https://unpkg.com/@changesets/config/schema.json",
+        "fileMatch": ".changeset/config.json"
       },
       {
         "url": "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json",
