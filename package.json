@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.154",
+  "version": "1.0.155",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -978,6 +978,10 @@
       {
         "url": "https://json.schemastore.org/monika-config-schema.json",
         "fileMatch": "monika.json"
+      },
+      {
+        "url": "https://json.schemastore.org/mprocs-0.6.4.json",
+        "fileMatch": "mprocs.json"
       },
       {
         "url": "https://json.schemastore.org/mtaext.json",
