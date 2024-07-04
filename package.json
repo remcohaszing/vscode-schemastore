@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.156",
+  "version": "1.0.157",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1683,7 +1683,11 @@
         "fileMatch": "cycle.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json",
+        "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/entity.schema.json",
+        "fileMatch": "entity.datadog.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/service.schema.json",
         "fileMatch": "service.datadog.json"
       },
       {
