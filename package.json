@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.157",
+  "version": "1.0.158",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -828,6 +828,10 @@
       {
         "url": "https://json.schemastore.org/jsonld.json",
         "fileMatch": "*.jsonld"
+      },
+      {
+        "url": "https://json.schemastore.org/language-configuration.json",
+        "fileMatch": "language-configuration.json"
       },
       {
         "url": "https://json.schemastore.org/launchsettings.json",
