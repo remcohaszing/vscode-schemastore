@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/gaspar-1.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/gaspar-3.0.json"
+    }
+  ]
+}
