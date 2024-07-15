@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.159",
+  "version": "1.0.160",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -466,6 +466,10 @@
       {
         "url": "https://json.schemastore.org/bowerrc.json",
         "fileMatch": ".bowerrc"
+      },
+      {
+        "url": "https://json.schemastore.org/boyka-config.json",
+        "fileMatch": "boyka-config.json"
       },
       {
         "url": "https://json.schemastore.org/bozr.json",
