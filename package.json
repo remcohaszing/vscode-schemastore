@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.160",
+  "version": "1.0.161",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1603,6 +1603,10 @@
       {
         "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/architecture_definition.json",
         "fileMatch": "*.alz_architecture_definition.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main/metadata.schema.json",
+        "fileMatch": "modules/*/metadata.json"
       },
       {
         "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/master/skyuxconfig-schema.json",
