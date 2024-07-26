@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.162",
+  "version": "1.0.163",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -613,6 +613,13 @@
       {
         "url": "https://json.schemastore.org/docfx.json",
         "fileMatch": "docfx.json"
+      },
+      {
+        "url": "https://json.schemastore.org/docker-bake.json",
+        "fileMatch": [
+          "docker-bake.json",
+          "docker-bake.override.json"
+        ]
       },
       {
         "url": "https://json.schemastore.org/dockerd.json",
