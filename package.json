@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.164",
+  "version": "1.0.165",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1694,12 +1694,12 @@
         "fileMatch": ".configu"
       },
       {
-        "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json",
-        "fileMatch": "*.wafto"
+        "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.1.0/waf-tests-schema-v2.1.0.json",
+        "fileMatch": "*.waft"
       },
       {
-        "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json",
-        "fileMatch": "*.waft"
+        "url": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.1.0/waf-platform-overrides-schema-v2.1.0.json",
+        "fileMatch": "*.wafto"
       },
       {
         "url": "https://raw.githubusercontent.com/CVEProject/cve-schema/master/schema/docs/CVE_Record_Format_bundled.json",
