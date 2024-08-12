@@ -4,6 +4,7 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { basename } from 'node:path'
 import { isDeepStrictEqual } from 'node:util'
 
+import braces from 'braces'
 import semver from 'semver'
 
 /**
@@ -42,20 +43,22 @@ for (const { fileMatch, url, versions } of catalog.schemas) {
   }
 
   for (let match of fileMatch) {
-    if (excludePattern.test(match)) {
-      continue
-    }
-
     // For VS Code schema matching, `**/rest/of/glob` is equivalent to `rest/of/glob`.
     match = match.replace(/^\*\*?\//, '')
-    const set = schemasByMatch.get(match) || new Set()
-    schemasByMatch.set(match, set)
-    if (url) {
-      set.add(url)
-    }
-    if (versions) {
-      for (const versionUrl of Object.values(versions)) {
-        set.add(versionUrl)
+    for (const m of braces(match, { expand: true })) {
+      if (excludePattern.test(m)) {
+        continue
+      }
+
+      const set = schemasByMatch.get(m) || new Set()
+      schemasByMatch.set(m, set)
+      if (url) {
+        set.add(url)
+      }
+      if (versions) {
+        for (const versionUrl of Object.values(versions)) {
+          set.add(versionUrl)
+        }
       }
     }
   }
