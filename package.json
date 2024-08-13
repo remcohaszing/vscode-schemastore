@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.166",
+  "version": "1.0.167",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -852,7 +852,12 @@
       },
       {
         "url": "https://json.schemastore.org/lefthook.json",
-        "fileMatch": "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}"
+        "fileMatch": [
+          ".lefthook-local.json",
+          ".lefthook.json",
+          "lefthook-local.json",
+          "lefthook.json"
+        ]
       },
       {
         "url": "https://json.schemastore.org/lego.json",
@@ -1726,26 +1731,6 @@
           ".markdownlint.jsonc",
           ".markdownlintrc"
         ]
-      },
-      {
-        "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json",
-        "fileMatch": "dbt_project.{yaml,yml}"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_yml_files-latest.json",
-        "fileMatch": "*dbt*/{macros,models,seeds,snapshots}/**/*.{yaml,yml}"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dependencies-latest.json",
-        "fileMatch": "*dbt*/dependencies.{yaml,yml}"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/packages-latest.json",
-        "fileMatch": "*dbt*/packages.{yaml,yml}"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/selectors-latest.json",
-        "fileMatch": "*dbt*/selectors.{yaml,yml}"
       },
       {
         "url": "https://raw.githubusercontent.com/dcermak/vscode-rke-cluster-config/main/schemas/cluster.json",
