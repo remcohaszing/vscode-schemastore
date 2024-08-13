@@ -88,7 +88,7 @@ for (const [urls, matches] of schemasByUrls) {
     const name = match
       .replaceAll(/\b(json|schema)\b/g, '')
       .replaceAll('*', '')
-      .replaceAll(/\W+/g, '-')
+      .replaceAll(/[\W_]+/g, '-')
       .replaceAll(/(^-|-$)/g, '')
     url = `./schemas/${name}.schema.json`
     await writeFile(
