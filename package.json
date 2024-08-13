@@ -29,11 +29,11 @@
   },
   "devDependencies": {
     "@schemastore/schema-catalog": "^0.0.6",
-    "@types/braces": "3.0.0",
+    "@types/braces": "^3.0.0",
     "@types/node": "^20.0.0",
     "@types/semver": "^7.0.0",
     "@vscode/vsce": "^2.0.0",
-    "braces": "3.0.0",
+    "braces": "^3.0.0",
     "eslint": "^8.0.0",
     "eslint-config-remcohaszing": "^10.0.0",
     "ovsx": "^0.9.0",
