@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.167",
+  "version": "1.0.168",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -173,7 +173,7 @@
         "fileMatch": "plagiarize.json"
       },
       {
-        "url": "./schemas/postman_collection.schema.json",
+        "url": "./schemas/postman-collection.schema.json",
         "fileMatch": "*.postman_collection.json"
       },
       {
@@ -1681,6 +1681,13 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/codifyCLI/codify-schemas/main/src/schemastore/codify-schema.json",
+        "fileMatch": [
+          "*.codify.json",
+          "codify.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/common-workflow-lab/cwl-ts-auto/main/json_schemas/cwl_schema.json",
         "fileMatch": "*.cwl"
       },
@@ -1955,7 +1962,7 @@
       },
       {
         "url": "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json",
-        "fileMatch": "*.mirrord.+(toml|json|y?(a)ml)"
+        "fileMatch": "*.mirrord.json"
       },
       {
         "url": "https://raw.githubusercontent.com/microsoft/MLOS/main/mlos_bench/mlos_bench/config/schemas/mlos-bench-config-schema.json",
