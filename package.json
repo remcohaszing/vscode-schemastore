@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.168",
+  "version": "1.0.169",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -645,6 +645,10 @@
       {
         "url": "https://json.schemastore.org/electron-builder.json",
         "fileMatch": "electron-builder.json"
+      },
+      {
+        "url": "https://json.schemastore.org/elm.json",
+        "fileMatch": "elm.json"
       },
       {
         "url": "https://json.schemastore.org/embrace-config-schema-1.0.0.json",
