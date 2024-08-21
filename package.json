@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.169",
+  "version": "1.0.170",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -823,8 +823,8 @@
       {
         "url": "https://json.schemastore.org/jsdoc-1.0.0.json",
         "fileMatch": [
-          "conf.js*",
-          "jsdoc.js*"
+          "conf.json",
+          "jsdoc.json"
         ]
       },
       {
