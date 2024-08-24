@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.170",
+  "version": "1.0.171",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -425,6 +425,10 @@
       {
         "url": "https://json.schemastore.org/avro-avsc.json",
         "fileMatch": "*.avsc"
+      },
+      {
+        "url": "https://json.schemastore.org/aws-cdk-appconfig-featureflags-1.0.0.json",
+        "fileMatch": "*.appConfig.featureFlags.json"
       },
       {
         "url": "https://json.schemastore.org/azure-containerapp-template.json",
