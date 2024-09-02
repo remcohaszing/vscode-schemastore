@@ -8,6 +8,9 @@
     },
     {
       "$ref": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/abc-supply-plan-4.0.0.json"
     }
   ]
 }

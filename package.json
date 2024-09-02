@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.173",
+  "version": "1.0.174",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -369,6 +369,10 @@
       {
         "url": "https://json-schema.org/draft-07/schema",
         "fileMatch": "*.schema.json"
+      },
+      {
+        "url": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
+        "fileMatch": "abc-inventory-module-data-*.json"
       },
       {
         "url": "https://json.schemastore.org/aiconfig-1.0.json",
