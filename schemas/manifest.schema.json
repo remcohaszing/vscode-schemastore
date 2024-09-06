@@ -8,9 +8,6 @@
     },
     {
       "$ref": "https://json.schemastore.org/webextension.json"
-    },
-    {
-      "$ref": "https://json.schemastore.org/youtrack-app.json"
     }
   ]
 }
