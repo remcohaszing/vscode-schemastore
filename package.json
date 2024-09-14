@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.177",
+  "version": "1.0.178",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -276,6 +276,10 @@
       {
         "url": "https://deta.space/assets/spacefile.schema.json",
         "fileMatch": "Spacefile"
+      },
+      {
+        "url": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+        "fileMatch": "tsdoc.json"
       },
       {
         "url": "https://docs.renovatebot.com/renovate-schema.json",
