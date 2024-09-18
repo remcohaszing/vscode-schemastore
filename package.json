@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.178",
+  "version": "1.0.179",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1483,6 +1483,14 @@
       {
         "url": "https://json.schemastore.org/webjobs-list.json",
         "fileMatch": "webjobs-list.json"
+      },
+      {
+        "url": "https://json.schemastore.org/winutil-applications.json",
+        "fileMatch": "*winutil*/config/applications.json"
+      },
+      {
+        "url": "https://json.schemastore.org/winutil-preset.json",
+        "fileMatch": "*winutil*/config/preset.json"
       },
       {
         "url": "https://json.schemastore.org/workflows.json",
