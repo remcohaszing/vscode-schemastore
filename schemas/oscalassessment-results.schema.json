@@ -1,0 +1,34 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_assessment-results_schema.json"
+    },
+    {
+      "$ref": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-results_schema.json"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.179",
+  "version": "1.0.180",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -159,6 +159,43 @@
       {
         "url": "./schemas/openapi.schema.json",
         "fileMatch": "openapi.json"
+      },
+      {
+        "url": "./schemas/oscalassessment-plan.schema.json",
+        "fileMatch": [
+          "oscal*assessment-plan.json",
+          "oscal*assessment_plan.json"
+        ]
+      },
+      {
+        "url": "./schemas/oscalassessment-results.schema.json",
+        "fileMatch": [
+          "oscal*assessment-results.json",
+          "oscal*assessment_results.json"
+        ]
+      },
+      {
+        "url": "./schemas/oscalcatalog.schema.json",
+        "fileMatch": "oscal*catalog.json"
+      },
+      {
+        "url": "./schemas/oscalcomponent.schema.json",
+        "fileMatch": [
+          "oscal*cdef.json",
+          "oscal*component.json"
+        ]
+      },
+      {
+        "url": "./schemas/oscalpoam.schema.json",
+        "fileMatch": "oscal*poam.json"
+      },
+      {
+        "url": "./schemas/oscalprofile.schema.json",
+        "fileMatch": "oscal*profile.json"
+      },
+      {
+        "url": "./schemas/oscalssp.schema.json",
+        "fileMatch": "oscal*ssp.json"
       },
       {
         "url": "./schemas/package-manifest.schema.json",
