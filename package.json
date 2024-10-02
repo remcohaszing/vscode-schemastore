@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.180",
+  "version": "1.0.181",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -390,26 +390,6 @@
       {
         "url": "https://html-validate.org/schemas/config.json",
         "fileMatch": ".htmlvalidate.json"
-      },
-      {
-        "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json",
-        "fileMatch": "*batch-job-config*.json"
-      },
-      {
-        "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json",
-        "fileMatch": "*data-connector.json"
-      },
-      {
-        "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json",
-        "fileMatch": "*contract.json"
-      },
-      {
-        "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json",
-        "fileMatch": "*simple-schema*.json"
-      },
-      {
-        "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json",
-        "fileMatch": "*stream.json"
       },
       {
         "url": "https://json-schema.org/draft-07/schema",
