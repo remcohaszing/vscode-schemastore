@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.183",
+  "version": "1.0.184",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2296,6 +2296,13 @@
           ".graphqlrc",
           ".graphqlrc.json",
           "graphql.config.json"
+        ]
+      },
+      {
+        "url": "https://waku.ngjx.org/static/schema.json",
+        "fileMatch": [
+          ".waku.json",
+          "waku.json"
         ]
       },
       {
