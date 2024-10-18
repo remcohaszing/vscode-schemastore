@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.184",
+  "version": "1.0.185",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -434,6 +434,10 @@
       {
         "url": "https://json.schemastore.org/appsscript.json",
         "fileMatch": "appsscript.json"
+      },
+      {
+        "url": "https://json.schemastore.org/architectfx.json",
+        "fileMatch": "*.jdsl"
       },
       {
         "url": "https://json.schemastore.org/asconfig-schema.json",
