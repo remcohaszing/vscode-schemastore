@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.185",
+  "version": "1.0.186",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -286,10 +286,6 @@
       {
         "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
         "fileMatch": "data/*/recipes/**/*.json"
-      },
-      {
-        "url": "https://api.airplane.dev/v0/schemas/task.json",
-        "fileMatch": "*.task.json"
       },
       {
         "url": "https://blockprotocol.org/schemas/block-metadata.json",
@@ -1688,7 +1684,7 @@
         "fileMatch": "modules/*/metadata.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/master/skyuxconfig-schema.json",
+        "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/4.x.x/skyuxconfig-schema.json",
         "fileMatch": [
           "skyuxconfig.*.json",
           "skyuxconfig.json"
@@ -1706,6 +1702,10 @@
           "buildkite.*.json",
           "buildkite.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/CCDirectLink/CCModDB/refs/heads/master/ccmod-json-schema.json",
+        "fileMatch": "ccmod.json"
       },
       {
         "url": "https://raw.githubusercontent.com/chainguard-dev/apko/main/pkg/build/types/schema.json",
@@ -1734,7 +1734,7 @@
         "fileMatch": "*@*/**/settings-schema.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/clawject/src/compile-time/config/schema.json",
+        "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/core/src/config/schema.json",
         "fileMatch": [
           ".clawjectrc",
           ".clawjectrc.json"
@@ -2240,7 +2240,7 @@
         "fileMatch": "pricing.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/cli/src/generate/grammar-schema.json",
+        "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json",
         "fileMatch": "grammar.json"
       },
       {
@@ -2310,10 +2310,6 @@
         ]
       },
       {
-        "url": "https://webcomponents.dev/assets2/schemas/studio.config.json",
-        "fileMatch": "studio.config.json"
-      },
-      {
         "url": "https://wixplosives.github.io/codux-config-schema/codux.config.schema.json",
         "fileMatch": "codux.config.json"
       },
@@ -2324,10 +2320,6 @@
       {
         "url": "https://www.cardgamesimulator.com/schema/CardGameDef.json",
         "fileMatch": "CardGameDef.json"
-      },
-      {
-        "url": "https://www.facets.cloud/assets/fsdl/application.schema.json",
-        "fileMatch": "application/instances/*.json"
       },
       {
         "url": "https://www.graphql-code-generator.com/config.schema.json",

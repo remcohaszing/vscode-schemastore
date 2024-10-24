@@ -1,10 +1,10 @@
 {
   "anyOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.0/schema.json"
+      "$ref": "https://spec.openapis.org/oas/3.0/schema/2021-09-28"
     },
     {
-      "$ref": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json"
+      "$ref": "https://spec.openapis.org/oas/3.1/schema/2022-10-07"
     }
   ]
 }

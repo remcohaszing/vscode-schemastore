@@ -13,7 +13,10 @@
       "$ref": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.8.x/schema/workflow.json"
     },
     {
-      "$ref": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.json"
+      "$ref": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.9.x/schema/workflow.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.yaml"
     }
   ]
 }
