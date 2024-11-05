@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+    }
+  ]
+}

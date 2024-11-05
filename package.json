@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.186",
+  "version": "1.0.187",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -257,6 +257,20 @@
       {
         "url": "./schemas/v2ray.schema.json",
         "fileMatch": "v2ray/*.json"
+      },
+      {
+        "url": "./schemas/venvironment-basic.schema.json",
+        "fileMatch": [
+          "*.venvironment-basic.json",
+          "venvironment-basic.json"
+        ]
+      },
+      {
+        "url": "./schemas/venvironment.schema.json",
+        "fileMatch": [
+          "*.venvironment.json",
+          "venvironment.json"
+        ]
       },
       {
         "url": "./schemas/versionrc.schema.json",
@@ -1423,20 +1437,6 @@
         "fileMatch": [
           "*.vg",
           "*.vg.json"
-        ]
-      },
-      {
-        "url": "https://json.schemastore.org/venvironment-basic-schema.json",
-        "fileMatch": [
-          "*.venvironment-basic.json",
-          "venvironment-basic.json"
-        ]
-      },
-      {
-        "url": "https://json.schemastore.org/venvironment-schema.json",
-        "fileMatch": [
-          "*.venvironment.json",
-          "venvironment.json"
         ]
       },
       {

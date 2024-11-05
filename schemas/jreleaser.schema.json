@@ -19,6 +19,9 @@
       "$ref": "https://json.schemastore.org/jreleaser-1.14.0.json"
     },
     {
+      "$ref": "https://json.schemastore.org/jreleaser-1.15.0.json"
+    },
+    {
       "$ref": "https://json.schemastore.org/jreleaser-1.6.0.json"
     },
     {
