@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.188",
+  "version": "1.0.189",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -278,6 +278,10 @@
           ".versionrc",
           ".versionrc.json"
         ]
+      },
+      {
+        "url": "./schemas/vtesttree.schema.json",
+        "fileMatch": "*.vtesttree.json"
       },
       {
         "url": "./schemas/xunit-runner.schema.json",
@@ -1479,10 +1483,6 @@
         "fileMatch": "vss-extension.json"
       },
       {
-        "url": "https://json.schemastore.org/vtesttree-schema.json",
-        "fileMatch": "*.vtesttree.json"
-      },
-      {
         "url": "https://json.schemastore.org/vtestunit-schema.json",
         "fileMatch": "*.vtestunit.json"
       },
@@ -2249,6 +2249,13 @@
       {
         "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json",
         "fileMatch": "grammar.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/usecannon/cannon/main/packages/lsp/src/schema.json",
+        "fileMatch": [
+          "*.cannonfile.json",
+          "cannonfile.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/webcomponents/custom-elements-manifest/main/schema.json",
