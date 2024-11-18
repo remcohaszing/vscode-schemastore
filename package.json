@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.190",
+  "version": "1.0.191",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1945,7 +1945,7 @@
         "fileMatch": "zcodeformat.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json",
+        "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.admin/master/packages/jsonConfig/schemas/jsonConfig.json",
         "fileMatch": [
           "jsonConfig.json",
           "jsonCustom.json",
