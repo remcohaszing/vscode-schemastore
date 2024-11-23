@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.191",
+  "version": "1.0.192",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -369,6 +369,13 @@
       {
         "url": "https://github.com/abstracta/jmeter-java-dsl/releases/latest/download/jmdsl-config-schema.json",
         "fileMatch": "*.jmdsl.json"
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-config.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.config.json",
+          "cloudcannon.config.json"
+        ]
       },
       {
         "url": "https://github.com/goss-org/goss/raw/master/docs/schema.yaml",

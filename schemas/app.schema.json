@@ -20,6 +20,12 @@
     },
     {
       "$ref": "https://json.schemastore.org/expo-46.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-50.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/expo-52.0.0.json"
     }
   ]
 }
