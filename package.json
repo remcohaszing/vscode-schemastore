@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.192",
+  "version": "1.0.193",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1696,6 +1696,10 @@
       {
         "url": "https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main/metadata.schema.json",
         "fileMatch": "modules/*/metadata.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json",
+        "fileMatch": "*.bitmovin.json"
       },
       {
         "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/4.x.x/skyuxconfig-schema.json",
