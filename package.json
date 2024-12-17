@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.195",
+  "version": "1.0.196",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -304,6 +304,13 @@
       {
         "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
         "fileMatch": "data/*/recipes/**/*.json"
+      },
+      {
+        "url": "https://biomejs.dev/schemas/latest/schema.json",
+        "fileMatch": [
+          "biome.json",
+          "biome.jsonc"
+        ]
       },
       {
         "url": "https://blockprotocol.org/schemas/block-metadata.json",
@@ -1700,13 +1707,6 @@
       {
         "url": "https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main/metadata.schema.json",
         "fileMatch": "modules/*/metadata.json"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/biomejs/biome/refs/heads/main/packages/%40biomejs/biome/configuration_schema.json",
-        "fileMatch": [
-          "biome.json",
-          "biome.jsonc"
-        ]
       },
       {
         "url": "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json",
