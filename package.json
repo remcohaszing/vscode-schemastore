@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.196",
+  "version": "1.0.197",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -706,6 +706,10 @@
       {
         "url": "https://json.schemastore.org/dotnetcli.host.json",
         "fileMatch": "dotnetcli.host.json"
+      },
+      {
+        "url": "https://json.schemastore.org/dtool-dataset-metadata-1.0.json",
+        "fileMatch": "dtool-dataset.json"
       },
       {
         "url": "https://json.schemastore.org/easyvcr-net.json",
