@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.198",
+  "version": "1.0.199",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -693,6 +693,13 @@
         "fileMatch": [
           "docker.json",
           "dockerd.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/dofigen.json",
+        "fileMatch": [
+          "*.dofigen.json",
+          "dofigen.json"
         ]
       },
       {
@@ -2206,6 +2213,10 @@
       {
         "url": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
         "fileMatch": "config-g2p.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rstudio/renv/refs/heads/main/inst/schema/draft-07.renv.lock.schema.json",
+        "fileMatch": "renv.lock"
       },
       {
         "url": "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json",
