@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.200",
+  "version": "1.0.201",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -83,6 +83,13 @@
       {
         "url": "./schemas/block.schema.json",
         "fileMatch": "block.json"
+      },
+      {
+        "url": "./schemas/bom.schema.json",
+        "fileMatch": [
+          "*.cdx.json",
+          "bom.json"
+        ]
       },
       {
         "url": "./schemas/cncc.schema.json",
