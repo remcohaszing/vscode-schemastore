@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.201",
+  "version": "1.0.202",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -947,15 +947,6 @@
       {
         "url": "https://json.schemastore.org/launchsettings.json",
         "fileMatch": "launchsettings.json"
-      },
-      {
-        "url": "https://json.schemastore.org/lefthook.json",
-        "fileMatch": [
-          ".lefthook-local.json",
-          ".lefthook.json",
-          "lefthook-local.json",
-          "lefthook.json"
-        ]
       },
       {
         "url": "https://json.schemastore.org/lego.json",
@@ -1934,6 +1925,15 @@
         "fileMatch": [
           "*.flow.json",
           "flow.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/evilmartians/lefthook/master/schema.json",
+        "fileMatch": [
+          ".lefthook-local.json",
+          ".lefthook.json",
+          "lefthook-local.json",
+          "lefthook.json"
         ]
       },
       {
