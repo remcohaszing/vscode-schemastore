@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.203",
+  "version": "1.0.204",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -559,6 +559,10 @@
       {
         "url": "https://json.schemastore.org/browser.i18n.json",
         "fileMatch": "messages.json"
+      },
+      {
+        "url": "https://json.schemastore.org/bun.lock.json",
+        "fileMatch": "bun.lock"
       },
       {
         "url": "https://json.schemastore.org/bundleconfig.json",
@@ -1954,11 +1958,15 @@
       },
       {
         "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/environment-schema.json",
-        "fileMatch": "environments/*-cha.json"
+        "fileMatch": "*.environment.chamaleon.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/properties-schema.json",
+        "fileMatch": "properties.chamaleon.json"
       },
       {
         "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/template-schema.json",
-        "fileMatch": "environments/cha-template.json"
+        "fileMatch": "template.chamaleon.json"
       },
       {
         "url": "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json",
