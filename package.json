@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.204",
+  "version": "1.0.205",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1389,10 +1389,6 @@
         "fileMatch": "swagger.json"
       },
       {
-        "url": "https://json.schemastore.org/swcrc.json",
-        "fileMatch": ".swcrc"
-      },
-      {
         "url": "https://json.schemastore.org/task.json",
         "fileMatch": [
           "task.json",
@@ -2366,6 +2362,10 @@
       {
         "url": "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json",
         "fileMatch": "*.ndst.json"
+      },
+      {
+        "url": "https://swc.rs/schema.json",
+        "fileMatch": ".swcrc"
       },
       {
         "url": "https://tstyche.org/schemas/config.json",
