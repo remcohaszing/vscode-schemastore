@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.205",
+  "version": "1.0.206",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -561,7 +561,7 @@
         "fileMatch": "messages.json"
       },
       {
-        "url": "https://json.schemastore.org/bun.lock.json",
+        "url": "https://json.schemastore.org/bun-lock.json",
         "fileMatch": "bun.lock"
       },
       {
@@ -2415,8 +2415,8 @@
         "fileMatch": "*asyncapi*.json"
       },
       {
-        "url": "https://www.cardgamesimulator.com/schema/CardGameDef.json",
-        "fileMatch": "CardGameDef.json"
+        "url": "https://www.cardgamesimulator.com/schema/cgs.json",
+        "fileMatch": "cgs.json"
       },
       {
         "url": "https://www.graphql-code-generator.com/config.schema.json",
