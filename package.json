@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.206",
+  "version": "1.0.207",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2276,6 +2276,10 @@
           "*_cv.json",
           "*_cv.json5"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SlavaVedernikov/C4InterFlow/refs/heads/master/C4InterFlow/schema.json",
+        "fileMatch": "*.c4interflow.json"
       },
       {
         "url": "https://raw.githubusercontent.com/spectral-discord/TSON/main/schema/tson.json",
