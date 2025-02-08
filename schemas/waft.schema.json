@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.0.0/waf-tests-schema-v2.0.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.1.0/waf-tests-schema-v2.1.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.2.0/waf-tests-schema-v2.2.0.json"
+    }
+  ]
+}
