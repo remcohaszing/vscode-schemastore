@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.210",
+  "version": "1.0.211",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -319,6 +319,10 @@
       {
         "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
         "fileMatch": "data/*/recipes/**/*.json"
+      },
+      {
+        "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json",
+        "fileMatch": ".gitpod/automations.json"
       },
       {
         "url": "https://biomejs.dev/schemas/latest/schema.json",
@@ -1480,6 +1484,10 @@
         "fileMatch": ".uproject"
       },
       {
+        "url": "https://json.schemastore.org/vector.json",
+        "fileMatch": "vector.json"
+      },
+      {
         "url": "https://json.schemastore.org/vega-lite.json",
         "fileMatch": [
           "*.vl",
@@ -2248,6 +2256,10 @@
       {
         "url": "https://raw.githubusercontent.com/sapphiredev/cli/main/templates/schemas/.sapphirerc.scheme.json",
         "fileMatch": ".sapphirerc.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Scalingo/developers-documentation/refs/heads/master/scalingo.schema.json",
+        "fileMatch": "scalingo.json"
       },
       {
         "url": "https://raw.githubusercontent.com/Scandltd/storm-petrel/main/generator/assets/appsettings.StormPetrel.Schema.json",
