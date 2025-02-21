@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.211",
+  "version": "1.0.212",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -595,6 +595,14 @@
       {
         "url": "https://json.schemastore.org/chutzpah.json",
         "fileMatch": "chutzpah.json"
+      },
+      {
+        "url": "https://json.schemastore.org/cinnamon-spice-metadata.json",
+        "fileMatch": "*@*/**/metadata.json"
+      },
+      {
+        "url": "https://json.schemastore.org/cinnamon-spice-settings.json",
+        "fileMatch": "*@*/**/settings-schema.json"
       },
       {
         "url": "https://json.schemastore.org/clang-format.json",
@@ -1792,14 +1800,6 @@
         "fileMatch": ".v8rrc.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/cinnamon-spice-metadata.json",
-        "fileMatch": "*@*/**/metadata.json"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/cinnamon-spice-settings.json",
-        "fileMatch": "*@*/**/settings-schema.json"
-      },
-      {
         "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/core/src/config/schema.json",
         "fileMatch": [
           ".clawjectrc",
@@ -2075,7 +2075,7 @@
         "fileMatch": "*.ksy"
       },
       {
-        "url": "https://raw.githubusercontent.com/karakum-team/karakum/master/schema/karakum-schema.json",
+        "url": "https://raw.githubusercontent.com/karakum-team/karakum/master/karakum-schema/karakum-schema.json",
         "fileMatch": "karakum.config.json"
       },
       {

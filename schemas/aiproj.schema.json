@@ -14,6 +14,9 @@
     },
     {
       "$ref": "https://json.schemastore.org/aiproj-1.4.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/aiproj-1.5.json"
     }
   ]
 }
