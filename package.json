@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.214",
+  "version": "1.0.215",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2360,6 +2360,10 @@
       {
         "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json",
         "fileMatch": "grammar.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/TykTechnologies/tyk-schemas/refs/heads/main/JSON/draft-07/schema_tyk.oss.conf",
+        "fileMatch": "tyk.conf"
       },
       {
         "url": "https://raw.githubusercontent.com/usecannon/cannon/main/packages/lsp/src/schema.json",
