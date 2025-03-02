@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.215",
+  "version": "1.0.216",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2370,6 +2370,15 @@
         "fileMatch": [
           "*.cannonfile.json",
           "cannonfile.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/USF-org/USF/refs/heads/main/usf.schema.json",
+        "fileMatch": [
+          "*.usf",
+          "*.usf.json",
+          ".usf.json",
+          "usf.json"
         ]
       },
       {
