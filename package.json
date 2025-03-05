@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.216",
+  "version": "1.0.217",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -349,6 +349,10 @@
       {
         "url": "https://chat-agents.lobehub.com/schema/lobeAgentSchema_v1.json",
         "fileMatch": "lobe-agent.json"
+      },
+      {
+        "url": "https://cps-org.github.io/cps/cps.schema.json",
+        "fileMatch": "*.cps"
       },
       {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
