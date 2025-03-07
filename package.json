@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.217",
+  "version": "1.0.218",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1551,6 +1551,10 @@
       {
         "url": "https://json.schemastore.org/vss-extension.json",
         "fileMatch": "vss-extension.json"
+      },
+      {
+        "url": "https://json.schemastore.org/vtcfg-v19.0.0.json",
+        "fileMatch": "*.vtcfg"
       },
       {
         "url": "https://json.schemastore.org/vtestunit-schema.json",
