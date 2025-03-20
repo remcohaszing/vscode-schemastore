@@ -8,6 +8,9 @@
     },
     {
       "$ref": "https://json.schemastore.org/abc-inventory-module-data-3.0.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/abc-inventory-module-data-4.0.0.json"
     }
   ]
 }

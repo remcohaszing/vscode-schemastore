@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.218",
+  "version": "1.0.219",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1185,6 +1185,10 @@
       {
         "url": "https://json.schemastore.org/ocelot.json",
         "fileMatch": "ocelot.json"
+      },
+      {
+        "url": "https://json.schemastore.org/okh.json",
+        "fileMatch": "okh.json"
       },
       {
         "url": "https://json.schemastore.org/omletrc.json",
