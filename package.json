@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.219",
+  "version": "1.0.220",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -355,6 +355,13 @@
         "fileMatch": "*.cps"
       },
       {
+        "url": "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json",
+        "fileMatch": [
+          "*.cf.json",
+          "cloudformation.json"
+        ]
+      },
+      {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
         "fileMatch": "*.dhub.json"
       },
@@ -672,6 +679,10 @@
       {
         "url": "https://json.schemastore.org/component.json",
         "fileMatch": "component.json"
+      },
+      {
+        "url": "https://json.schemastore.org/convex.json",
+        "fileMatch": "convex.json"
       },
       {
         "url": "https://json.schemastore.org/cosmos-config.json",
@@ -1188,7 +1199,7 @@
       },
       {
         "url": "https://json.schemastore.org/okh.json",
-        "fileMatch": "okh.json"
+        "fileMatch": "?(*.)okh.json"
       },
       {
         "url": "https://json.schemastore.org/omletrc.json",
@@ -1625,6 +1636,10 @@
         "fileMatch": "motif.json"
       },
       {
+        "url": "https://nodejs.org/docs/latest/node-config-schema.json",
+        "fileMatch": "node.config.json"
+      },
+      {
         "url": "https://noxorg.dev/schemas/NoxConfiguration.json",
         "fileMatch": "service.nox.json"
       },
@@ -1728,13 +1743,6 @@
           "*.sam.json",
           "sam.json",
           "serverless.template"
-        ]
-      },
-      {
-        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
-        "fileMatch": [
-          "*.cf.json",
-          "cloudformation.json"
         ]
       },
       {
