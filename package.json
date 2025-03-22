@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.220",
+  "version": "1.0.221",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2011,6 +2011,14 @@
       {
         "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
         "fileMatch": "arb.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+        "fileMatch": "release-please-config.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/manifest.json",
+        "fileMatch": ".release-please-manifest.json"
       },
       {
         "url": "https://raw.githubusercontent.com/GoogleChrome/related-website-sets/main/SCHEMA.json",
