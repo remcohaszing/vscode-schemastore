@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.221",
+  "version": "1.0.222",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -508,6 +508,10 @@
       {
         "url": "https://json.schemastore.org/aspire-8.0.json",
         "fileMatch": "aspire-manifest.json"
+      },
+      {
+        "url": "https://json.schemastore.org/assetlinks.json",
+        "fileMatch": "assetlinks.json"
       },
       {
         "url": "https://json.schemastore.org/ava.json",
