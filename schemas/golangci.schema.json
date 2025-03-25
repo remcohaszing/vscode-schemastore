@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://golangci-lint.run/jsonschema/golangci.jsonschema.json"
+    },
+    {
+      "$ref": "https://golangci-lint.run/jsonschema/golangci.v1.jsonschema.json"
+    },
+    {
+      "$ref": "https://golangci-lint.run/jsonschema/golangci.v2.jsonschema.json"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.223",
+  "version": "1.0.224",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -142,6 +142,10 @@
       {
         "url": "./schemas/gaspar-config.schema.json",
         "fileMatch": "gaspar.config.json"
+      },
+      {
+        "url": "./schemas/golangci.schema.json",
+        "fileMatch": ".golangci.json"
       },
       {
         "url": "./schemas/importmanifest.schema.json",
@@ -437,10 +441,6 @@
       {
         "url": "https://gitlab.com/sbenv/veroxis/ezd-rs/-/raw/HEAD/ezd.schema.json",
         "fileMatch": "ezd.json"
-      },
-      {
-        "url": "https://golangci-lint.run/jsonschema/golangci.jsonschema.json",
-        "fileMatch": ".golangci.json"
       },
       {
         "url": "https://hazelcast.com/schema/config/hazelcast-config-5.5.json",
