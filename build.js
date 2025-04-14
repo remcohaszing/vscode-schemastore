@@ -8,7 +8,7 @@ import braces from 'braces'
 import semver from 'semver'
 
 /**
- * @typedef {object} JSONValidation
+ * @typedef JSONValidation
  * @property {string | string[]} fileMatch
  *   The file pattern (or an array of patterns) to match, for example "package.json" or "*.launch".
  *   Exclusion patterns start with '!'

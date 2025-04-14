@@ -1,7 +1,0 @@
-root: true
-extends: remcohaszing
-rules:
-  no-console: off
-  import/no-extraneous-dependencies: off
-  jsdoc/check-indentation: off
-  n/shebang: off
