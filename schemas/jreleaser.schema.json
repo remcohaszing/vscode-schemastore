@@ -28,6 +28,9 @@
       "$ref": "https://json.schemastore.org/jreleaser-1.17.0.json"
     },
     {
+      "$ref": "https://json.schemastore.org/jreleaser-1.18.0.json"
+    },
+    {
       "$ref": "https://json.schemastore.org/jreleaser-1.6.0.json"
     },
     {

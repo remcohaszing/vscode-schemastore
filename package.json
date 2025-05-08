@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.225",
+  "version": "1.0.226",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1515,6 +1515,10 @@
       {
         "url": "https://json.schemastore.org/uproject.json",
         "fileMatch": ".uproject"
+      },
+      {
+        "url": "https://json.schemastore.org/utcm-monitor.json",
+        "fileMatch": "*.utcm-monitor.json"
       },
       {
         "url": "https://json.schemastore.org/vector.json",
