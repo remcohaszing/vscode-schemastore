@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.226",
+  "version": "1.0.227",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -358,7 +358,7 @@
         "fileMatch": "*.cps"
       },
       {
-        "url": "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json",
+        "url": "https://d1uauaxba7bl26.cloudfront.net/latest/CloudFormationResourceSpecification.json",
         "fileMatch": [
           "*.cf.json",
           "cloudformation.json"
