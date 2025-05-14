@@ -1,13 +1,11 @@
-import config from '@remcohaszing/eslint'
+import { define } from '@remcohaszing/eslint'
 
-export default [
-  ...config,
+export default define([
   {
     rules: {
       'no-console': 'off',
       'import-x/no-extraneous-dependencies': 'off',
-      'jsdoc/check-indentation': 'off',
       'n/hashbang': 'off'
     }
   }
-]
+])
