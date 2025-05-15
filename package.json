@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.227",
+  "version": "1.0.228",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2284,6 +2284,15 @@
         "fileMatch": "bsconfig.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/rivet-gg/rivet/refs/heads/main/site/src/content/docs/toolchain-spec.json",
+        "fileMatch": [
+          "rivet.*.json",
+          "rivet.*.jsonc",
+          "rivet.json",
+          "rivet.jsonc"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/rocksdanister/lively/core-separation/schemas/livelyPropertiesSchema.json",
         "fileMatch": "LivelyProperties.json"
       },
@@ -2438,13 +2447,6 @@
       {
         "url": "https://raw.githubusercontent.com/zyedidia/micro/master/data/micro.json",
         "fileMatch": ".config/micro/settings.json"
-      },
-      {
-        "url": "https://rivet.gg/rivet.schema.json",
-        "fileMatch": [
-          "rivet.*.json",
-          "rivet.json"
-        ]
       },
       {
         "url": "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json",
