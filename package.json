@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.229",
+  "version": "1.0.230",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -356,13 +356,6 @@
       {
         "url": "https://cps-org.github.io/cps/cps.schema.json",
         "fileMatch": "*.cps"
-      },
-      {
-        "url": "https://d1uauaxba7bl26.cloudfront.net/latest/CloudFormationResourceSpecification.json",
-        "fileMatch": [
-          "*.cf.json",
-          "cloudformation.json"
-        ]
       },
       {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
@@ -1453,6 +1446,18 @@
         "fileMatch": "testEnvironments.json"
       },
       {
+        "url": "https://json.schemastore.org/ti8m-cdk-concrete-environment-config.json",
+        "fileMatch": "environment_config/*.json"
+      },
+      {
+        "url": "https://json.schemastore.org/ti8m-cdk-concrete-environments.json",
+        "fileMatch": "concrete-environments.json"
+      },
+      {
+        "url": "https://json.schemastore.org/ti8m-cdk-environment-definition.json",
+        "fileMatch": "environment-definition.json"
+      },
+      {
         "url": "https://json.schemastore.org/tldr.json",
         "fileMatch": ".tldr.json"
       },
@@ -1536,6 +1541,20 @@
         "fileMatch": [
           "*.vg",
           "*.vg.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/venvplus-basic-schema-v1.0.0.json",
+        "fileMatch": [
+          "*.venvplus-basic.json",
+          "venvplus-basic.json"
+        ]
+      },
+      {
+        "url": "https://json.schemastore.org/venvplus-schema-v1.0.0.json",
+        "fileMatch": [
+          "*.venvplus.json",
+          "venvplus.json"
         ]
       },
       {
@@ -1753,6 +1772,13 @@
           "*.sam.json",
           "sam.json",
           "serverless.template"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
+        "fileMatch": [
+          "*.cf.json",
+          "cloudformation.json"
         ]
       },
       {

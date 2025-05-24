@@ -17,6 +17,9 @@
     },
     {
       "$ref": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+    },
+    {
+      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v4.0.0.json"
     }
   ]
 }
