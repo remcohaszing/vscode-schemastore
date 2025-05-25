@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.230",
+  "version": "1.0.231",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1319,6 +1319,13 @@
       {
         "url": "https://json.schemastore.org/resjson.json",
         "fileMatch": "*.resjson"
+      },
+      {
+        "url": "https://json.schemastore.org/roomodes.json",
+        "fileMatch": [
+          "*.roomodes",
+          ".roomodes"
+        ]
       },
       {
         "url": "https://json.schemastore.org/rust-project.json",
