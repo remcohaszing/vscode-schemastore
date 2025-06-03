@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.231",
+  "version": "1.0.232",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -413,6 +413,10 @@
       {
         "url": "https://github.com/goss-org/goss/raw/master/docs/schema.yaml",
         "fileMatch": "goss.json"
+      },
+      {
+        "url": "https://github.com/openstatusHQ/json-schema/releases/download/v1.0.0/schema.json",
+        "fileMatch": "openstatus.json"
       },
       {
         "url": "https://gitlab.cern.ch/steam/fiqus/-/raw/master/docs/schema.json",
