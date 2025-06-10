@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.233",
+  "version": "1.0.234",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1254,6 +1254,10 @@
       {
         "url": "https://json.schemastore.org/powerpages-web-template-manifest.json",
         "fileMatch": ".powerpages-web-template-manifest"
+      },
+      {
+        "url": "https://json.schemastore.org/powerpages.config.json",
+        "fileMatch": "powerpages.config.json"
       },
       {
         "url": "https://json.schemastore.org/proxies.json",
