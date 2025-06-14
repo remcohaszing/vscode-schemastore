@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.234",
+  "version": "1.0.235",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2386,6 +2386,13 @@
           "*.jd2mcr",
           "*.jd2mcr.json",
           "*.linkcrawlerrules.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ShaitanLyss/these/main/hecate/hecate-json-schema.json",
+        "fileMatch": [
+          "*.hecate",
+          "*.hecate.json"
         ]
       },
       {
