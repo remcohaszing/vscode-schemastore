@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.235",
+  "version": "1.0.236",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -122,6 +122,30 @@
           ".devinit.json",
           "devinit.json"
         ]
+      },
+      {
+        "url": "./schemas/everyvoice-aligner.schema.json",
+        "fileMatch": "everyvoice-aligner.json"
+      },
+      {
+        "url": "./schemas/everyvoice-shared-data.schema.json",
+        "fileMatch": "everyvoice-shared-data.json"
+      },
+      {
+        "url": "./schemas/everyvoice-shared-text.schema.json",
+        "fileMatch": "everyvoice-shared-text.json"
+      },
+      {
+        "url": "./schemas/everyvoice-spec-to-wav.schema.json",
+        "fileMatch": "everyvoice-spec-to-wav.json"
+      },
+      {
+        "url": "./schemas/everyvoice-text-to-spec.schema.json",
+        "fileMatch": "everyvoice-text-to-spec.json"
+      },
+      {
+        "url": "./schemas/everyvoice-text-to-wav.schema.json",
+        "fileMatch": "everyvoice-text-to-wav.json"
       },
       {
         "url": "./schemas/feed.schema.json",

@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.3.json"
+    }
+  ]
+}
