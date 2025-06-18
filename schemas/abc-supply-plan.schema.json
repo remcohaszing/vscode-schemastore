@@ -4,6 +4,9 @@
       "$ref": "https://json.schemastore.org/abc-supply-plan-1.0.0.json"
     },
     {
+      "$ref": "https://json.schemastore.org/abc-supply-plan-10.0.0.json"
+    },
+    {
       "$ref": "https://json.schemastore.org/abc-supply-plan-2.0.0.json"
     },
     {
