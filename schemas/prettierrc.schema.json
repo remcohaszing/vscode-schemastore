@@ -1,13 +1,13 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/prettierrc-1.8.2.json"
+      "$ref": "https://www.schemastore.org/prettierrc-1.8.2.json"
     },
     {
-      "$ref": "https://json.schemastore.org/prettierrc-2.8.8.json"
+      "$ref": "https://www.schemastore.org/prettierrc-2.8.8.json"
     },
     {
-      "$ref": "https://json.schemastore.org/prettierrc.json"
+      "$ref": "https://www.schemastore.org/prettierrc.json"
     }
   ]
 }

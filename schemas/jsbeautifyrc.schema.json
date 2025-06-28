@@ -1,10 +1,10 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/jsbeautifyrc-nested.json"
+      "$ref": "https://www.schemastore.org/jsbeautifyrc-nested.json"
     },
     {
-      "$ref": "https://json.schemastore.org/jsbeautifyrc.json"
+      "$ref": "https://www.schemastore.org/jsbeautifyrc.json"
     }
   ]
 }

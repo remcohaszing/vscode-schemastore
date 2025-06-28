@@ -1,7 +1,7 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/xunit.runner.schema.json"
+      "$ref": "https://www.schemastore.org/xunit.runner.schema.json"
     },
     {
       "$ref": "https://xunit.net/schema/current/xunit.runner.schema.json"

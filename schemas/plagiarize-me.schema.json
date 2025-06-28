@@ -1,10 +1,10 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/plagiarize-me-0.0.json"
+      "$ref": "https://www.schemastore.org/plagiarize-me-0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/plagiarize-me.json"
+      "$ref": "https://www.schemastore.org/plagiarize-me.json"
     }
   ]
 }

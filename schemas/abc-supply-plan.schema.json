@@ -1,34 +1,34 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-1.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-1.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-10.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-10.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-2.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-2.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-3.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-4.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-4.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-5.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-5.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-6.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-6.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-7.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-7.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-8.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-8.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/abc-supply-plan-9.0.0.json"
+      "$ref": "https://www.schemastore.org/abc-supply-plan-9.0.0.json"
     }
   ]
 }

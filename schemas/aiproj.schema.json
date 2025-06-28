@@ -1,25 +1,25 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.0.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.1.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.1.json"
     },
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.2.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.2.json"
     },
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.3.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.3.json"
     },
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.4.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.4.json"
     },
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.5.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.5.json"
     },
     {
-      "$ref": "https://json.schemastore.org/aiproj-1.6.json"
+      "$ref": "https://www.schemastore.org/aiproj-1.6.json"
     }
   ]
 }

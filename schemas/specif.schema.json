@@ -1,10 +1,10 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/specif-1.0.json"
+      "$ref": "https://www.schemastore.org/specif-1.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/specif-1.1.json"
+      "$ref": "https://www.schemastore.org/specif-1.1.json"
     }
   ]
 }

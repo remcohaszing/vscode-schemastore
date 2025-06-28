@@ -1,25 +1,25 @@
 {
   "anyOf": [
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v1.0.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v1.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v1.1.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v1.1.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v2.0.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v2.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v2.1.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v3.0.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v3.0.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v3.2.0.json"
     },
     {
-      "$ref": "https://json.schemastore.org/venvironment-basic-schema-v4.0.0.json"
+      "$ref": "https://www.schemastore.org/venvironment-basic-schema-v4.0.0.json"
     }
   ]
 }
