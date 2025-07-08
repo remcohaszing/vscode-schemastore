@@ -20,6 +20,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/aiproj-1.6.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/aiproj-1.7.json"
     }
   ]
 }

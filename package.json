@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.239",
+  "version": "1.0.240",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1315,6 +1315,13 @@
       {
         "url": "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json",
         "fileMatch": ".hintrc"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/wiremock/wiremock/refs/heads/master/schemas/wiremock-stub-mapping-or-mappings.json",
+        "fileMatch": [
+          "stub-mappings.json",
+          "stubs.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/Yash-Singh1/vscode-snippets-json-schema/main/schema.json",
