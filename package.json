@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.240",
+  "version": "1.0.241",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -398,6 +398,7 @@
         "fileMatch": [
           ".renovaterc",
           ".renovaterc.json",
+          ".renovaterc.json5",
           "renovate.json",
           "renovate.json5"
         ]
