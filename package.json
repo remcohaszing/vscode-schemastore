@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.241",
+  "version": "1.0.242",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1013,6 +1013,15 @@
         "fileMatch": [
           "*.frozen",
           "*.netkan"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/libs/cli/schemas/version.schema.json",
+        "fileMatch": [
+          ".langgraph.*.json",
+          ".langgraph.json",
+          "langgraph.*.json",
+          "langgraph.json"
         ]
       },
       {
