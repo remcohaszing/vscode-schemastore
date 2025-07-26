@@ -29,6 +29,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/venvironment-schema-v4.0.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/venvironment-schema-v4.1.0.json"
     }
   ]
 }
