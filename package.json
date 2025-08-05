@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.243",
+  "version": "1.0.244",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1355,7 +1355,10 @@
       },
       {
         "url": "https://tstyche.org/schemas/config.json",
-        "fileMatch": "tstyche.config.json"
+        "fileMatch": [
+          "tstyche.config.json",
+          "tstyche.json"
+        ]
       },
       {
         "url": "https://turborepo.org/schema.json",

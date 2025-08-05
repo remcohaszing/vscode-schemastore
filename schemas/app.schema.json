@@ -26,6 +26,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/expo-52.0.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/expo-53.0.0.json"
     }
   ]
 }
