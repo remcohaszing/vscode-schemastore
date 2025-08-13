@@ -2646,7 +2646,10 @@
       },
       {
         "url": "https://www.unpkg.com/wrangler/config-schema.json",
-        "fileMatch": "wrangler.json"
+        "fileMatch": [
+          "wrangler.json",
+          "wrangler.jsonc"
+        ]
       },
       {
         "url": "https://www.updatecli.io/schema/latest/policy/manifest/config.json",
