@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.244",
+  "version": "1.0.245",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2646,7 +2646,10 @@
       },
       {
         "url": "https://www.unpkg.com/wrangler/config-schema.json",
-        "fileMatch": "wrangler.json"
+        "fileMatch": [
+          "wrangler.json",
+          "wrangler.jsonc"
+        ]
       },
       {
         "url": "https://www.updatecli.io/schema/latest/policy/manifest/config.json",
