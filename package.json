@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.245",
+  "version": "1.0.246",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -681,6 +681,13 @@
         "fileMatch": [
           "*.melange.json",
           "melange.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ChordPro/chordpro/master/lib/ChordPro/res/config/config.schema",
+        "fileMatch": [
+          "*.chordpro.json",
+          "chordpro.json"
         ]
       },
       {
