@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.246",
+  "version": "1.0.247",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2016,6 +2016,13 @@
       {
         "url": "https://www.schemastore.org/markdown-link-check.json",
         "fileMatch": ".markdown-link-check.json"
+      },
+      {
+        "url": "https://www.schemastore.org/mdxlintrc.json",
+        "fileMatch": [
+          ".mdxlintrc",
+          ".mdxlintrc.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/micro.json",
