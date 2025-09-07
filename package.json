@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.248",
+  "version": "1.0.249",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1252,6 +1252,10 @@
       {
         "url": "https://raw.githubusercontent.com/SlavaVedernikov/C4InterFlow/refs/heads/master/C4InterFlow/schema.json",
         "fileMatch": "*.c4interflow.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/space-wizards/RobustToolbox/refs/heads/master/Schemas/rsi.json",
+        "fileMatch": "*.rsi/meta.json"
       },
       {
         "url": "https://raw.githubusercontent.com/spdx/spdx-spec/refs/tags/v2.3/schemas/spdx-schema.json",
