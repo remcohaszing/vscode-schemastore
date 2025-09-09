@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.249",
+  "version": "1.0.250",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -122,6 +122,10 @@
           ".devinit.json",
           "devinit.json"
         ]
+      },
+      {
+        "url": "./schemas/eudr-x.schema.json",
+        "fileMatch": "*eudr-x.json"
       },
       {
         "url": "./schemas/everyvoice-aligner.schema.json",
