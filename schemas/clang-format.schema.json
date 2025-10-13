@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://www.schemastore.org/clang-format-18.x.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/clang-format-21.x.json"
+    }
+  ]
+}
