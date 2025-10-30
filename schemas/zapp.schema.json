@@ -20,6 +20,12 @@
     },
     {
       "$ref": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.6.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.7.0.json"
     }
   ]
 }
