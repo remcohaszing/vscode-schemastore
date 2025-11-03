@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.257",
+  "version": "1.0.258",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1421,6 +1421,16 @@
           ".graphqlrc",
           ".graphqlrc.json",
           "graphql.config.json"
+        ]
+      },
+      {
+        "url": "https://unpkg.com/knip@5/schema.json",
+        "fileMatch": [
+          ".knip.json",
+          ".knip.jsonc",
+          "knip.config.ts",
+          "knip.json",
+          "knip.jsonc"
         ]
       },
       {
