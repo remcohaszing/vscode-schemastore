@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.258",
+  "version": "1.0.259",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1182,10 +1182,6 @@
         "fileMatch": "BuildConfig.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json",
-        "fileMatch": "*.bu"
-      },
-      {
         "url": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
         "fileMatch": "bsconfig.json"
       },
@@ -1377,6 +1373,10 @@
         "fileMatch": ".config/micro/settings.json"
       },
       {
+        "url": "https://relativ-it.github.io/Butane-Schemas/Butane-Schema.json",
+        "fileMatch": "*.bu"
+      },
+      {
         "url": "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json",
         "fileMatch": "*.ndst.json"
       },
@@ -1428,7 +1428,6 @@
         "fileMatch": [
           ".knip.json",
           ".knip.jsonc",
-          "knip.config.ts",
           "knip.json",
           "knip.jsonc"
         ]
