@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.259",
+  "version": "1.0.260",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -906,6 +906,14 @@
       {
         "url": "https://raw.githubusercontent.com/goblet/goblet/main/goblet.schema.json",
         "fileMatch": ".goblet/config.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/google-gemini/gemini-cli/refs/heads/main/schemas/settings.schema.json",
+        "fileMatch": [
+          ".gemini/settings.json",
+          "GeminiCli/settings.json",
+          "gemini-cli/settings.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/google/app-resource-bundle/main/schema/arb.json",
