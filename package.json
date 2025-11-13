@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.261",
+  "version": "1.0.262",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -299,13 +299,6 @@
       {
         "url": "./schemas/v2ray.schema.json",
         "fileMatch": "v2ray/*.json"
-      },
-      {
-        "url": "./schemas/venvironment-basic.schema.json",
-        "fileMatch": [
-          "*.venvironment-basic.json",
-          "venvironment-basic.json"
-        ]
       },
       {
         "url": "./schemas/venvironment.schema.json",
@@ -1508,6 +1501,10 @@
         "fileMatch": "api.json"
       },
       {
+        "url": "https://www.schemastore.org/apollo-router-2.8.1.json",
+        "fileMatch": "apollo-router-*.json"
+      },
+      {
         "url": "https://www.schemastore.org/apple-app-site-association.json",
         "fileMatch": "apple-app-site-association"
       },
@@ -2611,13 +2608,6 @@
         "fileMatch": [
           "*.vg",
           "*.vg.json"
-        ]
-      },
-      {
-        "url": "https://www.schemastore.org/venvplus-basic-schema-v1.0.0.json",
-        "fileMatch": [
-          "*.venvplus-basic.json",
-          "venvplus-basic.json"
         ]
       },
       {
