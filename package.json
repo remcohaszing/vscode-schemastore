@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.262",
+  "version": "1.0.263",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1393,6 +1393,10 @@
       {
         "url": "https://salsa.debian.org/debian/debian-json-schemas/-/raw/main/schemas/debian-upstream-metadata/debian-upstream-metadata-latest.json",
         "fileMatch": "debian/upstream/metadata"
+      },
+      {
+        "url": "https://schema.railpack.com",
+        "fileMatch": "railpack.json"
       },
       {
         "url": "https://swc.rs/schema.json",
