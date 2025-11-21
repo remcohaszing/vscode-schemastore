@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.263",
+  "version": "1.0.264",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2287,6 +2287,20 @@
         "fileMatch": [
           "ecosystem.config.json",
           "ecosystem.json"
+        ]
+      },
+      {
+        "url": "https://www.schemastore.org/popxf-1.0.json",
+        "fileMatch": [
+          "*.popxf",
+          "*.popxf.json"
+        ]
+      },
+      {
+        "url": "https://www.schemastore.org/popxf-corr-1.0.json",
+        "fileMatch": [
+          "*.popxf-corr",
+          "*.popxf-corr.json"
         ]
       },
       {
