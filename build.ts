@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import assert from 'node:assert/strict'
 import { execSync } from 'node:child_process'
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { basename } from 'node:path'
@@ -7,33 +8,39 @@ import { isDeepStrictEqual } from 'node:util'
 import braces from 'braces'
 import semver from 'semver'
 
-/**
- * @typedef JSONValidation
- * @property {string | string[]} fileMatch
- *   The file pattern (or an array of patterns) to match, for example "package.json" or "*.launch".
- *   Exclusion patterns start with '!'
- * @property {string} url
- *   A schema URL ('http:', 'https:') or relative path to the extension folder ('./').
- */
+interface JSONValidation {
+  /**
+   * The file pattern (or an array of patterns) to match, for example "package.json" or "*.launch".
+   * Exclusion patterns start with '!'
+   */
+  fileMatch: string | string[]
+
+  /**
+   * A schema URL ('http:', 'https:') or relative path to the extension folder ('./').
+   */
+  url: string
+}
 
 const response = await fetch('https://www.schemastore.org/api/json/catalog.json')
 if (!response.ok) {
   throw new Error(await response.text())
 }
 
-/** @type {import('@schemastore/schema-catalog').JSONSchemaForSchemaStoreOrgCatalogFiles} */
 const catalog = await response.json()
+assert.ok(catalog)
+assert.ok(typeof catalog === 'object')
+assert.ok('schemas' in catalog)
+assert.ok(Array.isArray(catalog.schemas))
+
 const excludePattern = /.\.(cff|cjs|js|mjs|toml|yaml|yml)$/
 
-/** @type {JSONValidation[]} */
-const jsonValidation = []
+const jsonValidation: JSONValidation[] = []
 
 const schemasDir = new URL('schemas/', import.meta.url)
 await rm(schemasDir, { force: true, recursive: true })
 await mkdir(schemasDir)
 
-/** @type {Map<string, Set<string>>} */
-const schemasByMatch = new Map()
+const schemasByMatch = new Map<string, Set<string>>()
 
 // Collect a map where each match is mapped to a corresponding URL.
 // Some matches may match multiple schemas.
@@ -57,6 +64,7 @@ for (const { fileMatch, url, versions } of catalog.schemas) {
       }
       if (versions) {
         for (const versionUrl of Object.values(versions)) {
+          assert.ok(typeof versionUrl === 'string')
           set.add(versionUrl)
         }
       }
@@ -64,8 +72,7 @@ for (const { fileMatch, url, versions } of catalog.schemas) {
   }
 }
 
-/** @type {Map<Set<string>, Set<string>>} */
-const schemasByUrls = new Map()
+const schemasByUrls = new Map<Set<string>, Set<string>>()
 
 // Group all URLs together that share the same match.
 collectSchemas: for (const [match, urls] of schemasByMatch) {
@@ -97,8 +104,7 @@ for (const [urls, matches] of schemasByUrls) {
     )
   }
 
-  /** @type {string[]} */
-  const fileMatch = []
+  const fileMatch: string[] = []
 
   for (const match of matches) {
     const base = basename(match)

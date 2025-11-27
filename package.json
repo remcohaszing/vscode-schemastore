@@ -28,10 +28,9 @@
     "url": "https://github.com/sponsors/remcohaszing"
   },
   "devDependencies": {
-    "@schemastore/schema-catalog": "^0.0.6",
-    "@remcohaszing/eslint": "^11.0.0",
+    "@remcohaszing/eslint": "^12.0.0",
     "@types/braces": "^3.0.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@types/semver": "^7.0.0",
     "@vscode/vsce": "^3.0.0",
     "braces": "^3.0.0",

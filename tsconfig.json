@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "checkJs": true,
-    "module": "node16",
+    "erasableSyntaxOnly": true,
+    "lib": ["es2024"],
+    "module": "node20",
     "noEmit": true,
     "strict": true,
-    "target": "es2021"
+    "target": "es2024",
+    "verbatimModuleSyntax": true
   }
 }
