@@ -1,0 +1,16 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.3.json"
+    }
+  ]
+}

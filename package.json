@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.264",
+  "version": "1.0.265",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -96,6 +96,10 @@
       {
         "url": "./schemas/cncc.schema.json",
         "fileMatch": "*.cncc.json"
+      },
+      {
+        "url": "./schemas/config-g2p.schema.json",
+        "fileMatch": "config-g2p.json"
       },
       {
         "url": "./schemas/cryproj.schema.json",
@@ -1197,10 +1201,6 @@
       {
         "url": "https://raw.githubusercontent.com/rocksdanister/lively/core-separation/schemas/livelyPropertiesSchema.json",
         "fileMatch": "LivelyProperties.json"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
-        "fileMatch": "config-g2p.json"
       },
       {
         "url": "https://raw.githubusercontent.com/rstudio/renv/refs/heads/main/inst/schema/draft-07.renv.lock.schema.json",
