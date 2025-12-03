@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.265",
+  "version": "1.0.266",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -980,6 +980,10 @@
       {
         "url": "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json",
         "fileMatch": "*.hayson.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+        "fileMatch": "*.omp.json"
       },
       {
         "url": "https://raw.githubusercontent.com/jetify-com/devbox/main/.schema/devbox-plugin.schema.json",
@@ -2540,7 +2544,10 @@
       },
       {
         "url": "https://www.schemastore.org/tmlanguage.json",
-        "fileMatch": "*.tmLanguage.json"
+        "fileMatch": [
+          "*.tmLanguage.json",
+          "*.yaml-tmlanguage"
+        ]
       },
       {
         "url": "https://www.schemastore.org/truescript.json",
