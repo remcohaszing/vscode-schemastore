@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.266",
+  "version": "1.0.267",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -65,6 +65,10 @@
       {
         "url": "./schemas/aiproj.schema.json",
         "fileMatch": ".aiproj.json"
+      },
+      {
+        "url": "./schemas/apollo-router.schema.json",
+        "fileMatch": "apollo-router-*.json"
       },
       {
         "url": "./schemas/app.schema.json",
@@ -437,10 +441,73 @@
         "fileMatch": "*.jmdsl.json"
       },
       {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-collections.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.collections.json",
+          "cloudcannon.collections.json"
+        ]
+      },
+      {
         "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-config.schema.json",
         "fileMatch": [
           "*.cloudcannon.config.json",
           "cloudcannon.config.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-editables.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.editables.json",
+          "cloudcannon.editables.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-inputs.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.inputs.json",
+          "cloudcannon.inputs.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-schemas.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.schemas.json",
+          "cloudcannon.schemas.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets-definitions.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.snippets-definitions.json",
+          "cloudcannon.snippets-definitions.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets-imports.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.snippets-imports.json",
+          "cloudcannon.snippets-imports.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-snippets.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.snippets.json",
+          "cloudcannon.snippets.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-structure-value.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.structure-value.json",
+          "cloudcannon.structure-value.json"
+        ]
+      },
+      {
+        "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-structures.schema.json",
+        "fileMatch": [
+          "*.cloudcannon.structures.json",
+          "cloudcannon.structures.json"
         ]
       },
       {
@@ -1137,6 +1204,13 @@
         "fileMatch": ".nixd.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/nvuillam/npm-groovy-lint/refs/heads/main/docs/groovy-lint.jsonschema.json",
+        "fileMatch": [
+          ".groovylintrc",
+          ".groovylintrc.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/okteto/okteto/refs/heads/master/schema.json",
         "fileMatch": "okteto.json"
       },
@@ -1182,8 +1256,16 @@
         "fileMatch": "quilt.mod.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/a2a/a2a_agent_config.schema.json",
+        "fileMatch": "ngui-a2a_*.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/config/agent_config.schema.json",
         "fileMatch": "ngui_*.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/mcp/mcp_agent_config.schema.json",
+        "fileMatch": "ngui-mcp_*.json"
       },
       {
         "url": "https://raw.githubusercontent.com/RedpointGames/uet-schema/main/root.json",
@@ -1209,14 +1291,6 @@
       {
         "url": "https://raw.githubusercontent.com/rstudio/renv/refs/heads/main/inst/schema/draft-07.renv.lock.schema.json",
         "fileMatch": "renv.lock"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json",
-        "fileMatch": [
-          "src/main/webapp/manifest.json",
-          "src/manifest.json",
-          "webapp/manifest.json"
-        ]
       },
       {
         "url": "https://raw.githubusercontent.com/sapphiredev/cli/main/templates/schemas/.sapphirerc.scheme.json",
@@ -1341,6 +1415,14 @@
       {
         "url": "https://raw.githubusercontent.com/TykTechnologies/tyk-schemas/refs/heads/main/JSON/draft-07/schema_tyk.oss.conf",
         "fileMatch": "tyk.conf"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UI5/manifest/main/schema.json",
+        "fileMatch": [
+          "src/main/webapp/manifest.json",
+          "src/manifest.json",
+          "webapp/manifest.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/usecannon/cannon/main/packages/lsp/src/schema.json",
@@ -1506,10 +1588,6 @@
       {
         "url": "https://www.schemastore.org/apibuilder.json",
         "fileMatch": "api.json"
-      },
-      {
-        "url": "https://www.schemastore.org/apollo-router-2.8.1.json",
-        "fileMatch": "apollo-router-*.json"
       },
       {
         "url": "https://www.schemastore.org/apple-app-site-association.json",

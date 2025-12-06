@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://www.schemastore.org/apollo-router-2.8.1.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/apollo-router-2.8.2.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/apollo-router-2.9.0.json"
+    }
+  ]
+}
