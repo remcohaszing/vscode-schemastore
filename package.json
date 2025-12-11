@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.267",
+  "version": "1.0.268",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -204,10 +204,6 @@
       {
         "url": "./schemas/manifest.schema.json",
         "fileMatch": "manifest.json"
-      },
-      {
-        "url": "./schemas/openapi.schema.json",
-        "fileMatch": "openapi.json"
       },
       {
         "url": "./schemas/oscalassessment-plan.schema.json",
@@ -1484,6 +1480,10 @@
         "fileMatch": "railpack.json"
       },
       {
+        "url": "https://spec.openapis.org/oas/2.0/schema/2017-08-27",
+        "fileMatch": "swagger.json"
+      },
+      {
         "url": "https://swc.rs/schema.json",
         "fileMatch": ".swcrc"
       },
@@ -2344,6 +2344,10 @@
         "fileMatch": "omnisharp.json"
       },
       {
+        "url": "https://www.schemastore.org/openapi-3.X.json",
+        "fileMatch": "openapi.json"
+      },
+      {
         "url": "https://www.schemastore.org/openutau-ustx.json",
         "fileMatch": "*.ustx"
       },
@@ -2580,10 +2584,6 @@
       {
         "url": "https://www.schemastore.org/swa-cli.config.json",
         "fileMatch": "swa-cli.config.json"
-      },
-      {
-        "url": "https://www.schemastore.org/swagger-2.0.json",
-        "fileMatch": "swagger.json"
       },
       {
         "url": "https://www.schemastore.org/task.json",
