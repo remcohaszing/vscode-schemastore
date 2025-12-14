@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.268",
+  "version": "1.0.269",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1250,6 +1250,10 @@
       {
         "url": "https://raw.githubusercontent.com/QuiltMC/quilt-json-schemas/main/quilt.mod.json/schemas/main.json",
         "fileMatch": "quilt.mod.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/rebaz94/macro_kit/refs/heads/main/macro_schema.json",
+        "fileMatch": ".macro.json"
       },
       {
         "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/a2a/a2a_agent_config.schema.json",

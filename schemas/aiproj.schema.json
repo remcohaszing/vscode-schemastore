@@ -26,6 +26,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/aiproj-1.8.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/aiproj-1.9.json"
     }
   ]
 }
