@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.269",
+  "version": "1.0.270",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -955,6 +955,10 @@
         "fileMatch": "template.chamaleon.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/get-convex/convex-backend/refs/heads/main/npm-packages/convex/schemas/convex.schema.json",
+        "fileMatch": "convex.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json",
         "fileMatch": [
           ".gherking.json",
@@ -1798,10 +1802,6 @@
       {
         "url": "https://www.schemastore.org/component.json",
         "fileMatch": "component.json"
-      },
-      {
-        "url": "https://www.schemastore.org/convex.json",
-        "fileMatch": "convex.json"
       },
       {
         "url": "https://www.schemastore.org/cosmos-config.json",
