@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.270",
+  "version": "1.0.271",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -339,6 +339,18 @@
       {
         "url": "./schemas/zapp.schema.json",
         "fileMatch": "zapp.json"
+      },
+      {
+        "url": "https://acp-protocol.dev/schemas/v1/cache.schema.json",
+        "fileMatch": ".acp.cache.json"
+      },
+      {
+        "url": "https://acp-protocol.dev/schemas/v1/config.schema.json",
+        "fileMatch": ".acp.config.json"
+      },
+      {
+        "url": "https://acp-protocol.dev/schemas/v1/vars.schema.json",
+        "fileMatch": ".acp.vars.json"
       },
       {
         "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_machine.json",
@@ -2350,6 +2362,17 @@
       {
         "url": "https://www.schemastore.org/openapi-3.X.json",
         "fileMatch": "openapi.json"
+      },
+      {
+        "url": "https://www.schemastore.org/openapi-arazzo-1.X.json",
+        "fileMatch": "arazzo.json"
+      },
+      {
+        "url": "https://www.schemastore.org/openapi-overlay-1.X.json",
+        "fileMatch": [
+          "*.overlay.json",
+          "overlay.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/openutau-ustx.json",
