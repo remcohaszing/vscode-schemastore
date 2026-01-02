@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.272",
+  "version": "1.0.273",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1853,6 +1853,10 @@
           ".deployed.json",
           ".deployedrc"
         ]
+      },
+      {
+        "url": "https://www.schemastore.org/devup.json",
+        "fileMatch": "devup.json"
       },
       {
         "url": "https://www.schemastore.org/djlint.json",
