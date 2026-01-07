@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.273",
+  "version": "1.0.274",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -341,12 +341,28 @@
         "fileMatch": "zapp.json"
       },
       {
+        "url": "https://acp-protocol.dev/schemas/v1/attempts.schema.json",
+        "fileMatch": "acp.attempts.json"
+      },
+      {
         "url": "https://acp-protocol.dev/schemas/v1/cache.schema.json",
         "fileMatch": ".acp.cache.json"
       },
       {
         "url": "https://acp-protocol.dev/schemas/v1/config.schema.json",
         "fileMatch": ".acp.config.json"
+      },
+      {
+        "url": "https://acp-protocol.dev/schemas/v1/primer.schema.json",
+        "fileMatch": [
+          "*.primer.json",
+          "primer.defaults.json",
+          "primer.json"
+        ]
+      },
+      {
+        "url": "https://acp-protocol.dev/schemas/v1/sync.schema.json",
+        "fileMatch": "acp.sync.json"
       },
       {
         "url": "https://acp-protocol.dev/schemas/v1/vars.schema.json",
@@ -1269,7 +1285,7 @@
       },
       {
         "url": "https://raw.githubusercontent.com/rebaz94/macro_kit/refs/heads/main/macro_schema.json",
-        "fileMatch": ".macro.json"
+        "fileMatch": "macro.json"
       },
       {
         "url": "https://raw.githubusercontent.com/RedHat-UX/next-gen-ui-agent/refs/heads/main/spec/a2a/a2a_agent_config.schema.json",
@@ -2753,6 +2769,18 @@
           "*.venvplus.json",
           "venvplus.json"
         ]
+      },
+      {
+        "url": "https://www.schemastore.org/vespertide-migration.json",
+        "fileMatch": "migrations/**/*.vespertide.json"
+      },
+      {
+        "url": "https://www.schemastore.org/vespertide-model.json",
+        "fileMatch": "models/**/*.vespertide.json"
+      },
+      {
+        "url": "https://www.schemastore.org/vespertide.json",
+        "fileMatch": "vespertide.json"
       },
       {
         "url": "https://www.schemastore.org/vim-addon-info.json",
