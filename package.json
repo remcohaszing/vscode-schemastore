@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.274",
+  "version": "1.0.275",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -610,6 +610,13 @@
       {
         "url": "https://openapi.vercel.sh/vercel.json",
         "fileMatch": "vercel.json"
+      },
+      {
+        "url": "https://opencode.ai/config.json",
+        "fileMatch": [
+          "opencode.json",
+          "opencode.jsonc"
+        ]
       },
       {
         "url": "https://railway.com/railway.schema.json",
