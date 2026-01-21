@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.276",
+  "version": "1.0.277",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -274,6 +274,16 @@
         "fileMatch": "project.json"
       },
       {
+        "url": "./schemas/renovate.schema.json",
+        "fileMatch": [
+          ".renovaterc",
+          ".renovaterc.json",
+          ".renovaterc.json5",
+          "renovate.json",
+          "renovate.json5"
+        ]
+      },
+      {
         "url": "./schemas/specif.schema.json",
         "fileMatch": [
           "*.specif",
@@ -428,16 +438,6 @@
       {
         "url": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
         "fileMatch": "tsdoc.json"
-      },
-      {
-        "url": "https://docs.renovatebot.com/renovate-schema.json",
-        "fileMatch": [
-          ".renovaterc",
-          ".renovaterc.json",
-          ".renovaterc.json5",
-          "renovate.json",
-          "renovate.json5"
-        ]
       },
       {
         "url": "https://download.qt.io/official_releases/qtcreator/latest/installer_source/jsonschemas/project.json",
@@ -621,6 +621,10 @@
       {
         "url": "https://railway.com/railway.schema.json",
         "fileMatch": "railway.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/abordage/schemas/main/schemas/awesome-repositories/awesome-repositories.schema.json",
+        "fileMatch": "awesome-repositories.json"
       },
       {
         "url": "https://raw.githubusercontent.com/adonisjs/application/master/adonisrc.schema.json",
@@ -960,9 +964,13 @@
         "url": "https://raw.githubusercontent.com/evilmartians/lefthook/master/schema.json",
         "fileMatch": [
           ".lefthook-local.json",
+          ".lefthook-local.jsonc",
           ".lefthook.json",
+          ".lefthook.jsonc",
           "lefthook-local.json",
-          "lefthook.json"
+          "lefthook-local.jsonc",
+          "lefthook.json",
+          "lefthook.jsonc"
         ]
       },
       {
@@ -1480,6 +1488,10 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/warpstreamlabs/bento/refs/heads/main/resources/schemastore/bento.json",
+        "fileMatch": "bento.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/webcomponents/custom-elements-manifest/main/schema.json",
         "fileMatch": "custom-elements.json"
       },
@@ -1747,6 +1759,10 @@
       {
         "url": "https://www.schemastore.org/browser.i18n.json",
         "fileMatch": "messages.json"
+      },
+      {
+        "url": "https://www.schemastore.org/buf.lock.json",
+        "fileMatch": "buf.lock"
       },
       {
         "url": "https://www.schemastore.org/bun-lock.json",
