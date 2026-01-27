@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/open-kya/kya-standard/main/schema/kya-manifest.schema.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/open-kya/kya-standard/v1.0/schema/kya-manifest.schema.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/kya.json"
+    }
+  ]
+}
