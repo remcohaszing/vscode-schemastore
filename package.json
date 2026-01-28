@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.278",
+  "version": "1.0.279",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -397,6 +397,10 @@
       {
         "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
         "fileMatch": "data/*/recipes/**/*.json"
+      },
+      {
+        "url": "https://app-protocol.org/schema/app-1.0.json",
+        "fileMatch": "*.app.json"
       },
       {
         "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json",
