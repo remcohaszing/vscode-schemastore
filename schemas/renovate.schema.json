@@ -11,6 +11,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/renovate-41.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/renovate-42.json"
     }
   ]
 }

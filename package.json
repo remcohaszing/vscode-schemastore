@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.279",
+  "version": "1.0.280",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1824,6 +1824,10 @@
       {
         "url": "https://www.schemastore.org/clasp.json",
         "fileMatch": ".clasp.json"
+      },
+      {
+        "url": "https://www.schemastore.org/claude-code-keybindings.json",
+        "fileMatch": ".claude/keybindings.json"
       },
       {
         "url": "https://www.schemastore.org/claude-code-settings.json",
