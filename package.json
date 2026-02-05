@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.280",
+  "version": "1.0.281",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -629,6 +629,13 @@
         "fileMatch": [
           "opencode.json",
           "opencode.jsonc"
+        ]
+      },
+      {
+        "url": "https://pitcms.net/schema/pitcms.schema.json",
+        "fileMatch": [
+          "pitcms.json",
+          "pitcms.jsonc"
         ]
       },
       {
