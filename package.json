@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.281",
+  "version": "1.0.282",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -913,6 +913,10 @@
           "deno.json",
           "deno.jsonc"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DetachHead/basedpyright/refs/heads/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+        "fileMatch": "basedpyrightconfig.json"
       },
       {
         "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
