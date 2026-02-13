@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.283",
+  "version": "1.0.284",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2246,6 +2246,17 @@
       {
         "url": "https://www.schemastore.org/luaurc.json",
         "fileMatch": ".luaurc"
+      },
+      {
+        "url": "https://www.schemastore.org/mail-servers-config.json",
+        "fileMatch": [
+          "*.mail-servers-config.json",
+          "*.mail-servers-config.json5",
+          "*.mail-servers-config.jsonc",
+          "mail-servers-config.json",
+          "mail-servers-config.json5",
+          "mail-servers-config.jsonc"
+        ]
       },
       {
         "url": "https://www.schemastore.org/mapehr.json",
