@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.285",
+  "version": "1.0.286",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1314,6 +1314,14 @@
       {
         "url": "https://raw.githubusercontent.com/ory/oathkeeper/master/.schema/version.schema.json",
         "fileMatch": "oathkeeper.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxfmt/configuration_schema.json",
+        "fileMatch": ".oxfmtrc.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxlint/configuration_schema.json",
+        "fileMatch": ".oxlintrc.json"
       },
       {
         "url": "https://raw.githubusercontent.com/pyrox0/fursona-schema/main/schema-07.json",
