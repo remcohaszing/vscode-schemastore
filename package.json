@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.286",
+  "version": "1.0.287",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1393,6 +1393,10 @@
       {
         "url": "https://raw.githubusercontent.com/Scandltd/storm-petrel/main/generator/assets/appsettings.StormPetrel.Schema.json",
         "fileMatch": "appsettings.StormPetrel.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/bmml.json",
+        "fileMatch": "*.bmml"
       },
       {
         "url": "https://raw.githubusercontent.com/sergxerj/jdownloader2-crawler-rule-json-schema/main/jd2cr.schema.json",
