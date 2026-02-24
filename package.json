@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.287",
+  "version": "1.0.288",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2048,6 +2048,10 @@
       {
         "url": "https://www.schemastore.org/fabric.mod.json",
         "fileMatch": "fabric.mod.json"
+      },
+      {
+        "url": "https://www.schemastore.org/flatpak-manifest.json",
+        "fileMatch": "*.flatpak.json"
       },
       {
         "url": "https://www.schemastore.org/foundryvtt-module-manifest.json",
