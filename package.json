@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.290",
+  "version": "1.0.291",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1687,6 +1687,10 @@
           "_localqgoda.json",
           "_qgoda.json"
         ]
+      },
+      {
+        "url": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
+        "fileMatch": "abc-clinical-demand-forecast-*.json"
       },
       {
         "url": "https://www.schemastore.org/aiconfig-1.0.json",
