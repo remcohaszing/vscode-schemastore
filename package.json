@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.292",
+  "version": "1.0.293",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1078,6 +1078,14 @@
       {
         "url": "https://raw.githubusercontent.com/GoogleChrome/related-website-sets/main/SCHEMA.json",
         "fileMatch": ".well-known/first-party-set.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hashgraph-online/skill-publish/main/schemas/skill.schema.json",
+        "fileMatch": [
+          ".hol/skill.json",
+          "hol-skill.json",
+          "hol/skill.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/HaxeFoundation/haxelib/master/schema.json",
