@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.293",
+  "version": "1.0.294",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -443,6 +443,10 @@
       {
         "url": "https://cps-org.github.io/cps/cps.schema.json",
         "fileMatch": "*.cps"
+      },
+      {
+        "url": "https://cursor.com/schemas/environment.schema.json",
+        "fileMatch": ".cursor/environment.json"
       },
       {
         "url": "https://datahubproject.io/schemas/datahub_ingestion_schema.json",
@@ -994,6 +998,10 @@
           "*.flow.json",
           "flow.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Eurobotics-Association/barba-cv/main/schema/barba-cv.schema.json",
+        "fileMatch": "barba-cv.json"
       },
       {
         "url": "https://raw.githubusercontent.com/evilmartians/lefthook/master/schema.json",
