@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict'
-import { execSync } from 'node:child_process'
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { basename } from 'node:path'
 import { isDeepStrictEqual } from 'node:util'
