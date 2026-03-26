@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      version: ${{ steps.build.outputs.version }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -16,4 +18,38 @@ jobs:
       - run: git config user.name github-actions[bot]
       - run: git config user.email github-actions[bot]@users.noreply.github.com
       - run: npm install
-      - run: node build.ts --commit
+      - id: build
+        run: node build.ts --commit
+      - if: ${{ steps.build.outputs.version }}
+        run: |
+          git add .
+          git commit --message ${{ steps.build.outputs.version }}
+          git tag --no-sign ${{ steps.build.outputs.version }}
+          git commit --message ${{ steps.build.outputs.version }}
+          git push origin HEAD --tags
+
+  ovsx:
+    needs: update
+    if: ${{ needs.update.outputs.version }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with: { node-version: 24 }
+      - run: npm install
+      - run: npx ovsx publish
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+
+  vsce:
+    needs: update
+    if: ${{ needs.update.outputs.version }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with: { node-version: 24 }
+      - run: npm install
+      - run: npx vsce publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}

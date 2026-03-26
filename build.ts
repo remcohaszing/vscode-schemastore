@@ -130,6 +130,7 @@ jsonValidation.sort((a, b) => a.url.localeCompare(b.url))
 
 const path = new URL('package.json', import.meta.url)
 const pkg = JSON.parse(await readFile(path, 'utf8'))
+const outputFile = process.env.GITHUB_OUTPUT ?? 'GITHUB_OUTPUT'
 
 if (isDeepStrictEqual(pkg.contributes.jsonValidation, jsonValidation)) {
   console.log('No changes were found in the JSON Schema Store catalog')
@@ -138,11 +139,5 @@ if (isDeepStrictEqual(pkg.contributes.jsonValidation, jsonValidation)) {
   pkg.contributes.jsonValidation = jsonValidation
   await writeFile(path, `${JSON.stringify(pkg, undefined, 2)}\n`)
   console.log('Updated package.json')
-  if (process.argv.includes('--commit')) {
-    execSync('git add .')
-    execSync(`git commit --message v${pkg.version}`)
-    execSync(`git tag --no-sign v${pkg.version}`)
-    execSync('git push origin HEAD --tags')
-    console.log('Committed and pushed changes')
-  }
+  await writeFile(outputFile, `version=v${pkg.version}`)
 }
