@@ -25,7 +25,6 @@ jobs:
           git add .
           git commit --message ${{ steps.build.outputs.version }}
           git tag --no-sign ${{ steps.build.outputs.version }}
-          git commit --message ${{ steps.build.outputs.version }}
           git push origin HEAD --tags
 
   ovsx:
