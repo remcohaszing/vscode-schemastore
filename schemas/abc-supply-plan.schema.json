@@ -25,6 +25,9 @@
       "$ref": "https://www.schemastore.org/abc-supply-plan-11.4.0.json"
     },
     {
+      "$ref": "https://www.schemastore.org/abc-supply-plan-12.0.0.json"
+    },
+    {
       "$ref": "https://www.schemastore.org/abc-supply-plan-2.0.0.json"
     },
     {

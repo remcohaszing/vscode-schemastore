@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.294",
+  "version": "1.0.295",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -589,6 +589,10 @@
       {
         "url": "https://gitlab.com/sbenv/veroxis/ezd-rs/-/raw/HEAD/ezd.schema.json",
         "fileMatch": "ezd.json"
+      },
+      {
+        "url": "https://goosewobbler.github.io/releasekit/schema.json",
+        "fileMatch": "releasekit.config.json"
       },
       {
         "url": "https://hazelcast.com/schema/config/hazelcast-config-5.6.json",
@@ -1614,6 +1618,10 @@
       {
         "url": "https://salsa.debian.org/debian/debian-json-schemas/-/raw/main/schemas/debian-upstream-metadata/debian-upstream-metadata-latest.json",
         "fileMatch": "debian/upstream/metadata"
+      },
+      {
+        "url": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+        "fileMatch": "agentcore/agentcore.json"
       },
       {
         "url": "https://schema.railpack.com",
