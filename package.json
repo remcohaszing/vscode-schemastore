@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.295",
+  "version": "1.0.296",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1284,6 +1284,10 @@
       {
         "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
         "fileMatch": "vcpkg.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ModuleAssembler/ModuleAssembler-Schema/refs/tags/v1.0.0/schema/moduleassembler.schema.json",
+        "fileMatch": ".moduleassembler/moduleproject.json"
       },
       {
         "url": "https://raw.githubusercontent.com/monoweave/monoweave/main/packages/types/schema.json",
