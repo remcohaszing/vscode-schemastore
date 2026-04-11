@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.298",
+  "version": "1.0.299",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -660,6 +660,14 @@
       {
         "url": "https://railway.com/railway.schema.json",
         "fileMatch": "railway.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-profile.schema.json",
+        "fileMatch": "*.raid.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-repo.schema.json",
+        "fileMatch": "raid.json"
       },
       {
         "url": "https://raw.githubusercontent.com/abordage/schemas/main/schemas/awesome-repositories/awesome-repositories.schema.json",
@@ -1560,6 +1568,10 @@
           "src/manifest.json",
           "webapp/manifest.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Use-Tusk/fence/refs/heads/main/docs/schema/fence.schema.json",
+        "fileMatch": "fence.json"
       },
       {
         "url": "https://raw.githubusercontent.com/usecannon/cannon/main/packages/lsp/src/schema.json",
