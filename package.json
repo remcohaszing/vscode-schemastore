@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.299",
+  "version": "1.0.300",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -69,10 +69,6 @@
       {
         "url": "./schemas/apollo-router.schema.json",
         "fileMatch": "apollo-router-*.json"
-      },
-      {
-        "url": "./schemas/app.schema.json",
-        "fileMatch": "app.json"
       },
       {
         "url": "./schemas/awc.schema.json",
@@ -1436,6 +1432,14 @@
       {
         "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/bmml.json",
         "fileMatch": "*.bmml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/knowledge-unit.json",
+        "fileMatch": [
+          "knowledge-unit.json",
+          "ku-*.json",
+          "ku/*.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/pactspec.json",
