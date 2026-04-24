@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.300",
+  "version": "1.0.301",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1508,6 +1508,14 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.config.schema.json",
+        "fileMatch": "reposets.config.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.credentials.schema.json",
+        "fileMatch": "reposets.credentials.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
         "fileMatch": [
           ".cSpell.json",
@@ -1929,6 +1937,14 @@
       {
         "url": "https://www.schemastore.org/claude-code-keybindings.json",
         "fileMatch": ".claude/keybindings.json"
+      },
+      {
+        "url": "https://www.schemastore.org/claude-code-marketplace.json",
+        "fileMatch": ".claude-plugin/marketplace.json"
+      },
+      {
+        "url": "https://www.schemastore.org/claude-code-plugin-manifest.json",
+        "fileMatch": ".claude-plugin/plugin.json"
       },
       {
         "url": "https://www.schemastore.org/claude-code-settings.json",
