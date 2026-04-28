@@ -4,7 +4,6 @@
     "lib": ["es2024"],
     "module": "node20",
     "noEmit": true,
-    "strict": true,
     "target": "es2024",
     "verbatimModuleSyntax": true
   }
