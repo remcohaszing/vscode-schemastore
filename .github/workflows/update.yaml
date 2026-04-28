@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with: { node-version: 24 }
-      - run: npm install
+      - run: npm ci
       - id: build
         run: node build.ts --commit
       - if: ${{ steps.build.outputs.version }}
@@ -41,7 +41,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with: { node-version: 24 }
-      - run: npm install
+      - run: npm ci
       - uses: actions/download-artifact@v8
         with:
           name: vsix
@@ -57,7 +57,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with: { node-version: 24 }
-      - run: npm install
+      - run: npm ci
       - uses: actions/download-artifact@v8
         with:
           name: vsix
