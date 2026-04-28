@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.301",
+  "version": "1.0.302",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1472,6 +1472,10 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/shirakaba/expoot/main/packages/expoot/schemas/expoot-app.schema.json",
+        "fileMatch": "expoot-app.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/Shravan-1908/stellapy/master/schema.json",
         "fileMatch": "stella.json"
       },
@@ -2705,6 +2709,15 @@
       {
         "url": "https://www.schemastore.org/resjson.json",
         "fileMatch": "*.resjson"
+      },
+      {
+        "url": "https://www.schemastore.org/revola.json",
+        "fileMatch": [
+          ".revola.config.json",
+          ".revola.json",
+          "revola.config.json",
+          "revola.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/roomodes.json",
