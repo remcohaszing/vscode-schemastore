@@ -26,6 +26,12 @@ jobs:
           git commit --message ${{ steps.build.outputs.version }}
           git tag --no-sign ${{ steps.build.outputs.version }}
           git push origin HEAD --tags
+          vsce package
+      - if: ${{ steps.build.outputs.version }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: vsix
+          path: '*.vsix'
 
   ovsx:
     needs: update
@@ -36,7 +42,10 @@ jobs:
       - uses: actions/setup-node@v6
         with: { node-version: 24 }
       - run: npm install
-      - run: npx ovsx publish
+      - uses: actions/download-artifact@v8
+        with:
+          name: vsix
+      - run: npx ovsx publish *.vsix
         env:
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
 
@@ -49,6 +58,9 @@ jobs:
       - uses: actions/setup-node@v6
         with: { node-version: 24 }
       - run: npm install
-      - run: npx vsce publish
+      - uses: actions/download-artifact@v8
+        with:
+          name: vsix
+      - run: npx vsce publish *.vsix
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
