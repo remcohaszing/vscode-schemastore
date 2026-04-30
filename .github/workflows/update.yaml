@@ -27,7 +27,7 @@ jobs:
         run: git tag --no-sign ${{ steps.build.outputs.version }}
       - if: ${{ steps.build.outputs.version }}
         run: git push origin HEAD --tags
-      - run: vsce package
+      - run: npx vsce package
       - uses: actions/upload-artifact@v7
         with:
           name: vsix
