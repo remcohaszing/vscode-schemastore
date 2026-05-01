@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.302",
+  "version": "1.0.303",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1133,6 +1133,13 @@
       {
         "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zcodeformat/zcodeformat-schema-0.0.1.json",
         "fileMatch": "zcodeformat.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/int-brain-lab/bpod-core/main/.schema/statemachine.json",
+        "fileMatch": [
+          "*.bpod-fsm.json",
+          "bpod-fsm.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/io-package.json",
@@ -3062,6 +3069,10 @@
       {
         "url": "https://www.schemastore.org/xs-app.json",
         "fileMatch": "xs-app.json"
+      },
+      {
+        "url": "https://www.schemastore.org/yamlfmt.json",
+        "fileMatch": ".yamlfmt"
       },
       {
         "url": "https://www.schemastore.org/yamllint.json",
