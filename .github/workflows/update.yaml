@@ -61,6 +61,6 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           name: vsix
-      - run: npx vsce publish *.vsix
+      - run: npx vsce publish --packagePath *.vsix
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
