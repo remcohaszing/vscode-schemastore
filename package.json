@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.303",
+  "version": "1.0.304",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1665,6 +1665,13 @@
       {
         "url": "https://schema.agentcore.aws.dev/v1/agentcore.json",
         "fileMatch": "agentcore/agentcore.json"
+      },
+      {
+        "url": "https://schema.openenvelope.org/team/v1.json",
+        "fileMatch": [
+          "*.envelope.json",
+          "team.envelope.json"
+        ]
       },
       {
         "url": "https://schema.railpack.com",
