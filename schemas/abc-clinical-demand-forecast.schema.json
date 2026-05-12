@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
+    }
+  ]
+}

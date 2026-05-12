@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.305",
+  "version": "1.0.306",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -47,6 +47,10 @@
   },
   "contributes": {
     "jsonValidation": [
+      {
+        "url": "./schemas/abc-clinical-demand-forecast.schema.json",
+        "fileMatch": "abc-clinical-demand-forecast-*.json"
+      },
       {
         "url": "./schemas/abc-inventory-module-data.schema.json",
         "fileMatch": "abc-inventory-module-data-*.json"
@@ -1262,6 +1266,13 @@
         "fileMatch": "bucket/**.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/Mearman/agent-permissions/main/agent-permissions.schema.json",
+        "fileMatch": [
+          ".agents/permissions.json",
+          ".agents/permissions.local.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/meltano/meltano/main/src/meltano/schemas/meltano.schema.json",
         "fileMatch": [
           "meltano-manifest.*.json",
@@ -1600,6 +1611,13 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/UladzKha/memnex/main/schema/v0.1/meeting-output.schema.json",
+        "fileMatch": [
+          "*.memnex.json",
+          "meeting-output.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/Use-Tusk/fence/refs/heads/main/docs/schema/fence.schema.json",
         "fileMatch": "fence.json"
       },
@@ -1767,15 +1785,19 @@
         "fileMatch": "krakend.json"
       },
       {
+        "url": "https://www.mock-server.com/schema/expectations.json",
+        "fileMatch": [
+          "*mockserver*Initialization.json",
+          "mockserver*.json",
+          "mockserverInitialization.json"
+        ]
+      },
+      {
         "url": "https://www.qgoda.net/schemas/qgoda.json",
         "fileMatch": [
           "_localqgoda.json",
           "_qgoda.json"
         ]
-      },
-      {
-        "url": "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
-        "fileMatch": "abc-clinical-demand-forecast-*.json"
       },
       {
         "url": "https://www.schemastore.org/aiconfig-1.0.json",
