@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.306",
+  "version": "1.0.307",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -213,6 +213,13 @@
       {
         "url": "./schemas/manifest.schema.json",
         "fileMatch": "manifest.json"
+      },
+      {
+        "url": "./schemas/memnex.schema.json",
+        "fileMatch": [
+          "*.memnex.json",
+          "meeting-output.json"
+        ]
       },
       {
         "url": "./schemas/oscalassessment-plan.schema.json",
@@ -1608,13 +1615,6 @@
           "src/main/webapp/manifest.json",
           "src/manifest.json",
           "webapp/manifest.json"
-        ]
-      },
-      {
-        "url": "https://raw.githubusercontent.com/UladzKha/memnex/main/schema/v0.1/meeting-output.schema.json",
-        "fileMatch": [
-          "*.memnex.json",
-          "meeting-output.json"
         ]
       },
       {
