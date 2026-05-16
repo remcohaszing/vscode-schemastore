@@ -18,6 +18,8 @@ jobs:
       - run: npm ci
       - id: build
         run: node build.ts --commit
+      - if: ${{ steps.build.outputs.version }}
+        run: npm install
       - run: git config user.name github-actions[bot]
       - run: git config user.email github-actions[bot]@users.noreply.github.com
       - run: git add .
