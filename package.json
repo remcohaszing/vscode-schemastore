@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.309",
+  "version": "1.0.310",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -3096,7 +3096,7 @@
         "fileMatch": "*winutil*/config/applications.json"
       },
       {
-        "url": "https://www.schemastore.org/winutil-preset.json",
+        "url": "https://www.schemastore.org/winutil-presets.json",
         "fileMatch": "*winutil*/config/preset.json"
       },
       {
