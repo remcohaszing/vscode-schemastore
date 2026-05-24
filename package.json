@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.311",
+  "version": "1.0.312",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1806,6 +1806,14 @@
           "*.aiconfig.jsonc",
           "aiconfig.json",
           "aiconfig.jsonc"
+        ]
+      },
+      {
+        "url": "https://www.schemastore.org/algovoi-compliance-receipt-v1.json",
+        "fileMatch": [
+          "algovoi-compliance-receipt-*.json",
+          "algovoi-compliance-receipt.json",
+          "algovoi/compliance-receipt-*.json"
         ]
       },
       {
