@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.313",
+  "version": "1.0.314",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1381,6 +1381,13 @@
       {
         "url": "https://raw.githubusercontent.com/ory/oathkeeper/master/.schema/version.schema.json",
         "fileMatch": "oathkeeper.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/oss-review-toolkit/ort/refs/heads/main/integrations/schemas/ort-project-schema.json",
+        "fileMatch": [
+          "*.ortproject.json",
+          "ortproject.json"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxfmt/configuration_schema.json",
