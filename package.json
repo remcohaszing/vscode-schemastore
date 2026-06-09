@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.316",
+  "version": "1.0.317",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2187,6 +2187,10 @@
       {
         "url": "https://www.schemastore.org/es6importsorterrc.json",
         "fileMatch": ".es6importsorterrc.json"
+      },
+      {
+        "url": "https://www.schemastore.org/eslint-suppressions.json",
+        "fileMatch": "eslint-suppressions.json"
       },
       {
         "url": "https://www.schemastore.org/eslintrc.json",
