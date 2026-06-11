@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.317",
+  "version": "1.0.318",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -690,6 +690,10 @@
       {
         "url": "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-repo.schema.json",
         "fileMatch": "raid.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/abhiyoheswaran1/AgentLoopKit/main/schema/agentloop.config.schema.json",
+        "fileMatch": "agentloop.config.json"
       },
       {
         "url": "https://raw.githubusercontent.com/abordage/schemas/main/schemas/awesome-repositories/awesome-repositories.schema.json",
@@ -2838,6 +2842,10 @@
       {
         "url": "https://www.schemastore.org/settings.job.json",
         "fileMatch": "settings.job"
+      },
+      {
+        "url": "https://www.schemastore.org/sigmacv.json",
+        "fileMatch": "*.sigmacv.json"
       },
       {
         "url": "https://www.schemastore.org/sil-kit-participant-configuration.json",
