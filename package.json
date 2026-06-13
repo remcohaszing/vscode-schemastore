@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.319",
+  "version": "1.0.320",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1292,6 +1292,10 @@
         "fileMatch": "bucket/**.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/lxman/ContractGuard/main/schema/contractguard.schema.json",
+        "fileMatch": "*.contract.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/Mearman/agent-permissions/main/agent-permissions.schema.json",
         "fileMatch": [
           ".agents/permissions.json",
@@ -2252,6 +2256,17 @@
       {
         "url": "https://www.schemastore.org/github-workflow-template-properties.json",
         "fileMatch": ".github/workflow-templates/**.properties.json"
+      },
+      {
+        "url": "https://www.schemastore.org/glamour-style.json",
+        "fileMatch": [
+          "*.glamour-style.json",
+          "*.glamour.json",
+          "*.glow-style.json",
+          ".glamour-style.json",
+          "glamour-style.json",
+          "glow-style.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/global.json",
