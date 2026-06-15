@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.320",
+  "version": "1.0.321",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -979,11 +979,15 @@
         "fileMatch": "basedpyrightconfig.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.base.schema.json",
         "fileMatch": [
           ".devcontainer.json",
           "devcontainer.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json",
+        "fileMatch": "devcontainer-feature.json"
       },
       {
         "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json",
