@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.321",
+  "version": "1.0.322",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -913,6 +913,13 @@
           "codify.json",
           "codify.json5",
           "codify.jsonc"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ColumbusLabs/DebtLens/main/schema/debtlens.config.schema.json",
+        "fileMatch": [
+          ".debtlensrc.json",
+          "debtlens.config.json"
         ]
       },
       {
