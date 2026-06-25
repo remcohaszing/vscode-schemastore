@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.322",
+  "version": "1.0.323",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1167,6 +1167,13 @@
         "fileMatch": [
           "*.cat.json",
           "*.catalog.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hudson-trading/slang-server/refs/heads/main/clients/vscode/resources/config.schema.json",
+        "fileMatch": [
+          ".slang/local/server.json",
+          ".slang/server.json"
         ]
       },
       {

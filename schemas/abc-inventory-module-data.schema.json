@@ -17,6 +17,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-inventory-module-data-5.3.0.json"
     }
   ]
 }

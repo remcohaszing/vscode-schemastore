@@ -11,6 +11,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-5.0.0.json"
     }
   ]
 }
