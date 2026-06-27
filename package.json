@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.323",
+  "version": "1.0.324",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1355,6 +1355,13 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/microsoft/testfx/main/docs/testconfig.schema.json",
+        "fileMatch": [
+          "*.testconfig.json",
+          "testconfig.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg-configuration.schema.json",
         "fileMatch": "vcpkg-configuration.json"
       },
@@ -2075,6 +2082,10 @@
       {
         "url": "https://www.schemastore.org/codex-hooks.json",
         "fileMatch": ".codex/hooks.json"
+      },
+      {
+        "url": "https://www.schemastore.org/codex-plugin-manifest.json",
+        "fileMatch": ".codex-plugin/plugin.json"
       },
       {
         "url": "https://www.schemastore.org/coffeelint.json",
