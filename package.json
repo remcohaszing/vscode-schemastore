@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.324",
+  "version": "1.0.325",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -411,6 +411,13 @@
       {
         "url": "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json",
         "fileMatch": "data/*/recipes/**/*.json"
+      },
+      {
+        "url": "https://api-commons.github.io/spotlight-spec/schema/v1/spotlight-ruleset.schema.json",
+        "fileMatch": [
+          "*.spotlight.json",
+          "spotlight-ruleset.json"
+        ]
       },
       {
         "url": "https://api.bluebricks.co/docs/schemas/latest/bricks.schema.json",
@@ -1766,6 +1773,10 @@
         "fileMatch": "*.umpire.json"
       },
       {
+        "url": "https://specpin.ohnice.app/schema/v1.json",
+        "fileMatch": ".specs/*.spec.json"
+      },
+      {
         "url": "https://swc.rs/schema.json",
         "fileMatch": ".swcrc"
       },
@@ -2249,6 +2260,10 @@
           ".esmrc",
           ".esmrc.json"
         ]
+      },
+      {
+        "url": "https://www.schemastore.org/evidence-bundle.json",
+        "fileMatch": "*.evidence-bundle.json"
       },
       {
         "url": "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json",
