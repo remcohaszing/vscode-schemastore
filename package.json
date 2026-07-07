@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.325",
+  "version": "1.0.326",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1879,6 +1879,14 @@
         ]
       },
       {
+        "url": "https://www.schemastore.org/aih-config.json",
+        "fileMatch": ".aih-config.json"
+      },
+      {
+        "url": "https://www.schemastore.org/aih-org-policy.json",
+        "fileMatch": "aih-org-policy.json"
+      },
+      {
         "url": "https://www.schemastore.org/algovoi-compliance-receipt-v1.json",
         "fileMatch": [
           "algovoi-compliance-receipt-*.json",
@@ -2315,6 +2323,10 @@
       {
         "url": "https://www.schemastore.org/global.json",
         "fileMatch": "global.json"
+      },
+      {
+        "url": "https://www.schemastore.org/gollama.json",
+        "fileMatch": "gollama/config.json"
       },
       {
         "url": "https://www.schemastore.org/gpc.json",

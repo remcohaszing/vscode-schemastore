@@ -10,6 +10,9 @@
       "$ref": "https://www.schemastore.org/aiproj-1.10.json"
     },
     {
+      "$ref": "https://www.schemastore.org/aiproj-1.11.json"
+    },
+    {
       "$ref": "https://www.schemastore.org/aiproj-1.2.json"
     },
     {
