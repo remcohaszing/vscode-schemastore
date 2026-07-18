@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.326",
+  "version": "1.0.327",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -650,6 +650,14 @@
         "fileMatch": [
           "jsr.json",
           "jsr.jsonc"
+        ]
+      },
+      {
+        "url": "https://mermaid.js.org/schemas/config.schema.json",
+        "fileMatch": [
+          ".mermaidrc.json",
+          "mermaid.config.json",
+          "mermaidrc.json"
         ]
       },
       {
@@ -2522,6 +2530,10 @@
         "fileMatch": ".luaurc"
       },
       {
+        "url": "https://www.schemastore.org/madge.json",
+        "fileMatch": ".madgerc"
+      },
+      {
         "url": "https://www.schemastore.org/mail-servers-config.json",
         "fileMatch": [
           "*.mail-servers-config.json",
@@ -2711,6 +2723,10 @@
         "fileMatch": "ocelot.json"
       },
       {
+        "url": "https://www.schemastore.org/okf-0.1.json",
+        "fileMatch": "okf.json"
+      },
+      {
         "url": "https://www.schemastore.org/okh.json",
         "fileMatch": [
           "*.okh.json",
@@ -2732,7 +2748,10 @@
       },
       {
         "url": "https://www.schemastore.org/openapi-3.X.json",
-        "fileMatch": "openapi.json"
+        "fileMatch": [
+          "*.openapi.json",
+          "openapi.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/openapi-arazzo-1.X.json",
@@ -2893,6 +2912,14 @@
       {
         "url": "https://www.schemastore.org/rust-project.json",
         "fileMatch": "rust-project.json"
+      },
+      {
+        "url": "https://www.schemastore.org/s3-bucket-cors.json",
+        "fileMatch": [
+          "s3-bucket-cors.json",
+          "s3-cors-configuration.json",
+          "s3-cors.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/semantic-release.json",
