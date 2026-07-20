@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.327",
+  "version": "1.0.328",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -133,6 +133,10 @@
           ".devinit.json",
           "devinit.json"
         ]
+      },
+      {
+        "url": "./schemas/editorconfig-checker.schema.json",
+        "fileMatch": ".editorconfig-checker.json"
       },
       {
         "url": "./schemas/eudr-x.schema.json",
@@ -1534,6 +1538,10 @@
       {
         "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/bmml.json",
         "fileMatch": "*.bmml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/heloisa-marketplace.json",
+        "fileMatch": "heloisa-marketplace.json"
       },
       {
         "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/knowledge-unit.json",
