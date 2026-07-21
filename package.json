@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.328",
+  "version": "1.0.329",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -429,7 +429,7 @@
       },
       {
         "url": "https://app-protocol.org/schema/app-1.0.json",
-        "fileMatch": "*.app.json"
+        "fileMatch": "*.app-profile.json"
       },
       {
         "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json",
@@ -1958,6 +1958,10 @@
         "fileMatch": "assetlinks.json"
       },
       {
+        "url": "https://www.schemastore.org/attw.json",
+        "fileMatch": ".attw.json"
+      },
+      {
         "url": "https://www.schemastore.org/ava.json",
         "fileMatch": "ava.config.json"
       },
@@ -2729,6 +2733,18 @@
       {
         "url": "https://www.schemastore.org/ocelot.json",
         "fileMatch": "ocelot.json"
+      },
+      {
+        "url": "https://www.schemastore.org/odgs-data-rules.json",
+        "fileMatch": "*.odgs-rules.json"
+      },
+      {
+        "url": "https://www.schemastore.org/odgs-ontology-graph.json",
+        "fileMatch": "*.odgs-ontology.json"
+      },
+      {
+        "url": "https://www.schemastore.org/odgs-standard-metrics.json",
+        "fileMatch": "*.odgs-metrics.json"
       },
       {
         "url": "https://www.schemastore.org/okf-0.1.json",
