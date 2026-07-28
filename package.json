@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.329",
+  "version": "1.0.330",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1832,12 +1832,17 @@
         ]
       },
       {
-        "url": "https://unpkg.com/knip@5/schema.json",
+        "url": "https://unpkg.com/knip@6/schema-jsonc.json",
+        "fileMatch": [
+          ".knip.jsonc",
+          "knip.jsonc"
+        ]
+      },
+      {
+        "url": "https://unpkg.com/knip@6/schema.json",
         "fileMatch": [
           ".knip.json",
-          ".knip.jsonc",
-          "knip.json",
-          "knip.jsonc"
+          "knip.json"
         ]
       },
       {
@@ -2060,6 +2065,13 @@
         "fileMatch": "Chart.lock"
       },
       {
+        "url": "https://www.schemastore.org/chezmoi.json",
+        "fileMatch": [
+          "chezmoi.json",
+          "chezmoi.jsonc"
+        ]
+      },
+      {
         "url": "https://www.schemastore.org/chrome-extension-locales-messages.json",
         "fileMatch": "_locales/*/messages.json"
       },
@@ -2090,6 +2102,10 @@
       {
         "url": "https://www.schemastore.org/claude-code-keybindings.json",
         "fileMatch": ".claude/keybindings.json"
+      },
+      {
+        "url": "https://www.schemastore.org/claude-code-launch.json",
+        "fileMatch": ".claude/launch.json"
       },
       {
         "url": "https://www.schemastore.org/claude-code-marketplace.json",
