@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.330",
+  "version": "1.0.331",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1458,11 +1458,17 @@
       },
       {
         "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxfmt/configuration_schema.json",
-        "fileMatch": ".oxfmtrc.json"
+        "fileMatch": [
+          ".oxfmtrc.json",
+          ".oxfmtrc.jsonc"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxlint/configuration_schema.json",
-        "fileMatch": ".oxlintrc.json"
+        "fileMatch": [
+          ".oxlintrc.json",
+          ".oxlintrc.jsonc"
+        ]
       },
       {
         "url": "https://raw.githubusercontent.com/pyrox0/fursona-schema/main/schema-07.json",
@@ -1779,6 +1785,28 @@
       {
         "url": "https://schema.railpack.com",
         "fileMatch": "railpack.json"
+      },
+      {
+        "url": "https://skill-map.ai/spec/v1/extensions/extension-manifest.schema.json",
+        "fileMatch": [
+          ".skill-map/plugins/*/actions/*/extension.json",
+          ".skill-map/plugins/*/analyzers/*/extension.json",
+          ".skill-map/plugins/*/extractors/*/extension.json",
+          ".skill-map/plugins/*/formatters/*/extension.json",
+          ".skill-map/plugins/*/hooks/*/extension.json",
+          ".skill-map/plugins/*/providers/*/extension.json"
+        ]
+      },
+      {
+        "url": "https://skill-map.ai/spec/v1/extensions/provider-kind.schema.json",
+        "fileMatch": ".skill-map/plugins/*/kinds/*/kind.json"
+      },
+      {
+        "url": "https://skill-map.ai/spec/v1/project-config.schema.json",
+        "fileMatch": [
+          ".skill-map/settings.json",
+          ".skill-map/settings.local.json"
+        ]
       },
       {
         "url": "https://spec.openapis.org/oas/2.0/schema/2017-08-27",
@@ -3116,6 +3144,10 @@
       {
         "url": "https://www.schemastore.org/ts-force-config.json",
         "fileMatch": "ts-force-config.json"
+      },
+      {
+        "url": "https://www.schemastore.org/tsbuild.json",
+        "fileMatch": "tsbuild.json"
       },
       {
         "url": "https://www.schemastore.org/tsconfig.json",
