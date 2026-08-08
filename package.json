@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.331",
+  "version": "1.0.332",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -432,14 +432,6 @@
         "fileMatch": "*.app-profile.json"
       },
       {
-        "url": "https://app.gitpod.io/jsonschema/v1/automations_file.jsonschema.json",
-        "fileMatch": ".gitpod/automations.json"
-      },
-      {
-        "url": "https://app.ona.com/jsonschema/v1/automations_file.jsonschema.json",
-        "fileMatch": ".ona/automations.json"
-      },
-      {
         "url": "https://biomejs.dev/schemas/latest/schema.json",
         "fileMatch": [
           "biome.json",
@@ -449,6 +441,10 @@
       {
         "url": "https://blockprotocol.org/schemas/block-metadata.json",
         "fileMatch": "block-metadata.json"
+      },
+      {
+        "url": "https://cairnsecurity.com/opf/schema/opf-1.1.schema.json",
+        "fileMatch": "*.opf.json"
       },
       {
         "url": "https://cdn.jsdelivr.net/npm/liblab@latest/liblab.config.schema.json",
