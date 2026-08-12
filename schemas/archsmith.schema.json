@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://ayeshlk.github.io/archsmith/schema/0.3.0/diagram-schema.json"
+    },
+    {
+      "$ref": "https://ayeshlk.github.io/archsmith/schema/latest/diagram-schema.json"
+    }
+  ]
+}

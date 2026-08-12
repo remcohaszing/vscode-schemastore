@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.332",
+  "version": "1.0.333",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -73,6 +73,10 @@
       {
         "url": "./schemas/apollo-router.schema.json",
         "fileMatch": "apollo-router-*.json"
+      },
+      {
+        "url": "./schemas/archsmith.schema.json",
+        "fileMatch": "*.archsmith.json"
       },
       {
         "url": "./schemas/awc.schema.json",
@@ -2207,6 +2211,13 @@
       {
         "url": "https://www.schemastore.org/creatomic.json",
         "fileMatch": ".creatomic"
+      },
+      {
+        "url": "https://www.schemastore.org/crucible-code-schema.json",
+        "fileMatch": [
+          ".crucible/config.json",
+          ".crucible/config.local.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/csscomb.json",
