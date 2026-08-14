@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://www.schemastore.org/okf-0.1.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/okf-0.2.json"
+    }
+  ]
+}

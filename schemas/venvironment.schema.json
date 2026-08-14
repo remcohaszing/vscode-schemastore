@@ -38,6 +38,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/venvironment-schema-v5.0.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/venvironment-schema-v5.1.0.json"
     }
   ]
 }

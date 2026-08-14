@@ -5,6 +5,9 @@
     },
     {
       "$ref": "https://www.schemastore.org/venvplus-schema-v1.1.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/venvplus-schema-v1.2.0.json"
     }
   ]
 }

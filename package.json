@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.333",
+  "version": "1.0.334",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -228,6 +228,10 @@
           "*.memnex.json",
           "meeting-output.json"
         ]
+      },
+      {
+        "url": "./schemas/okf.schema.json",
+        "fileMatch": "okf.json"
       },
       {
         "url": "./schemas/oscalassessment-plan.schema.json",
@@ -2796,10 +2800,6 @@
       {
         "url": "https://www.schemastore.org/odgs-standard-metrics.json",
         "fileMatch": "*.odgs-metrics.json"
-      },
-      {
-        "url": "https://www.schemastore.org/okf-0.1.json",
-        "fileMatch": "okf.json"
       },
       {
         "url": "https://www.schemastore.org/okh.json",
