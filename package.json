@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.334",
+  "version": "1.0.335",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -488,6 +488,10 @@
       {
         "url": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
         "fileMatch": "tsdoc.json"
+      },
+      {
+        "url": "https://devprune.vkrishna04.me/schemas/v1/devprune.schema.json",
+        "fileMatch": ".devprune.json"
       },
       {
         "url": "https://download.qt.io/official_releases/qtcreator/latest/installer_source/jsonschemas/project.json",
