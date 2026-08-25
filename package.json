@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.335",
+  "version": "1.0.336",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -662,6 +662,20 @@
         "fileMatch": [
           "jsr.json",
           "jsr.jsonc"
+        ]
+      },
+      {
+        "url": "https://liquilens.in/protocol/liquilens-evidence-carrier-reference-v1.schema.json",
+        "fileMatch": [
+          "*.liquilens-evidence-carrier-reference.json",
+          "liquilens-evidence-carrier-reference.json"
+        ]
+      },
+      {
+        "url": "https://liquilens.in/protocol/liquilens-evidence-carrier-v1.schema.json",
+        "fileMatch": [
+          "*.liquilens-evidence-carrier.json",
+          "liquilens-evidence-carrier.json"
         ]
       },
       {
