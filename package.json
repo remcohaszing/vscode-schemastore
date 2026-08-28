@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.336",
+  "version": "1.0.337",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1038,7 +1038,7 @@
         "fileMatch": "devcontainer-feature.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json",
+        "url": "https://raw.githubusercontent.com/dolittle-obsolete/DotNET.Fundamentals/v4.10.0/Schemas/Tenancy.Configuration/tenant-map.json",
         "fileMatch": ".dolittle/tenant-map.json"
       },
       {
@@ -1046,7 +1046,7 @@
         "fileMatch": ".dolittle/resources.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json",
+        "url": "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Applications.Configuration/topology.json",
         "fileMatch": ".dolittle/topology.json"
       },
       {
@@ -1708,7 +1708,7 @@
         "fileMatch": "pricing.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json",
+        "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/src/assets/schemas/config.schema.json",
         "fileMatch": "grammar.json"
       },
       {
@@ -1907,6 +1907,13 @@
         "fileMatch": "codux.config.json"
       },
       {
+        "url": "https://www.akkaldhami.com.np/schema/servercn.config.json",
+        "fileMatch": [
+          "servercn.config.json",
+          "servercn.json"
+        ]
+      },
+      {
         "url": "https://www.asyncapi.com/schema-store/all.schema-store.json",
         "fileMatch": "*asyncapi*.json"
       },
@@ -2059,6 +2066,14 @@
       {
         "url": "https://www.schemastore.org/bootstraprc.json",
         "fileMatch": ".bootstraprc"
+      },
+      {
+        "url": "https://www.schemastore.org/bosh-job-spec.json",
+        "fileMatch": "jobs/*/spec"
+      },
+      {
+        "url": "https://www.schemastore.org/bosh-package-spec.json",
+        "fileMatch": "packages/*/spec"
       },
       {
         "url": "https://www.schemastore.org/bower.json",
