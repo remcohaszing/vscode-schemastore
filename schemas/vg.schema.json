@@ -1,0 +1,481 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.0.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.0.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.0.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.0.4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.0.5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.0.6.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.1.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.1.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.1.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.2.6.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.3.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.3.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.4.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.4.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.4.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.5.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.5.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.5.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v2.6.5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.14.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.15.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.16.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.17.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.18.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.19.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.20.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.21.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.22.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.23.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.24.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.25.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.26.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.27.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.28.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.29.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.30.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.31.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.32.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.33.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.34.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.35.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.36.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.37.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.38.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.39.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-beta.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc6.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0-rc7.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.10.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.6.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.7.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.8.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.0.9.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.1.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.2.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.2.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.3.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v3.3.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0-rc.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.0.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.1.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.2.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.3.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v4.4.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.0.0-rc1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.0.0-rc2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.0.0-rc3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.0.0-rc4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.0.0-rc5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.0.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.1.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.10.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.10.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.11.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.11.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.12.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.12.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.12.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.12.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.13.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.14.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.15.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.16.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.16.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.17.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.17.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.17.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.17.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.18.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.19.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.19.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.2.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.20.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.20.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.20.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.21.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.22.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.22.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.23.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.24.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.25.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.26.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.26.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.27.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.28.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.29.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.3.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.3.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.3.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.3.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.3.4.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.3.5.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.30.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.31.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.32.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.33.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.4.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.6.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.7.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.7.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.7.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.7.3.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.8.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.8.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.9.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.9.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.9.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.0.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.1.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.1.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.1.2.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.2.0.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.3.1.json"
+    },
+    {
+      "$ref": "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v6.4.0.json"
+    }
+  ]
+}
