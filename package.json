@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.338",
+  "version": "1.0.339",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -3182,6 +3182,22 @@
       {
         "url": "https://www.schemastore.org/testenvironments.json",
         "fileMatch": "testEnvironments.json"
+      },
+      {
+        "url": "https://www.schemastore.org/tfpowershell-datasource.json",
+        "fileMatch": "datasource.tfps.json"
+      },
+      {
+        "url": "https://www.schemastore.org/tfpowershell-provider.json",
+        "fileMatch": "provider.tfps.json"
+      },
+      {
+        "url": "https://www.schemastore.org/tfpowershell-resource.json",
+        "fileMatch": "resource.tfps.json"
+      },
+      {
+        "url": "https://www.schemastore.org/tfpowershell-settings.json",
+        "fileMatch": "settings.tfps.json"
       },
       {
         "url": "https://www.schemastore.org/ti8m-cdk-concrete-environment-config.json",
