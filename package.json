@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.339",
+  "version": "1.0.340",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1533,6 +1533,14 @@
         "fileMatch": "quilt.mod.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/reasoning-formats/reasoning-formats/main/crf/schema/crf-schema.json",
+        "fileMatch": "*.crf.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/reasoning-formats/reasoning-formats/main/drf/schema/drf-schema.json",
+        "fileMatch": "*.drf.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/rebaz94/macro_kit/refs/heads/main/macro_schema.json",
         "fileMatch": "macro.json"
       },
@@ -2645,6 +2653,10 @@
           ".lintstagedrc",
           ".lintstagedrc.json"
         ]
+      },
+      {
+        "url": "https://www.schemastore.org/litertlm_manifest.json",
+        "fileMatch": "litertlm_manifest.json"
       },
       {
         "url": "https://www.schemastore.org/local.settings.json",
