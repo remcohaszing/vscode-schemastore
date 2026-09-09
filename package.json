@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.340",
+  "version": "1.0.341",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1638,6 +1638,10 @@
           "*.hecate",
           "*.hecate.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SHARProduction/production-delivery-manifest-schema/v1.0.0/schema.json",
+        "fileMatch": "production-delivery-manifest.json"
       },
       {
         "url": "https://raw.githubusercontent.com/shirakaba/expoot/main/packages/expoot/schemas/expoot-app.schema.json",
@@ -3293,6 +3297,13 @@
       {
         "url": "https://www.schemastore.org/uproject.json",
         "fileMatch": ".uproject"
+      },
+      {
+        "url": "https://www.schemastore.org/urai-ecma.json",
+        "fileMatch": [
+          "urai.config.json",
+          "urai.config.jsonc"
+        ]
       },
       {
         "url": "https://www.schemastore.org/utcm-monitor.json",
