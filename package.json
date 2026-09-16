@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.341",
+  "version": "1.0.342",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1952,6 +1952,17 @@
         "fileMatch": "*asyncapi*.json"
       },
       {
+        "url": "https://www.canvasxpress.org/schema/cxfigure-1.0.schema.json",
+        "fileMatch": [
+          "*.cx.json",
+          "*.cxfigure.json"
+        ]
+      },
+      {
+        "url": "https://www.canvasxpress.org/schema/cxplot-1.0.schema.json",
+        "fileMatch": "*.cxplot.json"
+      },
+      {
         "url": "https://www.cardgamesimulator.com/schema/cgs.json",
         "fileMatch": "cgs.json"
       },
@@ -2150,6 +2161,10 @@
       {
         "url": "https://www.schemastore.org/bundleconfig.json",
         "fileMatch": "bundleconfig.json"
+      },
+      {
+        "url": "https://www.schemastore.org/cargo-config.json",
+        "fileMatch": ".cargo/config"
       },
       {
         "url": "https://www.schemastore.org/cdk.json",
