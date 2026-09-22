@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.345",
+  "version": "1.0.346",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -342,20 +342,6 @@
         "fileMatch": "v2ray/*.json"
       },
       {
-        "url": "./schemas/venvironment.schema.json",
-        "fileMatch": [
-          "*.venvironment.json",
-          "venvironment.json"
-        ]
-      },
-      {
-        "url": "./schemas/venvplus.schema.json",
-        "fileMatch": [
-          "*.venvplus.json",
-          "venvplus.json"
-        ]
-      },
-      {
         "url": "./schemas/versionrc.schema.json",
         "fileMatch": [
           ".versionrc",
@@ -375,10 +361,6 @@
           "*.vl",
           "*.vl.json"
         ]
-      },
-      {
-        "url": "./schemas/vtesttree.schema.json",
-        "fileMatch": "*.vtesttree.json"
       },
       {
         "url": "./schemas/waft.schema.json",
@@ -3405,10 +3387,6 @@
       {
         "url": "https://www.schemastore.org/vtcfg-v19.0.0.json",
         "fileMatch": "*.vtcfg"
-      },
-      {
-        "url": "https://www.schemastore.org/vtestunit-schema.json",
-        "fileMatch": "*.vtestunit.json"
       },
       {
         "url": "https://www.schemastore.org/web-manifest-combined.json",
