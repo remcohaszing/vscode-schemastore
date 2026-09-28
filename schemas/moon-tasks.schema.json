@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://moonrepo.dev/schemas/v1/tasks.json"
+    },
+    {
+      "$ref": "https://moonrepo.dev/schemas/v2/tasks.json"
+    }
+  ]
+}
