@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://opencausal.org/causaljson/0.1/causaljson.schema.json"
+    },
+    {
+      "$ref": "https://opencausal.org/causaljson/0.2/causaljson.schema.json"
+    }
+  ]
+}
