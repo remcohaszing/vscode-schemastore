@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.351",
+  "version": "1.0.352",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -571,6 +571,13 @@
         "fileMatch": [
           "envilder.*.json",
           "envilder.json"
+        ]
+      },
+      {
+        "url": "https://format.dev/schema/format-config.json",
+        "fileMatch": [
+          "format.config.*.json",
+          "format.config.json"
         ]
       },
       {
