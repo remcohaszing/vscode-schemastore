@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.352",
+  "version": "1.0.353",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -579,6 +579,10 @@
           "format.config.*.json",
           "format.config.json"
         ]
+      },
+      {
+        "url": "https://formhaus.dev/schema/form-definition.json",
+        "fileMatch": "*.formhaus.json"
       },
       {
         "url": "https://getcomposer.org/schema.json",
@@ -1588,6 +1592,14 @@
         "fileMatch": [
           ".oxlintrc.json",
           ".oxlintrc.jsonc"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/PRIDA-TAKON/debim/main/debim.schema.json",
+        "fileMatch": [
+          "*.dbim",
+          "*.debim",
+          "project.debim"
         ]
       },
       {
