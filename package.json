@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.353",
+  "version": "1.0.354",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1702,10 +1702,6 @@
         "fileMatch": "*.pactspec.json"
       },
       {
-        "url": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/twee-ts.config.json",
-        "fileMatch": "twee-ts.config.json"
-      },
-      {
         "url": "https://raw.githubusercontent.com/sergxerj/jdownloader2-crawler-rule-json-schema/main/jd2cr.schema.json",
         "fileMatch": [
           "*.jd2cr",
@@ -1994,6 +1990,10 @@
       {
         "url": "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json",
         "fileMatch": ".meshrc.json"
+      },
+      {
+        "url": "https://unpkg.com/@rohal12/twee-ts/schemas/twee-ts.config.schema.json",
+        "fileMatch": "twee-ts.config.json"
       },
       {
         "url": "https://unpkg.com/graphql-config/config-schema.json",
@@ -3496,6 +3496,10 @@
           "*.web-types.json",
           "web-types.json"
         ]
+      },
+      {
+        "url": "https://www.schemastore.org/webjea.json",
+        "fileMatch": "webjea.json"
       },
       {
         "url": "https://www.schemastore.org/webjob-publish-settings.json",
