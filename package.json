@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.354",
+  "version": "1.0.355",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -764,6 +764,10 @@
           "open-rpc.json",
           "openrpc.json"
         ]
+      },
+      {
+        "url": "https://modlabguides.online/schemas/modlab-mindustry-run-log-v1.schema.json",
+        "fileMatch": "modlab-last-run.json"
       },
       {
         "url": "https://moonrepo.dev/schemas/v2/extensions.json",
