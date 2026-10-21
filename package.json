@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.356",
+  "version": "1.0.357",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -232,6 +232,10 @@
           "*.memnex.json",
           "meeting-output.json"
         ]
+      },
+      {
+        "url": "./schemas/mm.schema.json",
+        "fileMatch": "*.mm.json"
       },
       {
         "url": "./schemas/moon-tasks.schema.json",

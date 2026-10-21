@@ -1,0 +1,13 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://measure-map.github.io/specification/schema/1.0.0/measuremap.schema.json"
+    },
+    {
+      "$ref": "https://measure-map.github.io/specification/schema/1.0.1/measuremap.schema.json"
+    },
+    {
+      "$ref": "https://measure-map.github.io/specification/schema/latest/measuremap.schema.json"
+    }
+  ]
+}
