@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.358",
+  "version": "1.0.359",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -2044,6 +2044,15 @@
         "fileMatch": [
           ".waku.json",
           "waku.json"
+        ]
+      },
+      {
+        "url": "https://wavedrom.com/schema/wavedrom.json",
+        "fileMatch": [
+          "*.wavedrom.json",
+          "*.wavedrom.json5",
+          "*.wavejson",
+          "*.wd.json"
         ]
       },
       {

@@ -17,6 +17,15 @@
     },
     {
       "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-5.1.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-5.2.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-5.3.0.json"
+    },
+    {
+      "$ref": "https://www.schemastore.org/abc-clinical-demand-forecast-6.0.0.json"
     }
   ]
 }
