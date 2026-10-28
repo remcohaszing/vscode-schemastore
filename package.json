@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.359",
+  "version": "1.0.360",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -835,6 +835,10 @@
       {
         "url": "https://railway.com/railway.schema.json",
         "fileMatch": "railway.json"
+      },
+      {
+        "url": "https://ramoira.com/schema/v3/SPEC.schema.json",
+        "fileMatch": "ramoira/brand.schema.json"
       },
       {
         "url": "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-profile.schema.json",
@@ -3601,6 +3605,10 @@
       {
         "url": "https://www.updatecli.io/schema/latest/policy/manifest/config.json",
         "fileMatch": "updatecli.d/**/*.json"
+      },
+      {
+        "url": "https://zambo.dev/aer-1/schema.json",
+        "fileMatch": "*.aer1.json"
       }
     ]
   }
