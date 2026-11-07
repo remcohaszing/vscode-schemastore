@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.362",
+  "version": "1.0.363",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1239,6 +1239,13 @@
         "fileMatch": "fossa-deps.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/Freezedon/scutiqo/main/schemas/rfq-package.schema.json",
+        "fileMatch": [
+          "*.rfq-package.json",
+          "rfq-package.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/environment-schema.json",
         "fileMatch": "*.environment.chamaleon.json"
       },
@@ -1829,6 +1836,10 @@
       {
         "url": "https://raw.githubusercontent.com/sverweij/dependency-cruiser/main/src/schema/configuration.schema.json",
         "fileMatch": "dependency-cruiser.config.json"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Tempo-Organization/tempo-cli/refs/heads/gh-pages/schema/latest/tempo.schema.json",
+        "fileMatch": "*tempo.json"
       },
       {
         "url": "https://raw.githubusercontent.com/teneplaysofficial/release-hub/main/schema/release-hub.schema.json",
