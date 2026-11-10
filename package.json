@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.363",
+  "version": "1.0.364",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -575,13 +575,6 @@
         "fileMatch": [
           "envilder.*.json",
           "envilder.json"
-        ]
-      },
-      {
-        "url": "https://ericchantc.github.io/crs-specification/crs-v0.1-schema.json",
-        "fileMatch": [
-          "*.crs-attestation.json",
-          "crs-attestation.json"
         ]
       },
       {
@@ -1867,6 +1860,10 @@
         "fileMatch": "grammar.json"
       },
       {
+        "url": "https://raw.githubusercontent.com/tw93/appfiles/main/appfiles.schema.json",
+        "fileMatch": "appfiles.json"
+      },
+      {
         "url": "https://raw.githubusercontent.com/TykTechnologies/tyk-schemas/refs/heads/main/JSON/draft-07/schema_tyk.oss.conf",
         "fileMatch": "tyk.conf"
       },
@@ -2871,6 +2868,14 @@
       {
         "url": "https://www.schemastore.org/micro.json",
         "fileMatch": "micro/settings.json"
+      },
+      {
+        "url": "https://www.schemastore.org/mikrotik-mcp.json",
+        "fileMatch": [
+          ".mikrotik-mcp/config.json",
+          "mikrotik-mcp.config.json",
+          "mikrotik-mcp.json"
+        ]
       },
       {
         "url": "https://www.schemastore.org/mimetypes.json",
