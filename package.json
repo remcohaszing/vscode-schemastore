@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.364",
+  "version": "1.0.365",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -714,6 +714,10 @@
         ]
       },
       {
+        "url": "https://hosait.com/schema/hosait.json",
+        "fileMatch": "hosait.json"
+      },
+      {
         "url": "https://html-validate.org/schemas/config.json",
         "fileMatch": ".htmlvalidate.json"
       },
@@ -817,6 +821,10 @@
           "opencode.json",
           "opencode.jsonc"
         ]
+      },
+      {
+        "url": "https://openskopos.org/schema/artifact/0.1.json",
+        "fileMatch": "*.skopos.json"
       },
       {
         "url": "https://pitcms.net/schema/pitcms.schema.json",
