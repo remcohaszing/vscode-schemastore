@@ -39,6 +39,8 @@ jobs:
     needs: update
     if: ${{ needs.update.outputs.version }}
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -47,14 +49,14 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           name: vsix
-      - run: npx ovsx publish *.vsix
-        env:
-          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+      - run: npx ovsx publish *.vsix --trusted-publishing
 
   vsce:
     needs: update
     if: ${{ needs.update.outputs.version }}
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -63,6 +65,4 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           name: vsix
-      - run: npx vsce publish --packagePath *.vsix
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      - run: npx vsce publish --oidc --packagePath *.vsix
