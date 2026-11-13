@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://plotdown.cc/schema/0.1/plot.schema.json"
+    },
+    {
+      "$ref": "https://plotdown.cc/schema/plot.schema.json"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.365",
+  "version": "1.0.366",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -318,6 +318,10 @@
       {
         "url": "./schemas/plagiarize.schema.json",
         "fileMatch": "plagiarize.json"
+      },
+      {
+        "url": "./schemas/plotdown.schema.json",
+        "fileMatch": "*.plotdown.json"
       },
       {
         "url": "./schemas/postman-collection.schema.json",
@@ -895,6 +899,13 @@
         ]
       },
       {
+        "url": "https://raw.githubusercontent.com/appium/appium/appium@3.9.0/packages/schema/lib/appium-config.schema.json",
+        "fileMatch": [
+          ".appiumrc",
+          ".appiumrc.json"
+        ]
+      },
+      {
         "url": "https://raw.githubusercontent.com/architect/parser/v2.3.0/arc-schema.json",
         "fileMatch": "arc.json"
       },
@@ -948,7 +959,7 @@
         ]
       },
       {
-        "url": "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json",
+        "url": "https://raw.githubusercontent.com/aws/serverless-application-model/main/schema_source/cloudformation.schema.json",
         "fileMatch": [
           "*.cf.json",
           "cloudformation.json"
