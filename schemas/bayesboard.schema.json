@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://bayesboard.com/schema/v1.2.json"
+    },
+    {
+      "$ref": "https://bayesboard.com/schema/v1.3.json"
+    }
+  ]
+}

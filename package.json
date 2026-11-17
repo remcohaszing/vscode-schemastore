@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.367",
+  "version": "1.0.368",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -88,6 +88,10 @@
           ".awc.json",
           ".awc.jsonc"
         ]
+      },
+      {
+        "url": "./schemas/bayesboard.schema.json",
+        "fileMatch": "*.bayesboard.json"
       },
       {
         "url": "./schemas/block.schema.json",
