@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.368",
+  "version": "1.0.369",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1872,6 +1872,10 @@
           "release-hub.config.json",
           "release-hub.json"
         ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/thanhtrieunguyen/ai-policy-kit/main/schema/v0.1/ai-policy.schema.json",
+        "fileMatch": "ai-policy.json"
       },
       {
         "url": "https://raw.githubusercontent.com/thomaspoignant/go-feature-flag/main/.schema/flag-schema.json",
