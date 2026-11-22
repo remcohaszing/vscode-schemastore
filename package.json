@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.369",
+  "version": "1.0.370",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -1648,6 +1648,27 @@
         "fileMatch": [
           ".oxlintrc.json",
           ".oxlintrc.jsonc"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/ai-bom.schema.json",
+        "fileMatch": [
+          "*.ai-bom.json",
+          "ai-bom.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/cbom.schema.json",
+        "fileMatch": [
+          "*.cbom.json",
+          "cbom.json"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/vsbom.schema.json",
+        "fileMatch": [
+          "*.vsbom.json",
+          "vsbom.json"
         ]
       },
       {
