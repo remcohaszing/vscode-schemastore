@@ -1,0 +1,10 @@
+{
+  "anyOf": [
+    {
+      "$ref": "https://w3id.org/osd/0.5/sound.schema.json"
+    },
+    {
+      "$ref": "https://w3id.org/osd/0.6/sound.schema.json"
+    }
+  ]
+}

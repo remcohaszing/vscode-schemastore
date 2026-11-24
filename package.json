@@ -1,7 +1,7 @@
 {
   "name": "schemastore",
   "displayName": "JSON Schema Store Catalog",
-  "version": "1.0.370",
+  "version": "1.0.371",
   "publisher": "remcohaszing",
   "description": "Use the JSON Schema Store catalog for JSON schema validation.",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
@@ -309,6 +309,10 @@
       {
         "url": "./schemas/oscalssp.schema.json",
         "fileMatch": "oscal*ssp.json"
+      },
+      {
+        "url": "./schemas/osd.schema.json",
+        "fileMatch": "*.osd.json"
       },
       {
         "url": "./schemas/package-manifest.schema.json",
@@ -2112,10 +2116,6 @@
           ".knip.json",
           "knip.json"
         ]
-      },
-      {
-        "url": "https://w3id.org/osd/0.5/sound.schema.json",
-        "fileMatch": "*.osd.json"
       },
       {
         "url": "https://waku.ngjx.org/static/schema.json",
